@@ -120,4 +120,10 @@
 - [x] Subir imágenes a S3
 - [x] Actualizar URLs en BentoGrid.tsx
 - [x] Verificar funcionamiento en producción
-- [ ] Crear checkpoint final
+- [x] Crear checkpoint final
+
+## Reemplazar Imagen General de Maquinaria con Marca XCMG
+- [x] Generar nueva imagen con excavadoras XCMG (no Caterpillar)
+- [x] Subir imagen a S3
+- [x] Actualizar URL en BentoGrid.tsx
+- [x] Verificar y crear checkpoint final
