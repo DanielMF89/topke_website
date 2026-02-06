@@ -121,14 +121,7 @@ export default function Home() {
               </Button>
             </div>
             
-            <div className="relative flex justify-center items-center">
-               {/* Abstract T Logo Representation */}
-               <div className="w-64 h-64 border-8 border-zinc-900 flex items-center justify-center relative">
-                  <div className="absolute -top-12 -right-12 w-32 h-32 bg-primary opacity-50"></div>
-                  <div className="absolute -bottom-12 -left-12 w-32 h-32 bg-zinc-200 opacity-50"></div>
-                  <span className="text-9xl font-display font-bold text-zinc-900">T</span>
-               </div>
-            </div>
+
           </div>
         </div>
       </section>

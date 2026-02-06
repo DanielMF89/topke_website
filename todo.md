@@ -127,3 +127,8 @@
 - [x] Subir imagen a S3
 - [x] Actualizar URL en BentoGrid.tsx
 - [x] Verificar y crear checkpoint final
+
+## Eliminar T Grande en Sección de Contacto
+- [x] Localizar la T grande debajo de Contáctanos en Home.tsx
+- [x] Eliminar elemento
+- [x] Verificar y crear checkpoint
