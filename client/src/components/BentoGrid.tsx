@@ -18,7 +18,7 @@ const items = [
     title: "Maquinaria",
     subtitle: "Construcción y Agro",
     icon: Tractor,
-    image: "/images/xcmg-excavator.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/hKpcWGEAKhdbslWQ.jpg",
     link: "/maquinaria",
     color: "bg-zinc-900"
   },

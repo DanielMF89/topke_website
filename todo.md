@@ -107,4 +107,10 @@
 - [x] Revisar imagen general de categoría Maquinaria
 - [x] Revisar imagen general de categoría Excavadoras
 - [x] Corregir URLs si es necesario
+- [x] Crear checkpoint final
+
+## Corregir Imagen General de Sección Maquinaria en Home
+- [x] Localizar imagen de sección Maquinaria en Home.tsx
+- [x] Corregir URL con S3
+- [x] Verificar funcionamiento
 - [ ] Crear checkpoint final
