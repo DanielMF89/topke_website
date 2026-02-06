@@ -16,3 +16,10 @@
 - [x] Ajustar imágenes de Instagram (object-contain)
 - [x] Restaurar imágenes faltantes
 - [x] Agregar catálogo de maquinaria XCMG con especificaciones
+
+## Regenerar Imágenes de Mini Excavadoras
+- [x] Regenerar XE17U: sin cabina, con banda de hule
+- [x] Regenerar XE27U: sin cabina, con banda de metal
+- [x] Regenerar XE35U: con banda de metal (mantener cabina)
+- [x] Actualizar sitio web con nuevas imágenes
+- [x] Verificar y crear checkpoint
