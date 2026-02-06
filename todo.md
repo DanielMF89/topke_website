@@ -113,4 +113,11 @@
 - [x] Localizar imagen de sección Maquinaria en Home.tsx
 - [x] Corregir URL con S3
 - [x] Verificar funcionamiento
+- [x] Crear checkpoint final
+
+## Corregir Imágenes de Motores y Bombas, Logística y Lubricantes
+- [x] Verificar imágenes locales que faltan
+- [x] Subir imágenes a S3
+- [x] Actualizar URLs en BentoGrid.tsx
+- [x] Verificar funcionamiento en producción
 - [ ] Crear checkpoint final

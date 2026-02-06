@@ -36,7 +36,7 @@ const items = [
     title: "Motores y Bombas",
     subtitle: "Riego y Edificios",
     icon: Droplets,
-    image: "/images/vertical-turbine-pump.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/KZXFZJjJQOVrgIbf.jpg",
     link: "/propulsion",
     color: "bg-zinc-800"
   },
@@ -45,7 +45,7 @@ const items = [
     title: "Logística",
     subtitle: "Grúas y Elevación",
     icon: Anchor,
-    image: "/images/overhead-crane-real.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uzLhuwBFVSCJFeOC.jpg",
     link: "/logistica",
     color: "bg-zinc-900"
   },
@@ -54,7 +54,7 @@ const items = [
     title: "Lubricantes",
     subtitle: "Aceites Industriales",
     icon: Wrench,
-    image: "/images/motul-drum-real.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/ZgnUVkEvzNfHTLpw.jpg",
     link: "/lubricantes",
     color: "bg-zinc-900"
   },
