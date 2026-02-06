@@ -12,7 +12,7 @@ export default function Contact() {
       <section className="relative h-[40vh] flex items-center overflow-hidden bg-zinc-900">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero-industrial.jpg" 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/rbjVrnKUQVDlzqrU.jpg" 
             alt="Contacto TopKe" 
             className="w-full h-full object-cover opacity-40"
           />

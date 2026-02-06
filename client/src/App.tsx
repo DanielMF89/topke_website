@@ -31,7 +31,7 @@ function Router() {
           subtitle="Sistemas eficientes para la gestión del agua en el sector agroindustrial."
           description="Ofrecemos soluciones completas de riego tecnificado, desde el diseño hasta la instalación y mantenimiento. Optimizamos el uso del agua para maximizar la productividad de sus cultivos."
           features={["Pivotes Centrales", "Riego por Goteo", "Bombas de Agua", "Diseño Hidráulico"]}
-          image="/images/riego-general-new.jpg"
+          image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CgigVpouSQNJJntm.jpg"
         />
       </Route>
       

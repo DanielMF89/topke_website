@@ -13,7 +13,7 @@ export default function Generation() {
         "Stock: 27.5 KVa - 300 KVa",
         "Bajo Pedido: Hasta 2000 KVa"
       ],
-      image: "/images/generation/industrial-generator-ai.jpg"
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/yJMryoBTsjOLWubK.jpg"
     },
     {
       title: "Generador Residencial",
@@ -23,7 +23,7 @@ export default function Generation() {
         "Rango: 16 KVa - 50 KVa",
         "Tipo: Monofásicos"
       ],
-      image: "/images/generation/residential-generator-ai.jpg"
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uIGyUecqTsFKkEZl.jpg"
     },
     {
       title: "Sistemas de Transferencia Automática",
@@ -33,7 +33,7 @@ export default function Generation() {
         "Operación 100% Automática",
         "Gabinete NEMA Certificado"
       ],
-      image: "/images/generation/ats-system-ai.jpg"
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/jQVzYENJxjRNzqGs.jpg"
     }
   ];
 
@@ -43,7 +43,7 @@ export default function Generation() {
       <section className="relative h-[60vh] flex items-center overflow-hidden bg-zinc-900">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/t-power-generated-1.jpg" 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/JwXRBIbmDvtqwGMc.jpg" 
             alt="Generación de Energía TopKe" 
             className="w-full h-full object-cover opacity-60"
           />

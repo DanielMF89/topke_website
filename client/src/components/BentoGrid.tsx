@@ -9,7 +9,7 @@ const items = [
     title: "Riego",
     subtitle: "Sistemas Eficientes",
     icon: Droplets,
-    image: "/images/riego-general-new.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CgigVpouSQNJJntm.jpg",
     link: "/riego",
     color: "bg-zinc-900"
   },
@@ -27,7 +27,7 @@ const items = [
     title: "Generación",
     subtitle: "Energía y Potencia",
     icon: Zap,
-    image: "/images/t-power-generated-1.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/JwXRBIbmDvtqwGMc.jpg",
     link: "/generacion",
     color: "bg-zinc-900"
   },

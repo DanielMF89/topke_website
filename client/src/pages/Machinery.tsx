@@ -127,29 +127,29 @@ export default function Machinery() {
       id: "elevacion",
       name: "Equipos de Elevación",
       subtitle: "Torres Grúa, Camiones Grúa, Elevadores de Fachada y Brazo Hidráulico",
-      image: "/images/machinery/xcmg-xct25l5-ai.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/PPmmiMXShUEhtTPq.jpg",
       products: [
         {
           name: "Grúa Móvil XCT25L5",
           desc: "Capacidad: 25T | Pluma: 42m | Motor: SC9DF300 | Tipo: Camión Grúa",
-          image: "/images/machinery/xcmg-xct25l5-ai.jpg"
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/PPmmiMXShUEhtTPq.jpg"
         },
         {
           name: "Torre Grúa XGT6515",
           desc: "Capacidad Punta: 1.5T | Carga Máx: 10T | Alcance: 65m | Tipo: Torre Grúa",
-          image: "/images/machinery/xcmg-xct25l5-ai.jpg"
+          image: "/images/machinery/xcmg-tower-crane.jpg"
         }
       ]
     },
     {
       id: "perforacion",
       name: "Perforación",
-      image: "/images/machinery/xcmg-xr150d-ai.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/YOhRTWTQpuBycJEN.png",
       products: [
         {
-          name: "Perforadora Rotativa XR150D",
-          desc: "Profundidad Máx: 56m | Diámetro Máx: 1.5m | Par: 150kN.m | Peso: 48T",
-          image: "/images/machinery/xcmg-xr150d-ai.jpg"
+          name: "Perforadora Rotativa XSL520",
+          desc: "",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/YOhRTWTQpuBycJEN.png"
         }
       ]
     },
@@ -157,17 +157,47 @@ export default function Machinery() {
       id: "concreto",
       name: "Maquinaria de Concreto",
       subtitle: "Mixer Trucks, Bombas y Plantas Móviles",
-      image: "/images/machinery/xcmg-mixer-ai.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/UCVdiRrKfxAPvoZQ.jpg",
       products: [
         {
           name: "Camión Mezclador G12V",
           desc: "Capacidad: 12m³ | Chasis: HOWO/XCMG | Motor: 380 HP | Tecnología de mezclado homogéneo",
-          image: "/images/machinery/xcmg-mixer-ai.jpg"
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/UCVdiRrKfxAPvoZQ.jpg"
         },
         {
-          name: "Bomba de Concreto HB62V",
-          desc: "Alcance Vertical: 62m | Chasis: Mercedes-Benz/Volvo | Bombeo: 180m³/h",
-          image: "/images/machinery/xcmg-mixer-ai.jpg"
+          name: "Planta Móvil XS0.75M",
+          desc: "Salida: 40m³/h | Concreto: 0.75m³ | Potencia: 30kW | Agregados: 4x5m³",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/raraosgDwHDJfQHe.jpg"
+        },
+        {
+          name: "Planta Móvil XS1.0M",
+          desc: "Salida: 60m³/h | Concreto: 1m³ | Potencia: 2x18.5kW | Agregados: 4x5m³",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/hHWyMCIWjpQpwNAC.jpg"
+        },
+        {
+          name: "Planta Móvil XS1.5M",
+          desc: "Salida: 90m³/h | Concreto: 1.5m³ | Potencia: 2x30kW | Agregados: 4x8m³",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/gZcZLAMjtwlYwQuI.jpg"
+        },
+        {
+          name: "Bomba XS5008D",
+          desc: "Salida: 50m³/h | Presión: 8Mpa | Carreras: 27 | Cilindro: 180/1400 | Potencia: 75kW",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/XVSMAAbocxYCOKtD.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3l4VEpNMnZPOXU0Vkw0TFFBdFVxa3ctaW1nLTRfMTc3MDQwNjQ3MjAwMF9uYTFmbl9lSE0xTURBNFpDMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=WIAbBKBhMHCsAT1yg9JrAgiu4PhfXOMEahaz0Jnfe~8eNZxzIF6WASHZyEFbcxH4GCRcL18vorBzCZMfoxqX4cWMgtAPQjLfL~-a-4Yo2ynN08hX96qb3LrgRavjcTOT5qp5ODmM~~EhiKLNveVjGxQIOqsXZaCEGeQTiBpzAejMJQHSCS2Ii-D1XSbIm3xws9u6OE3CD7-exIgVhh1uoGf6K1uksFJEw9lrq0WAr~oPGJSVYd-VNQQEm~w0ArLgKuOlaKz9gS7M7Xa7U4mMmlNjQE~oB4MpvPgkS8nEHaSCvtawRkXlKgIURyw6hf79C1JgH08bpCyY9uyNYlXBuw__"
+        },
+        {
+          name: "Bomba XS6013D",
+          desc: "Salida: 65/40m³/h | Presión: 8/13Mpa | Carreras: 22/13 | Cilindro: 200/1600 | Potencia: 118kW",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/cReateOZkdYBFfdF.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3l4VEpNMnZPOXU0Vkw0TFFBdFVxa3ctaW1nLTVfMTc3MDQwNjQ4MTAwMF9uYTFmbl9lSE0yTURFelpDMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ct-5034akx8h47pDYSNP1AF~HIJvS7~BikMJtgyRUjTeDshT2oYsOg60IS0uNxXdhNKfzfJ94NzGhec91qIRqRVX0z1yW4alc4lEmZQdN15x7uXXgX39~zn7jp1te3iwUmVJNV-Mlzivlb8aO9TvzrAhQkvlC3JQsyo0ZM-3EtEROyYDbV3M7llAGLnOEhR2bBKeM~OhzdU-tue00IN7v6RLHYR0SRoxnlsLdNCWjJq4tGbbVNwdy6c6VblRBTCvWHKAk7qQhFcO~O-urAG8wWLz7MzpymNXiyXBhSE9xXLPwTaj3jCdeRS4sfxzp5o1yVuh1lGInY3y2Kh0RPXgaw__"
+        },
+        {
+          name: "Bomba XS9018D",
+          desc: "Salida: 95/55m³/h | Presión: 10/18Mpa | Carreras: 25/14 | Cilindro: 230/1600 | Potencia: 206/199kW",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/wEQZABnlpjEgqlol.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L29SS1lUNHgyN1kyQWpWNnFhR2dJZ2QtaW1nLTFfMTc3MDQwNjUzOTAwMF9uYTFmbl9lSE01TURFNFpDMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RqZ5UtzHdp1tCqZcVjx5syQyoDv7fH24xjiBvYzB9Ctasa2jU995yIHtEEIVJ6JuGQrn-BAFlheEvtzS1XNLS7R3HFUYxVnn6-ZEz~6Q~bn~vy6vFPV~bHisEZEGmiIoLntA~LRowJLHW78lF3F7cAmtfC6dyY~MGEaz9fNkpuuwsiqXOsFALoVEWLGTBv4tNesQUCrnn-nOPIp5zbTwVu8t2dJCuPFBC6Tx43FANXVLkpbmeN8YxyQV7P~xSThE69uLPdT4lSDGXCKRpg-SjjwpoA5AEICJSfLmmH4yM17knzRiIEvyyLmD5g4IiW-ihuMEAMvc0PYxHXANgewECg__"
+        },
+        {
+          name: "Bomba XS10022D",
+          desc: "Salida: 102/70m³/h | Presión: 15/22Mpa | Carreras: 25/17 | Cilindro: 200/2100 | Potencia: 338kW",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/TQTUmnDtQKfhNuyW.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L29SS1lUNHgyN1kyQWpWNnFhR2dJZ2QtaW1nLTJfMTc3MDQwNjU0ODAwMF9uYTFmbl9lSE14TURBeU1tUXRjSFZ0Y0EuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fGt1iEpDSjbPk0CCZFNPjEpDy36g2p-wuOOFhLFq2r97teUVboFnp61xqZvzDqS-XtvaOizRcugQP8oB1YyoTWdy0yN~pnlRLMKetxxDoRd5OfelVnA-AZqVLhSH0QXYXe0sdWu3E0yljkJgKmKzn-qs2ShVXZYSu3E4GiKOS5YhaMYzgfYk29pwmp2a5qhaAnKWGGKpP-m6euwrrHvClNr-EnCuuQ5McO~QIG-5kOmLup4CZR913BulJsnqPUtOnlQ3Fa20DLQlxs1XLHtVLEif3oT0LbeTupTxbi3Cel~AEygYvz23QVBE7txfLqRIL~REnRj6aJJM91kniMAmHQ__"
         }
       ]
     },
@@ -175,17 +205,17 @@ export default function Machinery() {
       id: "plataformas",
       name: "Plataformas de Elevación",
       subtitle: "De Tijeras y Telescópicas",
-      image: "/images/machinery/xcmg-xgs28-ai.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/axdvffWrfXzaJtab.jpg",
       products: [
         {
           name: "Tijera Eléctrica XG1212AC",
           desc: "Altura Trabajo: 12m | Capacidad: 320kg | Tipo: Tijera Eléctrica | Cero emisiones",
-          image: "/images/machinery/xcmg-xgs28-ai.jpg"
+          image: "/images/machinery/xcmg-scissor-lift.jpg"
         },
         {
           name: "Brazo Telescópico XGS28",
           desc: "Altura Trabajo: 28m | Capacidad: 300/460kg | Tipo: Telescópica Diésel",
-          image: "/images/machinery/xcmg-xgs28-ai.jpg"
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/axdvffWrfXzaJtab.jpg"
         }
       ]
     },
@@ -193,17 +223,27 @@ export default function Machinery() {
       id: "aditamentos",
       name: "Aditamentos",
       subtitle: "Accesorios",
-      image: "/images/machinery/xcmg-breaker.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uAhizuMQlCGFbdem.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0lnOGYySXp3NTZuQUt4c2xUak16aTUtaW1nLTJfMTc3MDQwNzM1MzAwMF9uYTFmbl9lR050WnkxNFpXSXhNelV0WW5KbFlXdGxjZy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=n~Bj9nNVn517UJ7c8nn5jZGNNIYfZ98zetC1MOR~CnXv6b63q0LvHC0E1GQZ1rE07HQPa2NFUkGBhrBcYUmY0b~C3uSlsF-tn~RFnhYXwS6MYCBcAaIBSj3SqS64jAhmxznK24gE4QoXzBKhtJPuhSGimtDQTDsZQecQNa3aPQRdfJ5p0U1UoEv8XKY5AcJSLrlzLSYNZ8E4j1xBLq3NaHX-~liErWpJ5odLAeHmUunrL6zxpHOQWfo3MBmRlrmheyrii4jxIcVy6fOkWqbBFKHsRa57ivVFEzubz78-D8torii3SWa9IksjauKOep-JZnGp-USNhmwgueVNfeoQ1Q__",
       products: [
         {
-          name: "Martillo Hidráulico",
-          desc: "Compatibilidad: Excavadoras 20-30T | Frecuencia: 400-800 bpm | Peso: 1.8T",
-          image: "/images/machinery/xcmg-breaker.jpg"
+          name: "Martillo Hidráulico XEB135",
+          desc: "Aditamento para excavadoras",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uAhizuMQlCGFbdem.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0lnOGYySXp3NTZuQUt4c2xUak16aTUtaW1nLTJfMTc3MDQwNzM1MzAwMF9uYTFmbl9lR050WnkxNFpXSXhNelV0WW5KbFlXdGxjZy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=n~Bj9nNVn517UJ7c8nn5jZGNNIYfZ98zetC1MOR~CnXv6b63q0LvHC0E1GQZ1rE07HQPa2NFUkGBhrBcYUmY0b~C3uSlsF-tn~RFnhYXwS6MYCBcAaIBSj3SqS64jAhmxznK24gE4QoXzBKhtJPuhSGimtDQTDsZQecQNa3aPQRdfJ5p0U1UoEv8XKY5AcJSLrlzLSYNZ8E4j1xBLq3NaHX-~liErWpJ5odLAeHmUunrL6zxpHOQWfo3MBmRlrmheyrii4jxIcVy6fOkWqbBFKHsRa57ivVFEzubz78-D8torii3SWa9IksjauKOep-JZnGp-USNhmwgueVNfeoQ1Q__"
         },
         {
-          name: "Compactador de Placa",
-          desc: "Fuerza Centrífuga: 60kN | Frecuencia: 2000 rpm | Peso Base: 0.9T",
-          image: "/images/machinery/xcmg-breaker.jpg"
+          name: "Martillo Hidráulico Compacto",
+          desc: "Aditamento para mini excavadoras",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/PNcADUWJuQbOxlfS.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0lnOGYySXp3NTZuQUt4c2xUak16aTUtaW1nLTNfMTc3MDQwNzM3MjAwMF9uYTFmbl9lR050WnkxamIyMXdZV04wTFdKeVpXRnJaWEkuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ZBx1VRCFjlmZESr2wiNT4PA~K8365x4dn9nKA8twzgLjkJ6IoGu-IYFE43kgutuL8SApld7ngdgAYBaILJeD2lFwEeCA9PTj~BfywzPGfbKm4mdhdZAAJAPCZgh7euaqsAeKNhm0pDKoc66U3HdT3xowbgpQtX8HZN4KB1tKZ17xeTlPSRcLg~2UfaudCt9jVavOwbkRIbrLypGAdWK9jWOahiZ4h5TOJIU4cveJkwfJkdISn2OQjrzNd17Zumfeo3G9iOtoMtJmBVnBV4aPn6DIAJcsAYTGGqAKuth90pEOMBcR2N9t4NXppfnWhIM5JeW1knkru2yZ5suA0CZidg__"
+        },
+        {
+          name: "Martillo Hidráulico XEB100",
+          desc: "Aditamento para excavadoras medianas",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/pKooOsySpwCETjDT.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0lnOGYySXp3NTZuQUt4c2xUak16aTUtaW1nLTRfMTc3MDQwNzM0OTAwMF9uYTFmbl9lR050WnkxNFpXSXhNREF0WW5KbFlXdGxjZy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Aw4DBiku6rpj4iwHQMMRjGBaYNh-M-CKYy4lZmtdZ8byuigkk0FIXwR08xb0TljZqOWyFP0QFkc5BlLnGyD-46eKh9enrYnQl9gVxKpTyQFV~6i~sk5GyF8lx7e3qN6nyitmWFWcwvt8EPg0a0sR4JK9LYjTc05Sba3j1Doza2uxSWd0NsoIdT5l47ZupS29iZ4Qe6qDNpVByW6jGSD4NrBroFyiv2WbMThKdin7zgcMcZMCQ~gudT0xNIpE3a8tAbsppN9T12aThk6zGYSA3S1xdrS-crbEyEeEsls9m3NwwLtJ7-faRuh8HwbkZV4-4lGARp0e2cwqXMCjaL4Zvg__"
+        },
+        {
+          name: "Pulgar Hidráulico",
+          desc: "Garra hidráulica para excavadoras",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/VxmLyOgLTkruXuSd.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0lnOGYySXp3NTZuQUt4c2xUak16aTUtaW1nLTVfMTc3MDQwNzM1OTAwMF9uYTFmbl9lR050Wnkxb2VXUnlZWFZzYVdNdGRHaDFiV0kuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Yf0kwGtgHu7G4PhkMSdcs4NXn7NeLL367XuBK3isnrG1joYSXV~oV3YSlU6xh~lFX7lJ~jA-CV1K7~dv1~M2VgHhQPcu7UqCd6DI-KGV-LozKHLKGcbYSxWWax6G1vFYGsJQWZiAdVULsIIUehQImEq7h5rtlsmphd9EknamtrGr60HmoJ4ldI5aFZdg~NkBkQFVXPVADM3RyUiFJc0k5w-96GPQJALg7R9h6TrIGqkPmSsKgcMoGgY47jpeGB8FmODkH9rRqF2ILvulQQIe78Pf8TFI19q9sXU2ZnjY6QZaMDBHP2ehiWEtuujiQMgogyrrJBQVv2wGZ97eE7crKw__"
         }
       ]
     }

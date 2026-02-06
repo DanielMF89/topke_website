@@ -53,4 +53,52 @@
 ## URGENTE: Copiar TODAS las Imágenes Faltantes
 - [x] Copiar TODO el directorio de imágenes completo desde repositorio GitHub (137 imágenes)
 - [x] Verificar que TODAS las imágenes cargan correctamente
-- [ ] Crear checkpoint final
+- [x] Crear checkpoint final
+
+## URGENTE: Restaurar Imágenes Grandes Necesarias
+- [x] Copiar de vuelta imágenes grandes desde repositorio GitHub
+- [x] Verificar que riego, generación, equipos de elevación, perforación, maquinaria de concreto y plataformas muestran imágenes
+- [x] Informar al usuario
+
+## Asignar Imágenes Específicas por Modelo
+- [x] Revisar código de Equipos de Elevación, Maquinaria de Concreto, Plataformas y Aditamentos
+- [x] Verificar imágenes disponibles en el directorio
+- [x] Actualizar código para asignar imagen específica a cada modelo
+- [x] Verificar cambios y reportar
+
+## Agregar Plantas Móviles y Bombas de Concreto XCMG
+- [x] Generar imágenes profesionales de plantas móviles (XS0.75M, XS1.0M, XS1.5M)
+- [x] Generar imágenes profesionales de bombas de concreto (XS5008D, XS6013D, XS9018D, XS10022D)
+- [x] Actualizar código de Maquinaria de Concreto con los 7 nuevos modelos
+- [x] Verificar cambios y reportar
+
+## Agregar Modelo XSL520 a Perforación y Productos de Aditamentos
+- [x] Analizar imagen de aditamentos proporcionada
+- [x] Generar imagen profesional del equipo de perforación XSL520
+- [x] Actualizar código de Perforación con modelo XSL520
+- [x] Actualizar código de Aditamentos con productos de la imagen
+- [x] Verificar cambios y reportar
+
+## Reemplazar Categoría de Perforación con Solo XSL520
+- [x] Generar nueva imagen del XSL520 basada en fotografía real proporcionada
+- [x] Eliminar modelo XR150D de la categoría de Perforación
+- [x] Actualizar código para mostrar solo XSL520
+- [x] Verificar cambios y reportar
+
+## Corregir Imagen del XSL520 para Coincidir con Foto Real
+- [x] Regenerar imagen del XSL520 con detalles exactos (torre roja/naranja brillante, base amarilla compacta)
+- [x] CORREGIR: Torre debe ser AMARILLA, solo cabezal superior es rojo
+- [x] Usar fotografía real del usuario directamente (mejor que IA)
+- [x] Mejorar calidad de la fotografía real (iluminación, contraste, nitidez)
+- [x] Actualizar código con foto mejorada
+- [x] Verificar y reportar
+
+## Quitar Descripción del XSL520
+- [x] Eliminar descripción del modelo XSL520 en Perforación
+
+## Migrar Imágenes a S3 para Producción
+- [x] Subir todas las imágenes generadas de maquinaria de concreto a S3
+- [x] Subir todas las imágenes generadas de aditamentos a S3
+- [x] Actualizar URLs en Machinery.tsx con URLs permanentes de S3
+- [x] Verificar que todas las imágenes funcionan
+- [ ] Crear checkpoint para publicación

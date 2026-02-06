@@ -1,0 +1,94 @@
+{
+  "mobile_plants": [
+    {
+      "model": "XS0.75M",
+      "name": "Planta Móvil de Concreto XS0.75M",
+      "description": "Planta de mezcla de concreto compacta y móvil con capacidad de 40m³/h de concreto compactado, 0.75m³ de concreto compactado, potencia de entrada del mezclador de 30kW y capacidad de agregados de 4x5m³",
+      "image": "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/yxTJM2vO9u4VL4LQAtUqkw-img-1_1770406482000_na1fn_eHMwNzVtLXBsYW50.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3l4VEpNMnZPOXU0Vkw0TFFBdFVxa3ctaW1nLTFfMTc3MDQwNjQ4MjAwMF9uYTFmbl9lSE13TnpWdExYQnNZVzUwLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=SRgJyomi07z9ld~8ODYEFrXqCVXfgGd2-1YOjAWJy8jdeuGh-bTJTt~R74BHRY0Nn00SGarWZ8svCmsk2XA1EWlFhDf0N0ADpZJaawJqz9ow4bsIdyczVm1xiS-wVZd~gYl34TmC3s18q70-yPNXygHnd3qAksfK72FHuI8zuEf5ZQQ~OV0R9z6YypQhTJbvWSPV4GX9PkWehVpi7BCv9xjDwp-bLgLweJnV85qOqfICvwIsorb4uMRQJ3lVDaOVN1m5wLYIeAluHS8aKPveBSs8FRmx~R0X4upnEVKSq7lfMdzwf9namfsYqt8pYpwbVMdZdOtoMgR07XytQnQDRw__",
+      "specs": {
+        "output": "40m³/h",
+        "concrete_capacity": "0.75m³",
+        "mixer_power": "30kW",
+        "aggregate_capacity": "4x5m³"
+      }
+    },
+    {
+      "model": "XS1.0M",
+      "name": "Planta Móvil de Concreto XS1.0M",
+      "description": "Planta de mezcla de concreto de tamaño mediano con capacidad de 60m³/h de concreto compactado, 1m³ de concreto compactado, potencia de entrada del mezclador de 2x18.5kW y capacidad de agregados de 4x5m³",
+      "image": "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/yxTJM2vO9u4VL4LQAtUqkw-img-2_1770406489000_na1fn_eHMxMG0tcGxhbnQ.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3l4VEpNMnZPOXU0Vkw0TFFBdFVxa3ctaW1nLTJfMTc3MDQwNjQ4OTAwMF9uYTFmbl9lSE14TUcwdGNHeGhiblEuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=A4-8fybYruDI-2yCxsSWMAoT4H7UfgluBrAFZ~yQPzvKlExpX6lXMKEHun2CQ43WMTP33p9oFFFMcDLJyB2ZWsNvuboH5zjumYClZD31nYftQ2ejG6bwLSfIEw3dz2tK0ER1PLaGeh~C56zDArZ9Sqf2Z5B~jEloSAKkHhpP2dcQx4dXZSwLg4F2XnltUgyH~dyd365hfTumfQavnFK8hcVW6HNrETphVBaNE7JL7SAU9~bT2as2BkRlKb~twgiXLVWONk086iX1vCi3-0XNlusnO4U6Wc6vbcmv~r2LbA0esPVZBg~-UTovjne~mI-HL8~XMUlc7iNMe3dwVs~Vgw__",
+      "specs": {
+        "output": "60m³/h",
+        "concrete_capacity": "1m³",
+        "mixer_power": "2x18.5kW",
+        "aggregate_capacity": "4x5m³"
+      }
+    },
+    {
+      "model": "XS1.5M",
+      "name": "Planta Móvil de Concreto XS1.5M",
+      "description": "Planta de mezcla de concreto de alta capacidad con salida de 90m³/h de concreto compactado, 1.5m³ de concreto compactado, potencia de entrada del mezclador de 2x30kW y capacidad de agregados de 4x8m³",
+      "image": "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/yxTJM2vO9u4VL4LQAtUqkw-img-3_1770406482000_na1fn_eHMxNW0tcGxhbnQ.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3l4VEpNMnZPOXU0Vkw0TFFBdFVxa3ctaW1nLTNfMTc3MDQwNjQ4MjAwMF9uYTFmbl9lSE14TlcwdGNHeGhiblEuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Q0diMNKld7vT9A~EBZm4~IwUxiWErf2Zer4R57NDPdKUvLWzJuvJPVLnlZXkNNmmhDfZs~pKES4N6wbI6dmM~7fyCeMj~cykBiOS5~MKFpJ9407BtJK6sorv95Whw4m-FJhXvbtCfgqPQpHHBaWlkzNnaZPCzT7QaRH4-wSKWIegNHJHxYU47rAm3tsCXEBm6iw7lJclg28Jy7VEP~XfGl0dU~ubdOmo3HMwd59N98XQGWy6zctIUbTo7PX-drfwkW8nGZpS7S6Y~vIvu2f1XL8JWX2GjgRuWvvSQwFWFgVLPt8Q4g697eCPwgDF5YXjR-hiXzggqEmSFTyGkMrHzg__",
+      "specs": {
+        "output": "90m³/h",
+        "concrete_capacity": "1.5m³",
+        "mixer_power": "2x30kW",
+        "aggregate_capacity": "4x8m³"
+      }
+    }
+  ],
+  "concrete_pumps": [
+    {
+      "model": "XS5008D",
+      "name": "Bomba de Concreto XS5008D",
+      "description": "Bomba de concreto montada en remolque con salida máxima de 50m³/h, presión máxima de concreto de 8Mpa, 27 carreras, diámetro/carrera del cilindro de concreto de 180/1400 y potencia del motor de 75kW",
+      "image": "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/yxTJM2vO9u4VL4LQAtUqkw-img-4_1770406472000_na1fn_eHM1MDA4ZC1wdW1w.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3l4VEpNMnZPOXU0Vkw0TFFBdFVxa3ctaW1nLTRfMTc3MDQwNjQ3MjAwMF9uYTFmbl9lSE0xTURBNFpDMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=WIAbBKBhMHCsAT1yg9JrAgiu4PhfXOMEahaz0Jnfe~8eNZxzIF6WASHZyEFbcxH4GCRcL18vorBzCZMfoxqX4cWMgtAPQjLfL~-a-4Yo2ynN08hX96qb3LrgRavjcTOT5qp5ODmM~~EhiKLNveVjGxQIOqsXZaCEGeQTiBpzAejMJQHSCS2Ii-D1XSbIm3xws9u6OE3CD7-exIgVhh1uoGf6K1uksFJEw9lrq0WAr~oPGJSVYd-VNQQEm~w0ArLgKuOlaKz9gS7M7Xa7U4mMmlNjQE~oB4MpvPgkS8nEHaSCvtawRkXlKgIURyw6hf79C1JgH08bpCyY9uyNYlXBuw__",
+      "specs": {
+        "output": "50m³/h",
+        "pressure": "8Mpa",
+        "strokes": "27",
+        "cylinder": "180/1400",
+        "power": "75kW"
+      }
+    },
+    {
+      "model": "XS6013D",
+      "name": "Bomba de Concreto XS6013D",
+      "description": "Bomba de concreto montada en remolque con salida máxima de 65/40m³/h, presión máxima de concreto de 8/13Mpa, 22/13 carreras, diámetro/carrera del cilindro de concreto de 200/1600 y potencia del motor de 118kW",
+      "image": "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/yxTJM2vO9u4VL4LQAtUqkw-img-5_1770406481000_na1fn_eHM2MDEzZC1wdW1w.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3l4VEpNMnZPOXU0Vkw0TFFBdFVxa3ctaW1nLTVfMTc3MDQwNjQ4MTAwMF9uYTFmbl9lSE0yTURFelpDMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ct-5034akx8h47pDYSNP1AF~HIJvS7~BikMJtgyRUjTeDshT2oYsOg60IS0uNxXdhNKfzfJ94NzGhec91qIRqRVX0z1yW4alc4lEmZQdN15x7uXXgX39~zn7jp1te3iwUmVJNV-Mlzivlb8aO9TvzrAhQkvlC3JQsyo0ZM-3EtEROyYDbV3M7llAGLnOEhR2bBKeM~OhzdU-tue00IN7v6RLHYR0SRoxnlsLdNCWjJq4tGbbVNwdy6c6VblRBTCvWHKAk7qQhFcO~O-urAG8wWLz7MzpymNXiyXBhSE9xXLPwTaj3jCdeRS4sfxzp5o1yVuh1lGInY3y2Kh0RPXgaw__",
+      "specs": {
+        "output": "65/40m³/h",
+        "pressure": "8/13Mpa",
+        "strokes": "22/13",
+        "cylinder": "200/1600",
+        "power": "118kW"
+      }
+    },
+    {
+      "model": "XS9018D",
+      "name": "Bomba de Concreto XS9018D",
+      "description": "Bomba de concreto montada en remolque con salida máxima de 95/55m³/h, presión máxima de concreto de 10/18Mpa, 25/14 carreras, diámetro/carrera del cilindro de concreto de 230/1600 y potencia del motor de 206/199kW",
+      "image": "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/oRKYT4x27Y2AjV6qaGgIgd-img-1_1770406539000_na1fn_eHM5MDE4ZC1wdW1w.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L29SS1lUNHgyN1kyQWpWNnFhR2dJZ2QtaW1nLTFfMTc3MDQwNjUzOTAwMF9uYTFmbl9lSE01TURFNFpDMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RqZ5UtzHdp1tCqZcVjx5syQyoDv7fH24xjiBvYzB9Ctasa2jU995yIHtEEIVJ6JuGQrn-BAFlheEvtzS1XNLS7R3HFUYxVnn6-ZEz~6Q~bn~vy6vFPV~bHisEZEGmiIoLntA~LRowJLHW78lF3F7cAmtfC6dyY~MGEaz9fNkpuuwsiqXOsFALoVEWLGTBv4tNesQUCrnn-nOPIp5zbTwVu8t2dJCuPFBC6Tx43FANXVLkpbmeN8YxyQV7P~xSThE69uLPdT4lSDGXCKRpg-SjjwpoA5AEICJSfLmmH4yM17knzRiIEvyyLmD5g4IiW-ihuMEAMvc0PYxHXANgewECg__",
+      "specs": {
+        "output": "95/55m³/h",
+        "pressure": "10/18Mpa",
+        "strokes": "25/14",
+        "cylinder": "230/1600",
+        "power": "206/199kW"
+      }
+    },
+    {
+      "model": "XS10022D",
+      "name": "Bomba de Concreto XS10022D",
+      "description": "Bomba de concreto montada en remolque con salida máxima de 102/70m³/h, presión máxima de concreto de 15/22Mpa, 25/17 carreras, diámetro/carrera del cilindro de concreto de 200/2100 y potencia del motor de 338kW",
+      "image": "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/oRKYT4x27Y2AjV6qaGgIgd-img-2_1770406548000_na1fn_eHMxMDAyMmQtcHVtcA.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L29SS1lUNHgyN1kyQWpWNnFhR2dJZ2QtaW1nLTJfMTc3MDQwNjU0ODAwMF9uYTFmbl9lSE14TURBeU1tUXRjSFZ0Y0EuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fGt1iEpDSjbPk0CCZFNPjEpDy36g2p-wuOOFhLFq2r97teUVboFnp61xqZvzDqS-XtvaOizRcugQP8oB1YyoTWdy0yN~pnlRLMKetxxDoRd5OfelVnA-AZqVLhSH0QXYXe0sdWu3E0yljkJgKmKzn-qs2ShVXZYSu3E4GiKOS5YhaMYzgfYk29pwmp2a5qhaAnKWGGKpP-m6euwrrHvClNr-EnCuuQ5McO~QIG-5kOmLup4CZR913BulJsnqPUtOnlQ3Fa20DLQlxs1XLHtVLEif3oT0LbeTupTxbi3Cel~AEygYvz23QVBE7txfLqRIL~REnRj6aJJM91kniMAmHQ__",
+      "specs": {
+        "output": "102/70m³/h",
+        "pressure": "15/22Mpa",
+        "strokes": "25/17",
+        "cylinder": "200/2100",
+        "power": "338kW"
+      }
+    }
+  ]
+}
