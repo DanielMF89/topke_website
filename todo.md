@@ -101,4 +101,10 @@
 - [x] Subir todas las imágenes generadas de aditamentos a S3
 - [x] Actualizar URLs en Machinery.tsx con URLs permanentes de S3
 - [x] Verificar que todas las imágenes funcionan
-- [ ] Crear checkpoint para publicación
+- [x] Crear checkpoint para publicación
+
+## Revisar Imágenes Generales de Categorías
+- [x] Revisar imagen general de categoría Maquinaria
+- [x] Revisar imagen general de categoría Excavadoras
+- [x] Corregir URLs si es necesario
+- [ ] Crear checkpoint final

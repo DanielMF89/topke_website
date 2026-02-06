@@ -26,7 +26,7 @@ export default function Machinery() {
     {
       id: "excavadoras",
       name: "Excavadoras",
-      image: "/images/machinery/xcmg-excavator-real-2025.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/VnfsNHwNkFKkYhiM.jpg",
       products: [
         {
           name: "Excavadora XE60G",
