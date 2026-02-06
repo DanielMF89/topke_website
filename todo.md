@@ -1,11 +1,15 @@
 # TODO - Sitio Web Corporativo Grupo Topke
 
-## Ajustes de Instagram Feed
-- [x] Cambiar object-cover a object-contain en InstagramFeed para mostrar imágenes completas
-- [x] Agregar fondo para imágenes que no sean cuadradas
-- [x] Verificar que las imágenes se vean completas sin recortes
-
-## Restaurar Imágenes Faltantes
-- [x] Identificar qué imágenes no se están mostrando
-- [x] Copiar imágenes faltantes desde el repositorio GitHub
-- [x] Verificar que todas las imágenes se muestran correctamente
+## Agregar Catálogo de Maquinaria XCMG
+- [x] Extraer información del catálogo PDF
+- [x] Organizar máquinas por categorías:
+  - Mini excavadoras → Miniexcavadoras
+  - Excavadoras medianas → Excavadoras
+  - Minicargador → Cargadores frontales
+  - Rodo compactador → Compactadoras y niveladoras
+  - Retroexcavadora → Nueva categoría: Retroexcavadoras
+  - Motoniveladora → Compactadoras y niveladoras
+  - Cargadores frontales → Cargadores frontales
+  - Aditamentos → Aditamentos
+- [x] Actualizar páginas de categorías con máquinas y descripciones
+- [x] Verificar cambios en el sitio

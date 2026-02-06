@@ -1,0 +1,166 @@
+{
+  "miniexcavadoras": [
+    {
+      "model": "XE17U",
+      "specs": [
+        "PESO OPERATIVO 1.7 T",
+        "MOTOR KUBOTA",
+        "LINEAS PARA IMPLEMENTOS",
+        "BANDA DE HULE / METAL",
+        "BANDA RETRACTIL"
+      ]
+    },
+    {
+      "model": "XE27U",
+      "specs": [
+        "PESO OPERATIVO 2.7 T",
+        "MOTOR KUBOTA",
+        "LINEAS PARA IMPLEMENTOS",
+        "BANDA DE METAL",
+        "CUCHILLA TOPADORA"
+      ]
+    },
+    {
+      "model": "XE35U",
+      "specs": [
+        "PESO OPERATIVO 3.5 T",
+        "MOTOR KUBOTA",
+        "CABINA CERRADA CON A/C",
+        "BANDA DE METAL",
+        "LINEAS PARA IMPLEMENTOS",
+        "CUCHILLA TOPADORA"
+      ]
+    }
+  ],
+  "excavadoras": [
+    {
+      "model": "XE60G",
+      "specs": [
+        "PESO OPERATIVO 6T",
+        "MOTOR KUBOTA",
+        "LINEAS PARA IMPLEMENTOS",
+        "CUCHARON 0.26 m³",
+        "CABINA CERRADA CON A/C",
+        "CUCHILLA TOPADORA"
+      ]
+    },
+    {
+      "model": "XE135G",
+      "specs": [
+        "PESO PERATIVO 13.5 T",
+        "MOTOR CUMMINS QSF3.8",
+        "115 hp DE POTENCIA",
+        "CUCHARON 0.55 m³",
+        "LINEAS PARA MARTILLO",
+        "ZAPATA 500 mm"
+      ]
+    },
+    {
+      "model": "XE215G",
+      "specs": [
+        "PESO OPERATIVO 21.8 T",
+        "MOTOR CUMMINS QSF6.7",
+        "180 hp DE POTENCIA",
+        "CUCHARON DE 1 m³",
+        "LINEAS PARA MARTILLO",
+        "ZAPATA DE 800 mm"
+      ]
+    }
+  ],
+  "cargadores_frontales": [
+    {
+      "model": "XC7-SR08",
+      "specs": [
+        "MOTOR YANMAR",
+        "67 hp DE POTENCIA",
+        "PESO OPERATIVO 3.5 T",
+        "CAPACIDAD DE CUCHARON 0.45 m³",
+        "LINEAS PARA ADITAMIENTO ALTO FLUJO",
+        "CAPACIDAD DE CARGA 2,000 LBS",
+        "CABINA CERRADA CON A/C"
+      ]
+    },
+    {
+      "model": "LFW180",
+      "specs": [
+        "MOTOR YUCHAI",
+        "85 hp DE POTENCIA",
+        "PESO OPERATIVO 6200 KG",
+        "CAPACIDAD DE CARGA 1.8 T",
+        "CAPACIDAD DE CUCHARON 1 m³",
+        "LINEAS PARA ACOPLE RAPIDO"
+      ]
+    },
+    {
+      "model": "XC938",
+      "specs": [
+        "MOTOR WEICHAI 6 CILINDROS",
+        "134 hp DE POTENCIA",
+        "PESO OPERATIVO 10,300 KG",
+        "CAPACIDA DE CARGA 3500 KG",
+        "CAPACIDAD DE CUCHARON 2.1 m³",
+        "FRENOS DE DISCOS HUMEDOS"
+      ]
+    },
+    {
+      "model": "XC958",
+      "specs": [
+        "MOTOR WEICHAI 6 CILINDROS",
+        "217 hp DE POTENCIA",
+        "PESO OPERATIVO 16,950 KG",
+        "CAPACIDAD DE CARGA 5,500 KG",
+        "CAPACIDAD DE CUCHARON 3 m³",
+        "FRENOS DE DISCOS HUMEDOS"
+      ]
+    }
+  ],
+  "compactadoras_niveladoras": [
+    {
+      "model": "XS113",
+      "specs": [
+        "MOTOR CUMMINS 4BT",
+        "124 hp DE POTENCIA",
+        "PESO OPERATIVO 10,800 KG",
+        "CABINA CERRADA CON A/C",
+        "FRECUENCIA DE VIBRACION 30/35 HZ",
+        "DIAMETRO DEL TAMBOR 1513 mm"
+      ]
+    },
+    {
+      "model": "GR180",
+      "specs": [
+        "MOTOR CUMMINS 6 CILINDROS",
+        "190 hp DE POTENCIA",
+        "PESO OPERATIVO 15,400 KG",
+        "CABINA CERRADA CON A/C",
+        "RIPPER TRASERO DE 5 DIENTES",
+        "CUCHILLA DE 12 PIES DE LARGO",
+        "VELOCIDADES 6 ADELANTE 3 ATRÁS"
+      ]
+    }
+  ],
+  "retroexcavadoras": [
+    {
+      "model": "CX8-C2570",
+      "specs": [
+        "MOTOR CUMMINS QSF3.8",
+        "99 hp DE POTENCIA",
+        "PESO OPERATIVO 7,600 KG",
+        "CABICA CERRADA CON A/C",
+        "BRAZO EXTENSIBLE",
+        "LINEAS PARA MARTILLO",
+        "TRACCION 4 X 4",
+        "CUCHARON FRONTAL 1 m³",
+        "CUCHARON TRASERO 0.23 m³"
+      ]
+    }
+  ],
+  "aditamentos": {
+    "description": "ADITAMENTOS PARA MAQUINARIA",
+    "types": [
+      "Martillos hidráulicos",
+      "Pinzas",
+      "Implementos varios"
+    ]
+  }
+}

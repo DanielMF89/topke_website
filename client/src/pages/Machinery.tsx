@@ -30,13 +30,18 @@ export default function Machinery() {
       products: [
         {
           name: "Excavadora XE60G",
-          desc: "Peso Operativo: 6T | Motor: Kubota | Cucharón: 26m³ | Cabina cerrada con A/C",
+          desc: "Peso Operativo: 6T | Motor: Kubota | Líneas para implementos | Cucharón: 0.26m³ | Cabina cerrada con A/C | Cuchilla topadora",
           image: "/images/machinery/xcmg-xe60g-ai-generated.jpg"
         },
         {
           name: "Excavadora XE135G",
-          desc: "Peso Operativo: 13.5T | Motor: Cummins QSF 3.8 | Cucharón: 55m³ | Cabina cerrada con A/C",
+          desc: "Peso Operativo: 13.5T | Motor: Cummins QSF3.8 | 115 hp | Cucharón: 0.55m³ | Líneas para martillo | Zapata 500mm",
           image: "/images/machinery/xcmg-xe135g-ai-generated.jpg"
+        },
+        {
+          name: "Excavadora XE215G",
+          desc: "Peso Operativo: 21.8T | Motor: Cummins QSF6.7 | 180 hp | Cucharón: 1m³ | Líneas para martillo | Zapata 800mm",
+          image: "/images/machinery/xcmg-xe60g-ai-generated.jpg"
         }
       ]
     },
@@ -46,13 +51,18 @@ export default function Machinery() {
       image: "/images/machinery/xcmg-xe35u-ai.jpg",
       products: [
         {
+          name: "Mini Excavadora XE17U",
+          desc: "Peso Operativo: 1.7T | Motor: Kubota | Líneas para implementos | Banda de hule/metal | Banda retráctil",
+          image: "/images/machinery/xcmg-xe35u-ai.jpg"
+        },
+        {
           name: "Mini Excavadora XE27U",
-          desc: "Peso Operativo: 2.7T | Motor: Kubota D1105 | Potencia: 20.7 HP | Cucharón: 0.08m³",
+          desc: "Peso Operativo: 2.7T | Motor: Kubota | Líneas para implementos | Banda de metal | Cuchilla topadora",
           image: "/images/machinery/xcmg-xe35u-ai.jpg"
         },
         {
           name: "Mini Excavadora XE35U",
-          desc: "Peso Operativo: 3.5T | Motor: Yanmar 3TNV88F | Potencia: 24.4 HP | Cucharón: 0.12m³",
+          desc: "Peso Operativo: 3.5T | Motor: Kubota | Cabina cerrada con A/C | Banda de metal | Líneas para implementos | Cuchilla topadora",
           image: "/images/machinery/xcmg-xe35u-ai.jpg"
         }
       ]
@@ -63,13 +73,23 @@ export default function Machinery() {
       image: "/images/machinery/xcmg-xc958-ai.jpg",
       products: [
         {
+          name: "Minicargador XC7-SR08",
+          desc: "Motor: Yanmar 67hp | Peso Operativo: 3.5T | Capacidad cucharón: 0.45m³ | Líneas alto flujo | Capacidad carga: 2,000 lbs | Cabina cerrada con A/C",
+          image: "/images/machinery/xcmg-xc958-ai.jpg"
+        },
+        {
+          name: "Cargador LFW180",
+          desc: "Motor: Yuchai 85hp | Peso Operativo: 6,200 kg | Capacidad carga: 1.8T | Capacidad cucharón: 1m³ | Líneas acople rápido",
+          image: "/images/machinery/xcmg-xc958-ai.jpg"
+        },
+        {
           name: "Cargador XC938",
-          desc: "Peso Operativo: 12.6T | Motor: Cummins QSB6.7 | Cucharón: 1.9m³ | Carga Nominal: 3.5T",
+          desc: "Motor: Weichai 6 cilindros 134hp | Peso Operativo: 10,300 kg | Capacidad carga: 3,500 kg | Cucharón: 2.1m³ | Frenos discos húmedos",
           image: "/images/machinery/xcmg-xc958-ai.jpg"
         },
         {
           name: "Cargador XC958",
-          desc: "Peso Operativo: 18T | Motor: Cummins QSL9 | Cucharón: 3.0m³ | Carga Nominal: 5.5T",
+          desc: "Motor: Weichai 6 cilindros 217hp | Peso Operativo: 16,950 kg | Capacidad carga: 5,500 kg | Cucharón: 3m³ | Frenos discos húmedos",
           image: "/images/machinery/xcmg-xc958-ai.jpg"
         }
       ]
@@ -80,14 +100,26 @@ export default function Machinery() {
       image: "/images/machinery/xcmg-xs103h-ai.jpg",
       products: [
         {
-          name: "Rodillo Vibratorio XS103H",
-          desc: "Peso Operativo: 10T | Motor: Cummins | Frecuencia: 45/50 Hz | Tipo: Vibratorio Monocilíndrico",
+          name: "Rodo Compactador XS113",
+          desc: "Motor: Cummins 4BT 124hp | Peso Operativo: 10,800 kg | Cabina cerrada con A/C | Frecuencia vibración: 30/35 Hz | Diámetro tambor: 1513mm",
           image: "/images/machinery/xcmg-xs103h-ai.jpg"
         },
         {
-          name: "Motoniveladora GR2605",
-          desc: "Peso Operativo: 19T | Motor: Cummins QSL9 | Potencia: 260 HP | Hoja: 4.27m",
+          name: "Motoniveladora GR180",
+          desc: "Motor: Cummins 6 cilindros 190hp | Peso Operativo: 15,400 kg | Cabina cerrada con A/C | Ripper trasero 5 dientes | Cuchilla 12 pies | Velocidades: 6 adelante 3 atrás",
           image: "/images/machinery/xcmg-gr2605-ai.jpg"
+        }
+      ]
+    },
+    {
+      id: "retroexcavadoras",
+      name: "Retroexcavadoras",
+      image: "/images/machinery/xcmg-xe60g-ai-generated.jpg",
+      products: [
+        {
+          name: "Retroexcavadora CX8-C2570",
+          desc: "Motor: Cummins QSF3.8 99hp | Peso Operativo: 7,600 kg | Cabina cerrada con A/C | Brazo extensible | Líneas para martillo | Tracción 4x4 | Cucharón frontal: 1m³ | Cucharón trasero: 0.23m³",
+          image: "/images/machinery/xcmg-xe60g-ai-generated.jpg"
         }
       ]
     },
