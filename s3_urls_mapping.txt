@@ -1,0 +1,32 @@
+# Mapeo de imágenes subidas a S3
+# Formato: nombre_archivo -> URL_S3
+
+# Generation
+residential-generator-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/cqwGFKWQxWDJHXjI.jpg
+t-power-generated-1.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/YWvZfesgWfpCjuAX.jpg
+tpower_generator_basement.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/QjCGyjjrhkSEkUxB.jpg
+tpower_generator_basement_white.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/ZsAbMLoIYPLYrtUm.jpg
+tpower_generator_building.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/XmDfdDsZrsTbUvxJ.jpg
+tpower_generator_corrected_logo.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/vbiWklaOmFnqnedR.jpg
+tpower_generator_final_logo.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/DfAnllUkLmKvsgot.jpg
+tpower_generator_guatemala.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/pcloajQocEmJzZtv.jpg
+tpower_generator_native_logo.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/oVMgZBPTmzAMyLGd.jpg
+tpower_generator_real_install.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/lSMUIEezZaWDxGda.jpg
+
+# Machinery
+xcmg-excavator.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/pKUzjXyxgLPBRQQy.jpg
+xcmg-gr2605-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/VkBJNYTmCxSxNDnA.jpg
+xcmg-mixer-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/IKTLvTNFmgXBKxUV.jpg
+xcmg-xc958-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/UNOmipKMzVJqnFzf.jpg
+xcmg-xct25l5-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/UkNmUsZHuXkmtbHx.jpg
+xcmg-xe135g-ai-generated.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uGqlNlUnrOQkZvBI.jpg
+xcmg-xe35u-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/mQnruNGnJsrIdYQz.jpg
+xcmg-xe60g-ai-generated.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/ywNVFCkfpbggEvxZ.jpg
+xcmg-xgs28-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/qrECMdEXULAVDLDZ.jpg
+xcmg-xr150d-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/naycDBQwGZuiHzSY.jpg
+xcmg-xs103h-ai.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/OBCQwhwOPNJweije.jpg
+
+# Otros
+product-generator.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/glNQOrCoHEYKCqcY.jpg
+product-motor.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/aeIVHanzLzXLmSOb.jpg
+riego-general-new.jpg -> https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/KpMylQQnFkwwlJjW.jpg
