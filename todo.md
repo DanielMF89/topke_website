@@ -35,3 +35,11 @@
 - [x] Buscar imagen de referencia real de XCMG CX8-C2570
 - [x] Regenerar imagen mostrando acción realista (solo excavando O solo cargando)
 - [x] Actualizar sitio web y crear checkpoint
+
+## Corregir Imágenes Faltantes en Otras Categorías
+- [x] Identificar imágenes faltantes en Equipos de Nivelación
+- [x] Identificar imágenes faltantes en Perforación
+- [x] Identificar imágenes faltantes en Maquinaria de Concreto
+- [x] Identificar imágenes faltantes en Plataformas de Elevación
+- [x] Copiar imágenes desde repositorio GitHub original
+- [x] Verificar y crear checkpoint
