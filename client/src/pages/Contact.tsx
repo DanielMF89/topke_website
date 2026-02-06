@@ -2,234 +2,211 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
-import { trpc } from "@/lib/trpc";
-import { toast } from "sonner";
-import { Mail, Phone, MapPin } from "lucide-react";
-
-const contactSchema = z.object({
-  name: z.string().min(1, "El nombre es requerido"),
-  email: z.string().email("Email inválido"),
-  phone: z.string().optional(),
-  serviceType: z.string().optional(),
-  message: z.string().min(10, "El mensaje debe tener al menos 10 caracteres"),
-});
-
-type ContactForm = z.infer<typeof contactSchema>;
+import { Phone, Mail, MapPin, Clock, Send, Tractor, Zap, Droplets, Anchor } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Contact() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-    setValue,
-  } = useForm<ContactForm>({
-    resolver: zodResolver(contactSchema),
-  });
-
-  const submitMutation = trpc.contact.submit.useMutation({
-    onSuccess: () => {
-      toast.success("¡Mensaje enviado exitosamente!");
-      reset();
-    },
-    onError: (error) => {
-      toast.error("Error al enviar el mensaje. Por favor intente nuevamente.");
-      console.error(error);
-    },
-  });
-
-  const onSubmit = (data: ContactForm) => {
-    submitMutation.mutate(data);
-  };
-
   return (
     <Layout>
-      <div className="py-20 md:py-32 bg-white">
-        <div className="container">
-          <div className="max-w-6xl mx-auto">
-            {/* Header */}
-            <div className="text-center mb-16">
-              <div className="flex items-center justify-center gap-4 mb-6">
-                <div className="h-1 w-16 bg-primary"></div>
-                <span className="text-primary font-bold tracking-widest uppercase text-sm">
-                  Contáctanos
-                </span>
-                <div className="h-1 w-16 bg-primary"></div>
-              </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold uppercase mb-6 text-zinc-900">
-                Estamos aquí para{" "}
-                <span className="text-primary">ayudarte</span>
-              </h1>
-              <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
-                Completa el formulario y nos pondremos en contacto contigo lo
-                antes posible.
-              </p>
-            </div>
+      {/* Hero Section */}
+      <section className="relative h-[40vh] flex items-center overflow-hidden bg-zinc-900">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/images/hero-industrial.jpg" 
+            alt="Contacto TopKe" 
+            className="w-full h-full object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/50 to-transparent"></div>
+        </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              {/* Contact Info */}
-              <div>
-                <h2 className="text-2xl font-display font-bold uppercase mb-6 text-zinc-900">
-                  Información de Contacto
-                </h2>
+        <div className="container relative z-10 pt-20 text-center">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <h1 className="text-5xl md:text-6xl font-display font-bold text-white leading-none mb-4 uppercase">
+              Contáctenos
+            </h1>
+            <p className="text-xl text-zinc-300 max-w-2xl mx-auto font-light">
+              Estamos listos para atender sus requerimientos y brindarle la mejor asesoría técnica.
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
-                <div className="space-y-6">
-                  <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg">
-                      <MapPin className="w-6 h-6 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-zinc-900 mb-1">
-                        Dirección
-                      </h3>
-                      <p className="text-zinc-600">
-                        Guatemala, Guatemala
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg">
-                      <Phone className="w-6 h-6 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-zinc-900 mb-1">
-                        Teléfono
-                      </h3>
-                      <p className="text-zinc-600">+502 2224-8080</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg">
-                      <Mail className="w-6 h-6 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-zinc-900 mb-1">Email</h3>
-                      <p className="text-zinc-600">info@topke.com</p>
-                    </div>
-                  </div>
+      {/* Contact Content */}
+      <section className="py-24 bg-white">
+        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16">
+          {/* Contact Info */}
+          <div>
+            <h2 className="text-3xl font-display font-bold text-zinc-900 mb-8 uppercase">Información de Contacto</h2>
+            
+            <div className="space-y-8">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center shrink-0">
+                  <Phone className="text-primary" size={24} />
                 </div>
+                <div>
+                  <h3 className="text-lg font-bold text-zinc-900 uppercase mb-1">Teléfono</h3>
+                  <p className="text-zinc-600 mb-1">Atención al cliente y Ventas</p>
+                  <a href="tel:+50222248000" className="text-xl font-bold text-zinc-900 hover:text-primary transition-colors">
+                    +(502) 2224-8000
+                  </a>
+                </div>
+              </div>
 
-                <div className="mt-8 p-6 bg-zinc-50 border-l-4 border-primary">
-                  <h3 className="font-display font-bold text-lg mb-2 text-zinc-900">
-                    Horario de Atención
-                  </h3>
-                  <p className="text-zinc-600">
-                    Lunes a Viernes: 8:00 AM - 5:00 PM
-                    <br />
-                    Sábados: 8:00 AM - 12:00 PM
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center shrink-0">
+                  <Mail className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-zinc-900 uppercase mb-1">Correo Electrónico</h3>
+                  <p className="text-zinc-600 mb-1">Consultas generales y cotizaciones</p>
+                  <a href="mailto:info@topke.com" className="text-xl font-bold text-zinc-900 hover:text-primary transition-colors">
+                    info@topke.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center shrink-0">
+                  <MapPin className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-zinc-900 uppercase mb-1">Ubicación</h3>
+                  <p className="text-zinc-600 leading-relaxed">
+                    Vía 4, 5-52 Zona 4<br />
+                    Ciudad de Guatemala, Guatemala
                   </p>
                 </div>
               </div>
 
-              {/* Contact Form */}
-              <div className="bg-zinc-50 p-8 border-t-4 border-primary">
-                <h2 className="text-2xl font-display font-bold uppercase mb-6 text-zinc-900">
-                  Envíanos un Mensaje
-                </h2>
-
-                <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-                  <div>
-                    <label className="block text-sm font-medium text-zinc-700 mb-2">
-                      Nombre *
-                    </label>
-                    <Input
-                      {...register("name")}
-                      placeholder="Tu nombre completo"
-                      className={errors.name ? "border-red-500" : ""}
-                    />
-                    {errors.name && (
-                      <p className="text-red-500 text-sm mt-1">
-                        {errors.name.message}
-                      </p>
-                    )}
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-zinc-700 mb-2">
-                      Email *
-                    </label>
-                    <Input
-                      {...register("email")}
-                      type="email"
-                      placeholder="tu@email.com"
-                      className={errors.email ? "border-red-500" : ""}
-                    />
-                    {errors.email && (
-                      <p className="text-red-500 text-sm mt-1">
-                        {errors.email.message}
-                      </p>
-                    )}
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-zinc-700 mb-2">
-                      Teléfono
-                    </label>
-                    <Input
-                      {...register("phone")}
-                      placeholder="+502 1234-5678"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-zinc-700 mb-2">
-                      Tipo de Servicio
-                    </label>
-                    <Select
-                      onValueChange={(value) => setValue("serviceType", value)}
-                    >
-                      <SelectTrigger>
-                        <SelectValue placeholder="Selecciona un servicio" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="riego">Riego</SelectItem>
-                        <SelectItem value="maquinaria">Maquinaria</SelectItem>
-                        <SelectItem value="generacion">Generación</SelectItem>
-                        <SelectItem value="propulsion">Propulsión</SelectItem>
-                        <SelectItem value="logistica">Logística</SelectItem>
-                        <SelectItem value="lubricantes">Lubricantes</SelectItem>
-                        <SelectItem value="perforacion">Perforación</SelectItem>
-                        <SelectItem value="otro">Otro</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-zinc-700 mb-2">
-                      Mensaje *
-                    </label>
-                    <Textarea
-                      {...register("message")}
-                      placeholder="Cuéntanos cómo podemos ayudarte..."
-                      rows={5}
-                      className={errors.message ? "border-red-500" : ""}
-                    />
-                    {errors.message && (
-                      <p className="text-red-500 text-sm mt-1">
-                        {errors.message.message}
-                      </p>
-                    )}
-                  </div>
-
-                  <Button
-                    type="submit"
-                    className="w-full bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wider"
-                    disabled={submitMutation.isPending}
-                  >
-                    {submitMutation.isPending ? "Enviando..." : "Enviar Mensaje"}
-                  </Button>
-                </form>
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center shrink-0">
+                  <Clock className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-zinc-900 uppercase mb-1">Horario de Atención</h3>
+                  <p className="text-zinc-600">Lunes a Viernes: 8:00 AM - 5:00 PM</p>
+                  <p className="text-zinc-600">Sábado: 8:00 AM - 12:00 PM</p>
+                </div>
               </div>
             </div>
           </div>
+
+          {/* WhatsApp Contact Options */}
+          <div className="bg-zinc-50 p-8 border border-zinc-200">
+            <h2 className="text-2xl font-display font-bold text-zinc-900 mb-6 uppercase">Chat Directo por WhatsApp</h2>
+            <p className="text-zinc-600 mb-8">Seleccione el departamento con el que desea comunicarse para una atención personalizada e inmediata.</p>
+            
+            <div className="space-y-4">
+              <a 
+                href="https://wa.me/50222248080?text=Hola,%20tengo%20una%20consulta%20general" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-between w-full p-4 bg-white border border-zinc-200 hover:border-green-500 hover:bg-green-50 transition-all group"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 group-hover:bg-green-500 group-hover:text-white transition-colors">
+                    <Phone size={20} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-zinc-900 group-hover:text-green-700">Atención General</h3>
+                    <p className="text-sm text-zinc-500">Consultas y recepción</p>
+                  </div>
+                </div>
+                <Send size={18} className="text-zinc-400 group-hover:text-green-500 group-hover:translate-x-1 transition-all" />
+              </a>
+
+              <a 
+                href="https://wa.me/50222248080?text=Hola,%20me%20interesa%20cotizar%20maquinaria" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-between w-full p-4 bg-white border border-zinc-200 hover:border-green-500 hover:bg-green-50 transition-all group"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 group-hover:bg-green-500 group-hover:text-white transition-colors">
+                    <Tractor size={20} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-zinc-900 group-hover:text-green-700">Maquinaria</h3>
+                    <p className="text-sm text-zinc-500">Ventas y repuestos</p>
+                  </div>
+                </div>
+                <Send size={18} className="text-zinc-400 group-hover:text-green-500 group-hover:translate-x-1 transition-all" />
+              </a>
+
+              <a 
+                href="https://wa.me/50222248080?text=Hola,%20necesito%20información%20sobre%20generadores" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-between w-full p-4 bg-white border border-zinc-200 hover:border-green-500 hover:bg-green-50 transition-all group"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 group-hover:bg-green-500 group-hover:text-white transition-colors">
+                    <Zap size={20} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-zinc-900 group-hover:text-green-700">Generación</h3>
+                    <p className="text-sm text-zinc-500">Plantas eléctricas y energía</p>
+                  </div>
+                </div>
+                <Send size={18} className="text-zinc-400 group-hover:text-green-500 group-hover:translate-x-1 transition-all" />
+              </a>
+
+              <a 
+                href="https://wa.me/50222248080?text=Hola,%20busco%20sistemas%20de%20riego" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-between w-full p-4 bg-white border border-zinc-200 hover:border-green-500 hover:bg-green-50 transition-all group"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 group-hover:bg-green-500 group-hover:text-white transition-colors">
+                    <Droplets size={20} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-zinc-900 group-hover:text-green-700">Riego</h3>
+                    <p className="text-sm text-zinc-500">Proyectos agrícolas</p>
+                  </div>
+                </div>
+                <Send size={18} className="text-zinc-400 group-hover:text-green-500 group-hover:translate-x-1 transition-all" />
+              </a>
+
+              <a 
+                href="https://wa.me/50222248080?text=Hola,%20consulto%20por%20motores%20marinos" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-between w-full p-4 bg-white border border-zinc-200 hover:border-green-500 hover:bg-green-50 transition-all group"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 group-hover:bg-green-500 group-hover:text-white transition-colors">
+                    <Anchor size={20} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-zinc-900 group-hover:text-green-700">Propulsión</h3>
+                    <p className="text-sm text-zinc-500">Motores marinos e industriales</p>
+                  </div>
+                </div>
+                <Send size={18} className="text-zinc-400 group-hover:text-green-500 group-hover:translate-x-1 transition-all" />
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* Map Section */}
+      <section className="h-[400px] bg-zinc-200 w-full">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9722346789!2d-90.5166!3d14.6166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDM2JzU5LjgiTiA5MMKwMzEnMDAuMCJX!5e0!3m2!1sen!2sgt!4v1635789000000!5m2!1sen!2sgt" 
+          width="100%" 
+          height="100%" 
+          style={{ border: 0 }} 
+          allowFullScreen 
+          loading="lazy"
+          title="Ubicación TopKe"
+        ></iframe>
+      </section>
     </Layout>
   );
 }

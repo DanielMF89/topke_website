@@ -71,6 +71,6 @@
 - [x] Verificar accesibilidad
 
 ## Entrega Final
-- [ ] Crear checkpoint del proyecto
-- [ ] Documentar funcionalidades implementadas
+- [x] Crear checkpoint del proyecto
+- [x] Documentar funcionalidades implementadas
 - [ ] Entregar al usuario con instrucciones
