@@ -23,3 +23,10 @@
 - [x] Regenerar XE35U: con banda de metal (mantener cabina)
 - [x] Actualizar sitio web con nuevas imágenes
 - [x] Verificar y crear checkpoint
+
+## Regenerar Imágenes con Referencias Reales
+- [x] Buscar imágenes reales de XCMG XE17U (sin cabina, banda hule)
+- [x] Buscar imágenes reales de XCMG XE27U (sin cabina, banda metal)
+- [x] Buscar imágenes reales de XCMG XE35U (cabina sin AC externo arriba)
+- [x] Regenerar imágenes basadas en referencias reales
+- [x] Actualizar sitio web y crear checkpoint
