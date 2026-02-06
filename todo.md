@@ -30,3 +30,8 @@
 - [x] Buscar imágenes reales de XCMG XE35U (cabina sin AC externo arriba)
 - [x] Regenerar imágenes basadas en referencias reales
 - [x] Actualizar sitio web y crear checkpoint
+
+## Corregir Imagen de Retroexcavadora
+- [x] Buscar imagen de referencia real de XCMG CX8-C2570
+- [x] Regenerar imagen mostrando acción realista (solo excavando O solo cargando)
+- [x] Actualizar sitio web y crear checkpoint
