@@ -96,7 +96,7 @@ export function InstagramFeed() {
                 <img
                   src={post.media_type === "VIDEO" ? (post.thumbnail_url || post.media_url) : post.media_url}
                   alt={post.caption || "Instagram post"}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
