@@ -43,3 +43,9 @@
 - [x] Identificar imágenes faltantes en Plataformas de Elevación
 - [x] Copiar imágenes desde repositorio GitHub original
 - [x] Verificar y crear checkpoint
+
+## Restaurar Todas las Imágenes que Dejaron de Funcionar
+- [x] Identificar qué imágenes dejaron de funcionar (riego, etc.)
+- [x] Copiar todas las imágenes faltantes desde repositorio GitHub
+- [x] Verificar que todas las imágenes se muestran correctamente
+- [ ] Crear checkpoint con todas las imágenes restauradas
