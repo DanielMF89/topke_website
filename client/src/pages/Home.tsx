@@ -137,7 +137,7 @@ export default function Home() {
           <p className="text-center text-zinc-500 font-bold uppercase tracking-widest text-xs mb-10">Marcas reconocidas a nivel mundial</p>
           <div className="flex flex-wrap justify-center items-center gap-12">
             {brands.map((brand, i) => (
-              <div key={i} className="w-32 h-16 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
+              <div key={i} className="w-32 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
                 <img 
                   src={brand.logo} 
                   alt={brand.name} 

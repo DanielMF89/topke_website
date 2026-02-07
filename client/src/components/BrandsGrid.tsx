@@ -21,7 +21,7 @@ export default function BrandsGrid() {
           {brands.map((brand, idx) => (
             <div
               key={idx}
-              className="flex items-center justify-center h-20 grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
+              className="flex items-center justify-center h-24 grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
             >
               <img
                 src={brand.logo}

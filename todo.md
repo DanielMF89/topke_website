@@ -132,3 +132,8 @@
 - [x] Localizar la T grande debajo de Contáctanos en Home.tsx
 - [x] Eliminar elemento
 - [x] Verificar y crear checkpoint
+
+## Corregir Visualización del Logo Senninger
+- [x] Localizar dónde aparece el logo de Senninger Irrigation Inc.
+- [x] Ajustar CSS para que se muestre completo (object-fit: contain)
+- [x] Verificar y crear checkpoint
