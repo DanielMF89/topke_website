@@ -22,7 +22,7 @@ export default function Home() {
     { name: "Senninger", logo: "/images/logo-senninger.png" },
     { name: "T-L Irrigation", logo: "/images/logo-tl.png" },
     { name: "Nelson", logo: "/images/logo-nelson-new.png" },
-    { name: "Komet", logo: "/images/logo-komet.jpg" },
+    { name: "Komet", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/WXkaChnoEKaLRgRC.jpg" },
     { name: "Cornell", logo: "/images/logo-cornell.png" },
     { name: "R&M", logo: "/images/logo-rm.png" }
   ];

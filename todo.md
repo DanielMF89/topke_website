@@ -145,3 +145,8 @@
 - [x] Generar imagen profesional de camiones grúa XCMG
 - [x] Actualizar código con 2 nuevos artículos en sección Equipos de Elevación
 - [x] Verificar y crear checkpoint
+
+## Corregir Logo de Komet
+- [x] Revisar el logo de Komet en la sección de marcas
+- [x] Corregir visualización del logo
+- [x] Verificar y crear checkpoint
