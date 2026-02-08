@@ -162,7 +162,7 @@ export default function Machinery() {
         {
           name: "Camión Mezclador XS308D",
           desc: "Capacidad: 8m³ | Chasis: XCMG | Motor: Cummins 380hp | Tecnología de mezclado homogéneo",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/UCVdiRrKfxAPvoZQ.jpg"
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/lILypSDXAtPlSvmj.png"
         },
         {
           name: "Planta Móvil XS0.75M",

@@ -154,3 +154,9 @@
 ## Actualizar Camión Mezclador con Especificaciones Correctas
 - [x] Actualizar modelo a XS308D con capacidad 8m³, chasis XCMG, motor Cummins 380hp
 - [x] Verificar y crear checkpoint
+
+## Actualizar Imagen del Camión Mezclador XS308D
+- [x] Mejorar calidad de fotografía real del XS308D proporcionada por usuario
+- [x] Subir imagen mejorada a S3
+- [x] Actualizar URL en código
+- [x] Verificar y crear checkpoint
