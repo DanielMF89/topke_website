@@ -410,7 +410,10 @@ export default function Machinery() {
                           ))}
                         </div>
 
-                        <Button className="w-full bg-zinc-900 hover:bg-primary text-white hover:text-white transition-colors mt-auto">
+                        <Button 
+                          className="w-full bg-zinc-900 hover:bg-primary text-white hover:text-white transition-colors mt-auto"
+                          onClick={() => window.open('https://wa.me/50222248080?text=Hola,%20quisiera%20solicitar%20una%20cotizaci%C3%B3n', '_blank')}
+                        >
                           Solicitar Cotización
                         </Button>
                       </div>

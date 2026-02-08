@@ -166,3 +166,9 @@
 - [x] Verificar URL de imagen
 - [x] Corregir o generar nueva imagen si es necesario
 - [x] Verificar y crear checkpoint
+
+## Configurar Botones de Solicitar Cotización con WhatsApp
+- [x] Localizar todos los botones de "Solicitar Cotización" en el sitio
+- [x] Configurar enlace de WhatsApp (+502 2224 8080)
+- [x] Actualizar código para que todos los botones redirijan a WhatsApp
+- [x] Verificar y crear checkpoint
