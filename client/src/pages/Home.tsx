@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 
 export default function Home() {
   useEffect(() => {
-    document.title = "Grupo Topke | Maquinaria, Energía y Riego";
+    document.title = "Maquinaria, Riego y Generadores | Grupo Topke Guatemala";
   }, []);
 
   // Marcas actualizadas con logos
@@ -30,9 +30,9 @@ export default function Home() {
   return (
     <Layout>
       <Helmet>
-        <title>Grupo Topke | Maquinaria, Energía y Riego</title>
-        <meta name="description" content="Topke ofrece venta y renta de maquinaria pesada, generadores eléctricos y sistemas de riego en Guatemala. Soluciones integrales para la industria." />
-        <meta name="keywords" content="maquinaria pesada, generadores eléctricos, sistemas de riego, construcción, agricultura, Guatemala, Topke, XCMG" />
+        <title>Maquinaria, Riego y Generadores | Grupo Topke Guatemala</title>
+        <meta name="description" content="Maquinaria XCMG, sistemas de riego, generadores eléctricos y equipos industriales en Guatemala. Más de 125 años de experiencia. Venta, renta y servicio." />
+        <meta name="keywords" content="maquinaria, riego, generadores, XCMG, excavadoras, cargadores, pivotes centrales, bombas, Topke, Guatemala, equipos construcción, maquinaria pesada" />
         <script type="application/ld+json">
           {`
             {

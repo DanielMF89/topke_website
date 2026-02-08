@@ -2,8 +2,13 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Battery, Activity, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 export default function Generation() {
+  useEffect(() => {
+    document.title = "Generadores Eléctricos Guatemala | Grupo Topke";
+  }, []);
   const solutions = [
     {
       title: "Generador Industrial",
@@ -39,6 +44,11 @@ export default function Generation() {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Generadores Eléctricos Guatemala | Grupo Topke</title>
+        <meta name="description" content="Generadores eléctricos industriales y residenciales en Guatemala. T-Power: 16 KVa hasta 2000 KVa, con cabina, sistemas de transferencia automática. Energía confiable 24/7." />
+        <meta name="keywords" content="generadores, generadores eléctricos, T-Power, generadores industriales, generadores residenciales, plantas eléctricas, energía de respaldo, Topke, Guatemala" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center overflow-hidden bg-zinc-900">
         <div className="absolute inset-0 z-0">

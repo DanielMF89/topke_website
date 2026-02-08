@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://topke.manus.space/sitemap.xml
+
+# Disallow admin or private pages if any
+Disallow: /admin/
+Disallow: /api/

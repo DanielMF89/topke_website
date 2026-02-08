@@ -4,10 +4,21 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock, Send, Tractor, Zap, Droplets, Anchor } from "lucide-react";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 export default function Contact() {
+  useEffect(() => {
+    document.title = "Contacto | Grupo Topke Guatemala";
+  }, []);
+
   return (
     <Layout>
+      <Helmet>
+        <title>Contacto | Grupo Topke Guatemala</title>
+        <meta name="description" content="Contáctenos para cotizaciones de maquinaria, riego, generadores y equipos industriales. Tel: +502 2224 8080. Más de 125 años de experiencia en Guatemala." />
+        <meta name="keywords" content="contacto Topke, cotizaciones maquinaria, ventas equipos industriales, Guatemala, teléfono Topke, dirección Topke" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative h-[40vh] flex items-center overflow-hidden bg-zinc-900">
         <div className="absolute inset-0 z-0">

@@ -2,6 +2,8 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 interface DivisionProps {
   title: string;
@@ -10,11 +12,23 @@ interface DivisionProps {
   features: string[];
   image: string;
   icon?: React.ReactNode;
+  seoTitle?: string;
+  seoDescription?: string;
+  seoKeywords?: string;
 }
 
-export default function DivisionTemplate({ title, subtitle, description, features, image }: DivisionProps) {
+export default function DivisionTemplate({ title, subtitle, description, features, image, seoTitle, seoDescription, seoKeywords }: DivisionProps) {
+  useEffect(() => {
+    document.title = seoTitle || `${title} | Grupo Topke Guatemala`;
+  }, [seoTitle, title]);
+
   return (
     <Layout>
+      <Helmet>
+        <title>{seoTitle || `${title} | Grupo Topke Guatemala`}</title>
+        <meta name="description" content={seoDescription || description} />
+        <meta name="keywords" content={seoKeywords || `${title}, Guatemala, Topke`} />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative h-[40vh] flex items-center overflow-hidden bg-zinc-900">
         <div className="absolute inset-0 z-0">
