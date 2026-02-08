@@ -160,3 +160,9 @@
 - [x] Subir imagen mejorada a S3
 - [x] Actualizar URL en código
 - [x] Verificar y crear checkpoint
+
+## Corregir Imagen de Tijera Eléctrica
+- [x] Localizar la tijera eléctrica en el código
+- [x] Verificar URL de imagen
+- [x] Corregir o generar nueva imagen si es necesario
+- [x] Verificar y crear checkpoint

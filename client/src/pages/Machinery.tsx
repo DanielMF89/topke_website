@@ -210,7 +210,7 @@ export default function Machinery() {
         {
           name: "Tijera Eléctrica XG1212AC",
           desc: "Altura Trabajo: 12m | Capacidad: 320kg | Tipo: Tijera Eléctrica | Cero emisiones",
-          image: "/images/machinery/xcmg-scissor-lift.jpg"
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/jbCttumDScCvRDLh.jpg"
         },
         {
           name: "Brazo Telescópico XGS28",
