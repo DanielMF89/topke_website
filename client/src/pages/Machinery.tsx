@@ -2,7 +2,8 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Hammer, Truck, HardHat, Ruler, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 // Definición de tipos para las categorías y productos
 type Product = {
@@ -21,6 +22,10 @@ type Category = {
 
 export default function Machinery() {
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
+
+  useEffect(() => {
+    document.title = "Maquinaria de Construcción XCMG | Grupo Topke Guatemala";
+  }, []);
 
   const categories: Category[] = [
     {
@@ -251,6 +256,11 @@ export default function Machinery() {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Maquinaria de Construcción XCMG | Grupo Topke Guatemala</title>
+        <meta name="description" content="Venta y renta de maquinaria pesada XCMG en Guatemala: excavadoras, cargadores, motoniveladoras, compactadores, equipos de elevación y concreto. Soluciones para construcción." />
+        <meta name="keywords" content="maquinaria pesada, excavadoras XCMG, cargadores frontales, motoniveladoras, compactadores, equipos de elevación, bombas de concreto, maquinaria construcción Guatemala, Topke, venta maquinaria, renta maquinaria" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center overflow-hidden bg-zinc-900">
         <div className="absolute inset-0 z-0">

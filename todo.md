@@ -172,3 +172,9 @@
 - [x] Configurar enlace de WhatsApp (+502 2224 8080)
 - [x] Actualizar código para que todos los botones redirijan a WhatsApp
 - [x] Verificar y crear checkpoint
+
+## Optimizar SEO de Página de Maquinaria
+- [x] Agregar meta descripción (50-160 caracteres) con palabras clave
+- [x] Agregar meta keywords relacionadas con maquinaria de construcción
+- [x] Optimizar título de página para SEO
+- [x] Verificar y crear checkpoint
