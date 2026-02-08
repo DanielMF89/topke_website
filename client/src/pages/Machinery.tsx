@@ -160,8 +160,8 @@ export default function Machinery() {
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/UCVdiRrKfxAPvoZQ.jpg",
       products: [
         {
-          name: "Camión Mezclador G12V",
-          desc: "Capacidad: 12m³ | Chasis: HOWO/XCMG | Motor: 380 HP | Tecnología de mezclado homogéneo",
+          name: "Camión Mezclador XS308D",
+          desc: "Capacidad: 8m³ | Chasis: XCMG | Motor: Cummins 380hp | Tecnología de mezclado homogéneo",
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/UCVdiRrKfxAPvoZQ.jpg"
         },
         {

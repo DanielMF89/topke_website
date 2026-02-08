@@ -150,3 +150,7 @@
 - [x] Revisar el logo de Komet en la sección de marcas
 - [x] Corregir visualización del logo
 - [x] Verificar y crear checkpoint
+
+## Actualizar Camión Mezclador con Especificaciones Correctas
+- [x] Actualizar modelo a XS308D con capacidad 8m³, chasis XCMG, motor Cummins 380hp
+- [x] Verificar y crear checkpoint
