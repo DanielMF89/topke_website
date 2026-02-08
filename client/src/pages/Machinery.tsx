@@ -126,18 +126,18 @@ export default function Machinery() {
     {
       id: "elevacion",
       name: "Equipos de Elevación",
-      subtitle: "Torres Grúa, Camiones Grúa, Elevadores de Fachada y Brazo Hidráulico",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/PPmmiMXShUEhtTPq.jpg",
+      subtitle: "Torres Grúa y Camiones Grúa XCMG",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg",
       products: [
         {
-          name: "Grúa Móvil XCT25L5",
-          desc: "Capacidad: 25T | Pluma: 42m | Motor: SC9DF300 | Tipo: Camión Grúa",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/PPmmiMXShUEhtTPq.jpg"
+          name: "Torres Grúa XCMG",
+          desc: "Alturas: 40m-200m | Tipos: Topless, Luffing | Tonelaje: 6t-25t | Pluma: 53m-75m | Estacionarias y autoerigibles",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg"
         },
         {
-          name: "Torre Grúa XGT6515",
-          desc: "Capacidad Punta: 1.5T | Carga Máx: 10T | Alcance: 65m | Tipo: Torre Grúa",
-          image: "/images/machinery/xcmg-tower-crane.jpg"
+          name: "Camiones Grúa XCMG",
+          desc: "Tonelaje: 10t-230t | Pluma telescópica: 44m-50.5m | Momento de carga: 1,991-5,000 kN.m | Contrapeso: hasta 32t",
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/qzqggRTEiAsovSup.jpg"
         }
       ]
     },
