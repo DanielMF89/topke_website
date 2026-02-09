@@ -6,10 +6,16 @@ import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 // Definición de tipos para las categorías y productos
+type CraneType = {
+  name: string;
+  image: string;
+};
+
 type Product = {
   name: string;
   desc: string;
   image: string;
+  types?: CraneType[]; // Opcional: para mostrar tipos de torres grúa
 };
 
 type Category = {
@@ -131,16 +137,34 @@ export default function Machinery() {
     {
       id: "elevacion",
       name: "Equipos de Elevación",
-      subtitle: "Torres Grúa y Camiones Grúa XCMG",
+      subtitle: "Torres Grúa y Camiones Grúa",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg",
       products: [
         {
-          name: "Torres Grúa XCMG",
+          name: "Torres Grúa",
           desc: "Alturas: 40m-200m | Tipos: Topless, Luffing | Tonelaje: 6t-25t | Pluma: 53m-75m | Estacionarias y autoerigibles",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg"
+          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg",
+          types: [
+            {
+              name: "Stationary (Fija)",
+              image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/dzFbmlYyADN947TdvO79Bi-img-1_1770647380000_na1fn_dG9ycmUtZ3J1YS1zdGF0aW9uYXJ5.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2R6RmJtbFl5QUROOTQ3VGR2Tzc5QmktaW1nLTFfMTc3MDY0NzM4MDAwMF9uYTFmbl9kRzl5Y21VdFozSjFZUzF6ZEdGMGFXOXVZWEo1LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Ma3brbpbKnj9FQRispYjmsFNVaOZ7Y9wdB3tlLIaCv8hEi7jPAeq3sMzgHbtPiNtdlVillfscx8BEdcS12n1iy~8cGQTsKcFpVol9BPd1CX~ojnO6nrJ2-7g0RYS2CsSNSMSZ2dX0sAl6FSnerEGn7I-1N3xb8tRJBcgeyY-2gxFYWhK3jk43o6k2k8a1cYwaVtK56eYnc5qthKNIbj9upyqb4JmL~eMPvhQbvCmmPuDVdjSJMp7FT7YeqOYCaoANGCPfirYZjNE9MRYoGti9Gb0UhJ~2pC8WdvwrUUQdSx2QZNjvFx~6CyAqunQ4K5QIOi-i8~NLpWH8KZuEeYL2A__"
+            },
+            {
+              name: "Under Frame Loading (Carga Bajo Bastidor)",
+              image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/dzFbmlYyADN947TdvO79Bi-img-2_1770647385000_na1fn_dG9ycmUtZ3J1YS11bmRlcmZyYW1l.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2R6RmJtbFl5QUROOTQ3VGR2Tzc5QmktaW1nLTJfMTc3MDY0NzM4NTAwMF9uYTFmbl9kRzl5Y21VdFozSjFZUzExYm1SbGNtWnlZVzFsLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=lpliPuI93agZKgzgIZYkww0vTqZPSJefIsmF12XNtRQVL-QEUIeL~NzStL0x-jG4nhmWpFh3HXVJvLwCpl0F~4-LlB~ZLxTO3Yc7CqkpwYyyspS94zyGi~SdSSC24U1p5cg5arNu1nyMKN3IMt8GmkTuGNwqPlB-RzWdx2KW-BXO8xfC9NstpfUS9sYOTENpj~leKw0miz~ctthGGxozEI3QCZrOWqSic7cACEOKFytXb-QGS1x1gIN9rXEwJQfTV7CyB~zyfBnc2H3lXbQl4TGRqMVOjdXPBr5aUJ8LqMpfuYORyV8YZQRc0n7q-efeX4mSVkDbsY5J26EeBIKe6w__"
+            },
+            {
+              name: "Travelling (Viajera)",
+              image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/dzFbmlYyADN947TdvO79Bi-img-3_1770647380000_na1fn_dG9ycmUtZ3J1YS10cmF2ZWxsaW5n.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2R6RmJtbFl5QUROOTQ3VGR2Tzc5QmktaW1nLTNfMTc3MDY0NzM4MDAwMF9uYTFmbl9kRzl5Y21VdFozSjFZUzEwY21GMlpXeHNhVzVuLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=aCOGe987PJzMXjtz5Vzi2Ih-hZyzTbzpHAEgXxeBbAhl5G3njET88mX7MLSISZGI0c~Ewuz0yx8OqBVXLC-pxtH1DdvTIEBRafJoQsi0vMDOB4yK6xbKqC7kCspvZkN3fdcMWJPG2xu5wWBQ3tUpHqmL1Gk2dEPnJqAdYq5os06r-sPF1v2wdTqy0yHm160aiafaYNv-qPquUQjDw1zReh1jEO9SxGB7S10NOrOhYV51kiPojZ0ZiZd1712iHWz0XlPmWRnuG-Wux0bOdsZOE4VPpzOX~wBnaNhPwO0nN~KfWx-ilgC-bLDpZRGWSwHPeyYl17ErV0SmJZfgKBukHg__"
+            },
+            {
+              name: "Inner-Climbing (Trepadora)",
+              image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/dzFbmlYyADN947TdvO79Bi-img-4_1770647392000_na1fn_dG9ycmUtZ3J1YS1pbm5lcmNsaW1iaW5n.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2R6RmJtbFl5QUROOTQ3VGR2Tzc5QmktaW1nLTRfMTc3MDY0NzM5MjAwMF9uYTFmbl9kRzl5Y21VdFozSjFZUzFwYm01bGNtTnNhVzFpYVc1bi5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QsHk3csvj0od4YYkR4PLoRHGzOwtyYLBMJESTe5~LRYzbFY8Gqg34lv3rlWPIwdyp5awFf5LAeztldq4-94fvLAVuNREg8PtooA29UGSmQFMNNCAZ4dJS6cG9CeYhbYJ~VL-H6bT5L4BRpnOZPqMb6UAynF4zFEZkO1rv~t1WPx9hcxDpqyaT9rWLXYaFos4ZudKRwW1amP3Q~Oc0mugVSdeaWSBEiKwVuNaGMPlNS9RID~CF45jocVGBfl6yAt~vpg4Y85~QLEJpI97D8rH5PuCkdjkxbQYClkSC74PnCY9qBa9loXW0tuiMXrvaGNWej~5vx-UgnWso3iw9408yQ__"
+            }
+          ]
         },
         {
-          name: "Camiones Grúa XCMG",
+          name: "Camiones Grúa",
           desc: "Tonelaje: 10t-230t | Pluma telescópica: 44m-50.5m | Momento de carga: 1,991-5,000 kN.m | Contrapeso: hasta 32t",
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/qzqggRTEiAsovSup.jpg"
         }
@@ -411,7 +435,7 @@ export default function Machinery() {
                         <h4 className="text-2xl font-bold text-zinc-900 mb-4">{product.name}</h4>
                         
                         {/* Renderizado de descripción como lista vertical */}
-                        <div className="space-y-3 mb-8 flex-grow">
+                        <div className="space-y-3 mb-6 flex-grow">
                           {product.desc.split('|').map((item, i) => (
                             <div key={i} className="flex items-start">
                               <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 mr-3 flex-shrink-0"></div>
@@ -419,6 +443,27 @@ export default function Machinery() {
                             </div>
                           ))}
                         </div>
+
+                        {/* Tipos de torres grúa (si existen) */}
+                        {product.types && product.types.length > 0 && (
+                          <div className="mb-6">
+                            <h5 className="text-sm font-semibold text-zinc-700 mb-3 uppercase tracking-wide">Tipos Disponibles:</h5>
+                            <div className="grid grid-cols-2 gap-3">
+                              {product.types.map((type, idx) => (
+                                <div key={idx} className="flex flex-col items-center p-3 bg-zinc-50 border border-zinc-200 rounded-lg hover:border-primary transition-colors">
+                                  <div className="w-16 h-16 mb-2 overflow-hidden rounded">
+                                    <img 
+                                      src={type.image} 
+                                      alt={type.name}
+                                      className="w-full h-full object-cover"
+                                    />
+                                  </div>
+                                  <span className="text-xs text-zinc-600 text-center font-medium leading-tight">{type.name}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
 
                         <Button 
                           className="w-full bg-zinc-900 hover:bg-primary text-white hover:text-white transition-colors mt-auto"

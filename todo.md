@@ -192,3 +192,13 @@
 - [x] Crear sitemap.xml
 - [x] Crear robots.txt
 - [x] Verificar y crear checkpoint final
+
+## Actualización Equipos de Elevación (Feb 9, 2026)
+- [x] Cambiar "Torres Grúa XCMG" a "Torres Grúa"
+- [x] Cambiar "Camiones Grúa XCMG" a "Camiones Grúa"
+- [x] Generar imagen miniatura para torre grúa tipo Stationary (fija)
+- [x] Generar imagen miniatura para torre grúa tipo Under frame loading (carga bajo bastidor)
+- [x] Generar imagen miniatura para torre grúa tipo Travelling (viajera)
+- [x] Generar imagen miniatura para torre grúa tipo Inner-climbing (trepadora)
+- [x] Implementar galería de tipos de torres grúa en página Maquinaria
+- [x] Verificar y crear checkpoint
