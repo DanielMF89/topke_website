@@ -32,7 +32,7 @@ export default function Home() {
       <Helmet>
         <title>Maquinaria, Riego y Generadores | Grupo Topke Guatemala</title>
         <meta name="description" content="Maquinaria XCMG, sistemas de riego, generadores eléctricos y equipos industriales en Guatemala. Más de 125 años de experiencia. Venta, renta y servicio." />
-        <meta name="keywords" content="maquinaria, riego, generadores, xcmg, excavadoras, pivotes, bombas, Topke, Guatemala" />
+        <meta name="keywords" content="maquinaria, riego, generadores, xcmg, bombas, Topke, Guatemala" />
         <script type="application/ld+json">
           {`
             {

@@ -249,3 +249,8 @@
 - [x] Cambiar "pivotes centrales" por "pivotes"
 - [x] Cambiar "XCMG" por "xcmg" (minúsculas)
 - [x] Verificar y crear checkpoint
+
+## Eliminar "excavadoras" y "pivotes" de Keywords (Feb 9, 2026)
+- [x] Eliminar "excavadoras" de palabras clave
+- [x] Eliminar "pivotes" de palabras clave
+- [x] Verificar y crear checkpoint

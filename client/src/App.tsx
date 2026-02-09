@@ -34,7 +34,7 @@ function Router() {
           image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CgigVpouSQNJJntm.jpg"
           seoTitle="Sistemas de Riego Guatemala | Grupo Topke"
           seoDescription="Riego tecnificado en Guatemala: pivotes centrales, goteo, bombas. Diseño, instalación y mantenimiento para agricultura."
-          seoKeywords="riego, sistemas de riego, riego tecnificado, pivotes, riego por goteo, bombas de agua, Topke Guatemala"
+          seoKeywords="riego, sistemas de riego, riego tecnificado, riego por goteo, bombas de agua, Topke Guatemala"
         />
       </Route>
       
