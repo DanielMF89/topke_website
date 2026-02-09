@@ -142,7 +142,7 @@ export default function Machinery() {
       products: [
         {
           name: "Torres Grúa",
-          desc: "Alturas: 40m-200m | Tipos: Topless, Luffing | Tonelaje: 6t-25t | Pluma: 53m-75m",
+          desc: "Alturas: 40m-400m | Tipos: Topless, Luffing | Tonelaje: 6t-1,000t | Pluma: 30m-100m",
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg",
           types: [
             {

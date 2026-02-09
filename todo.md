@@ -207,3 +207,10 @@
 - [x] Ajustar marco de miniaturas de tipos de torres grúa (quitar fondo gris, mostrar solo imagen)
 - [x] Eliminar descripción "Estacionarias y autoerigibles" de especificaciones de Torres Grúa
 - [x] Verificar cambios y crear checkpoint
+
+## Investigación Especificaciones Torres Grúa XCMG (Feb 9, 2026)
+- [x] Investigar alturas máximas reales de torres grúa XCMG
+- [x] Investigar tonelaje máximo real de torres grúa XCMG
+- [x] Investigar longitud máxima de pluma de torres grúa XCMG
+- [x] Actualizar especificaciones en código con datos precisos
+- [x] Verificar y crear checkpoint
