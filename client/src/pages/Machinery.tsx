@@ -165,7 +165,7 @@ export default function Machinery() {
         },
         {
           name: "Camiones Grúa",
-          desc: "Tonelaje: 10t-230t | Pluma telescópica: 44m-50.5m | Momento de carga: 1,991-5,000 kN.m | Contrapeso: hasta 32t",
+          desc: "Tonelaje: 10t-4,000t | Pluma telescópica: 44m-100m | Momento de carga: 1,991-60,000 kN.m | Contrapeso: 9t-340t",
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/qzqggRTEiAsovSup.jpg"
         }
       ]
