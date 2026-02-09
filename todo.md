@@ -222,3 +222,10 @@
 - [x] Verificar especificaciones actuales en el sitio
 - [x] Actualizar especificaciones si es necesario
 - [x] Verificar y crear checkpoint
+
+## Agregar Elevadores de Construcción (Feb 9, 2026)
+- [x] Investigar elevadores de construcción (construction hoist) XCMG
+- [x] Investigar especificaciones técnicas y modelos disponibles
+- [x] Generar imagen profesional de elevador de construcción
+- [x] Agregar producto a sección Equipos de Elevación en código
+- [x] Verificar y crear checkpoint

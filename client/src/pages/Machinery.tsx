@@ -137,7 +137,7 @@ export default function Machinery() {
     {
       id: "elevacion",
       name: "Equipos de Elevación",
-      subtitle: "Torres Grúa y Camiones Grúa",
+      subtitle: "Torres Grúa, Camiones Grúa y Elevadores de Construcción",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg",
       products: [
         {
@@ -167,6 +167,11 @@ export default function Machinery() {
           name: "Camiones Grúa",
           desc: "Tonelaje: 10t-4,000t | Pluma telescópica: 44m-100m | Momento de carga: 1,991-60,000 kN.m | Contrapeso: 9t-340t",
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/qzqggRTEiAsovSup.jpg"
+        },
+        {
+          name: "Elevadores de Construcción",
+          desc: "Modelos: SC100, SC200, SC270 | Capacidad: 1,000-2,700 kg/cabina | Configuración: Simple o doble cabina | Velocidad: 0-96 m/min | Altura máxima: 260m",
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/uWV1OFbH4IdLo3YmPLDk3X-img-1_1770649566000_na1fn_ZWxldmFkb3ItY29uc3RydWNjaW9uLXhjbWc.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3VXVjFPRmJINElkTG8zWW1QTERrM1gtaW1nLTFfMTc3MDY0OTU2NjAwMF9uYTFmbl9aV3hsZG1Ga2IzSXRZMjl1YzNSeWRXTmphVzl1TFhoamJXYy5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=EO2-Jl1ZQO5qIReW~M5k172p7enZkuXR~5HDiIA0oN7CIdrC1C68tgN~QGyZXOy~kIfVooCpcbFlaJtMFu7Yo-P9RVQs-~DjN0~Z7J22NHvDOi-gsdn5N2bikn6Kz5EDYH~5fsdwuLin7clhhoS2~mPNK0TIJKFDFIqlgOkCVf6cXST5wVdFPbEyrOZQxlmg10KLrf~ckLb9zf78z3qthmXbFvsbg0MJPUkCTZhAWYxwA7iG3q7j9jeN~I2jOl-z2W1G7BP-q160L1GPIUTahu9Gdg4jowv~-lfQ9vdZS-s4UdayG98iOo7PN0IyriysYOZq--KZY51fGu0njqAlBA__"
         }
       ]
     },
