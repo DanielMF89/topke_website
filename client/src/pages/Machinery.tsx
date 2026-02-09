@@ -142,7 +142,7 @@ export default function Machinery() {
       products: [
         {
           name: "Torres Grúa",
-          desc: "Alturas: 40m-200m | Tipos: Topless, Luffing | Tonelaje: 6t-25t | Pluma: 53m-75m | Estacionarias y autoerigibles",
+          desc: "Alturas: 40m-200m | Tipos: Topless, Luffing | Tonelaje: 6t-25t | Pluma: 53m-75m",
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDOIMUUnqEwDUCDe.jpg",
           types: [
             {
@@ -450,8 +450,8 @@ export default function Machinery() {
                             <h5 className="text-sm font-semibold text-zinc-700 mb-3 uppercase tracking-wide">Tipos Disponibles:</h5>
                             <div className="grid grid-cols-2 gap-3">
                               {product.types.map((type, idx) => (
-                                <div key={idx} className="flex flex-col items-center p-3 bg-zinc-50 border border-zinc-200 rounded-lg hover:border-primary transition-colors">
-                                  <div className="w-16 h-16 mb-2 overflow-hidden rounded">
+                                <div key={idx} className="flex flex-col items-center">
+                                  <div className="w-20 h-20 mb-2 overflow-hidden rounded shadow-sm">
                                     <img 
                                       src={type.image} 
                                       alt={type.name}

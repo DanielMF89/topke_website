@@ -202,3 +202,8 @@
 - [x] Generar imagen miniatura para torre grúa tipo Inner-climbing (trepadora)
 - [x] Implementar galería de tipos de torres grúa en página Maquinaria
 - [x] Verificar y crear checkpoint
+
+## Ajustes Visuales Torres Grúa (Feb 9, 2026)
+- [x] Ajustar marco de miniaturas de tipos de torres grúa (quitar fondo gris, mostrar solo imagen)
+- [x] Eliminar descripción "Estacionarias y autoerigibles" de especificaciones de Torres Grúa
+- [x] Verificar cambios y crear checkpoint
