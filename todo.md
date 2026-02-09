@@ -236,3 +236,7 @@
 - [x] Ajustar título de 63 caracteres a 30-60 caracteres
 - [x] Reducir descripción de 162 caracteres a 50-160 caracteres
 - [x] Verificar y crear checkpoint
+
+## Agregar palabra clave "riego" (Feb 9, 2026)
+- [x] Agregar "riego" a las palabras clave de la página /riego
+- [x] Verificar y crear checkpoint
