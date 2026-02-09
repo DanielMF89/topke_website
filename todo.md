@@ -240,3 +240,12 @@
 ## Agregar palabra clave "riego" (Feb 9, 2026)
 - [x] Agregar "riego" a las palabras clave de la página /riego
 - [x] Verificar y crear checkpoint
+
+## Optimización Global Palabras Clave SEO (Feb 9, 2026)
+- [x] Buscar todas las palabras clave en el sitio
+- [x] Eliminar "cargadores" de keywords
+- [x] Eliminar "maquinaria pesada" de keywords
+- [x] Eliminar "equipos de construcción" de keywords
+- [x] Cambiar "pivotes centrales" por "pivotes"
+- [x] Cambiar "XCMG" por "xcmg" (minúsculas)
+- [x] Verificar y crear checkpoint
