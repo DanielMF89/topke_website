@@ -53,10 +53,10 @@ function Router() {
 
       <Route path="/logistica">
         <DivisionTemplate 
-          title="Manejo de materiales" 
+          title="Manejo de materiales y elevación" 
           subtitle="Sistemas de Elevación e Izaje."
           description="Soluciones robustas para el manejo de cargas pesadas en entornos industriales. Diseño, suministro e instalacion de sistemas de elevación que optimizan la seguridad y productividad de sus operaciones."
-          features={["Grúas Puente", "Grúas Pórtico", "Polipastos y Winches", "Sistemas de Elevación a Medida"]}
+          features={["Puentes Grúa", "Complementos y Partes", "Polipastos y Winches", "Sistemas de Elevación a Medida"]}
           image="/images/overhead-crane-real.jpg"
           seoTitle="Grúas Puente y Sistemas de Elevación Guatemala | Grupo Topke"
           seoDescription="Grúas puente, grúas pórtico, polipastos y sistemas de elevación industrial en Guatemala. Diseño e instalación de equipos de izaje para manejo de cargas pesadas."

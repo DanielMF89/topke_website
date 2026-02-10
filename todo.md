@@ -262,3 +262,9 @@
 ## Reordenar Sección de Instagram (Feb 10, 2026)
 - [x] Mover sección de posts de Instagram entre "Comprometidos con el Rendimiento" y "El Éxito de Nuestros Clientes"
 - [x] Verificar y crear checkpoint
+
+## Actualizar Sección Manejo de Materiales (Feb 10, 2026)
+- [x] Cambiar título de "Manejo de materiales" a "Manejo de materiales y elevación"
+- [x] Cambiar feature "Grúas Puente" a "Puentes Grúa"
+- [x] Cambiar feature "Grúas Pórtico" a "Complementos y Partes"
+- [x] Verificar y crear checkpoint
