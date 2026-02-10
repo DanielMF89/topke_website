@@ -70,7 +70,8 @@ function Router() {
           subtitle="Productos especializados para el mantenimiento y vida útil de maquinaria."
           description="Lubricantes de alto rendimiento formulados para proteger sus equipos bajo las condiciones más severas de operación, extendiendo su vida útil."
           features={["Aceites de Motor", "Fluidos Hidráulicos", "Grasas Industriales", "Análisis de Aceite"]}
-          image="/images/motul-drum-real.jpg"
+          image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/plvakxGEFSEcrfnk.jpg"
+          brandsImage="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/hCKljYyUucXYxEyM.jpg"
           seoTitle="Lubricantes Industriales y Aceites Guatemala | Grupo Topke"
           seoDescription="Lubricantes industriales, aceites de motor, fluidos hidráulicos y grasas de alto rendimiento en Guatemala. Productos Motul para maquinaria pesada y equipos industriales."
           seoKeywords="lubricantes industriales, aceites de motor, fluidos hidráulicos, grasas industriales, Motul Guatemala, Topke, análisis de aceite"
