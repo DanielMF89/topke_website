@@ -36,7 +36,7 @@ const items = [
     title: "Motores y Bombas",
     subtitle: "Riego y Edificios",
     icon: Droplets,
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/KZXFZJjJQOVrgIbf.jpg",
+    image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/SVswVd9wqfqhyxEOC8iChw-img-1_1770738789000_na1fn_dmVydGljYWwtdHVyYmluZS1wdW1w.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L1NWc3dWZDl3cWZxaHl4RU9DOGlDaHctaW1nLTFfMTc3MDczODc4OTAwMF9uYTFmbl9kbVZ5ZEdsallXd3RkSFZ5WW1sdVpTMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=VwKeP6l5edpplEIieC0Tp6ZxaBhlktLHyog4JDhLtJzYxdLEfEDLhUqU4TmrQMa2bDxTWbuOST15673py7UhGho0tfQRdDciKLFGGB1VBqOP0yvlRoiGIdevISbv09bjZ~b-ZjmnD5MHCqxfRnVtJegBeTKIjOkDXFhuV7DHc0VgxunErVEJxPFEIPiB~NMTMuhdoWYof5WtlXcl-kv5TnCb2bWB4nRtoSje9p2pHx~jb88a3fqD-nGuUkaqNUkvPPZZdI8A5dnvgfEUHj52WXuuVS1ZR6~wZtF03BmyS4ySDfMUzkphVkkA0Y1p8L9oeZi~d5~iv5trCySKJZJ6qQ__",
     link: "/propulsion",
     color: "bg-zinc-800"
   },
@@ -45,7 +45,7 @@ const items = [
     title: "Logística",
     subtitle: "Grúas y Elevación",
     icon: Anchor,
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uzLhuwBFVSCJFeOC.jpg",
+    image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/SVswVd9wqfqhyxEOC8iChw-img-2_1770738776000_na1fn_b3ZlcmhlYWQtY3JhbmU.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L1NWc3dWZDl3cWZxaHl4RU9DOGlDaHctaW1nLTJfMTc3MDczODc3NjAwMF9uYTFmbl9iM1psY21obFlXUXRZM0poYm1VLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Wgz4bWhCfg5uQtEl0~7jKB0r3V6rIp5cGmkxx3vjZoFmIyYmRNRPTWeDhtyBzWIYmC-GsLFWq-zy6k5cpEZlWf6f96tMmV1wWnLHZmlJRWzEgDsewH6odDTl40oadxtj5z0mo8aTMhTCyDBBCTmFh6bMIqn2n24QeM~MawMQh8RTDxJP4DRWu4YjdZBh5kqhOEKvjnH9cLelQGDiaL8~Mb6ZVyMs6X9-oZ8gj79E7wTVn~SbC1Had9JlKJZF0NBrQtIeQYqlJBBazlT-q4LeN7nH-a3GdWLgHc6HsXkYwx46Cmf92nfpuOyHjjhHKTE1jj6FEoJ0HUersuFlSJvTOQ__",
     link: "/logistica",
     color: "bg-zinc-900"
   },
@@ -54,7 +54,7 @@ const items = [
     title: "Lubricantes",
     subtitle: "Aceites Industriales",
     icon: Wrench,
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/ZgnUVkEvzNfHTLpw.jpg",
+    image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/SVswVd9wqfqhyxEOC8iChw-img-3_1770738778000_na1fn_bHVicmljYW50ZXMtaW5kdXN0cmlhbA.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L1NWc3dWZDl3cWZxaHl4RU9DOGlDaHctaW1nLTNfMTc3MDczODc3ODAwMF9uYTFmbl9iSFZpY21sallXNTBaWE10YVc1a2RYTjBjbWxoYkEuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fRdgMuPMLZaeSOhFN9PEs~Q9Kzsc0AuBAgewVDdpU7gjsK1JyfpK6PCYLOW48SZyM8OI981XqvyjaDMHkeGi2RzEAk1fZeBGd8HA1tcoJ9IVSjuaYYminUaH1ic9bnI0kTtbWK1oblcGTDBujciatfbziD52LcL~JyqYzI6dc2A3Kh85RD9cXVJbAToRr6BfE-W2HaOXbG5pdU3SLb~TpLe5TXJov3cPuoLdpM-5ebseGLGDmykA49u1JqkTaAuCxlx33fCbBq0knatjFzQRfswvSIvJ9cB7xoCKn8yKNVK9xjsAEDgMFvm7Mlz1vSwdwAJze0Qa2YNwBj7mKXpx6g__",
     link: "/lubricantes",
     color: "bg-zinc-900"
   },

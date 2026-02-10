@@ -275,3 +275,9 @@
 - [x] Subir imágenes a CDN y actualizar rutas en código
 - [x] Verificar que todas las imágenes cargan correctamente
 - [x] Crear checkpoint
+
+## Actualizar Imágenes Bento Grid (Feb 10, 2026)
+- [x] Actualizar imagen de Logística en bento grid con nueva imagen de puente grúa
+- [x] Actualizar imagen de Motores y Bombas en bento grid con nueva imagen de bomba turbina
+- [x] Actualizar imagen de Lubricantes en bento grid con nueva imagen de almacén Motul
+- [x] Verificar y crear checkpoint
