@@ -87,7 +87,7 @@ export default function Home() {
 
           {/* Purpose Content */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
+            <div style={{width: '1100px'}}>
               <span className="text-zinc-500 font-bold uppercase tracking-widest text-xs mb-4 block">Nuestra Filosofía</span>
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-6 uppercase leading-tight text-zinc-900">
                 El éxito de nuestros clientes es <span className="text-primary">nuestro éxito</span>

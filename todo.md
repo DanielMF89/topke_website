@@ -254,3 +254,7 @@
 - [x] Eliminar "excavadoras" de palabras clave
 - [x] Eliminar "pivotes" de palabras clave
 - [x] Verificar y crear checkpoint
+
+## Ajuste Visual Sección "Nuestra Filosofía" (Feb 9, 2026)
+- [x] Ajustar ancho de div en sección "Nuestra Filosofía" de 576px a 1100px (editor visual)
+- [x] Verificar y crear checkpoint
