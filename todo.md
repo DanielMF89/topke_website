@@ -268,3 +268,10 @@
 - [x] Cambiar feature "Grúas Puente" a "Puentes Grúa"
 - [x] Cambiar feature "Grúas Pórtico" a "Complementos y Partes"
 - [x] Verificar y crear checkpoint
+
+## Corregir Imágenes que No Cargan (Feb 10, 2026)
+- [x] Identificar rutas de imágenes rotas en Lubricantes, Logística y Propulsión
+- [x] Generar nuevas imágenes profesionales para las tres secciones
+- [x] Subir imágenes a CDN y actualizar rutas en código
+- [x] Verificar que todas las imágenes cargan correctamente
+- [x] Crear checkpoint
