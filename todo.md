@@ -258,3 +258,7 @@
 ## Ajuste Visual Sección "Nuestra Filosofía" (Feb 9, 2026)
 - [x] Ajustar ancho de div en sección "Nuestra Filosofía" de 576px a 1100px (editor visual)
 - [x] Verificar y crear checkpoint
+
+## Reordenar Sección de Instagram (Feb 10, 2026)
+- [x] Mover sección de posts de Instagram entre "Comprometidos con el Rendimiento" y "El Éxito de Nuestros Clientes"
+- [x] Verificar y crear checkpoint

@@ -85,6 +85,11 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Instagram Feed Section - Moved here */}
+          <div className="my-16">
+            <InstagramFeed />
+          </div>
+
           {/* Purpose Content */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div style={{width: '1100px'}}>
@@ -125,11 +130,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
-
-      {/* Instagram Feed Section */}
-      <InstagramFeed />
 
       {/* Brands Marquee - Restored to Light for better visibility */}
       <section className="py-16 bg-white border-b border-zinc-200">
