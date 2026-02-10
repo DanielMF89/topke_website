@@ -15,10 +15,9 @@ interface DivisionProps {
   seoTitle?: string;
   seoDescription?: string;
   seoKeywords?: string;
-  brandsImage?: string;
 }
 
-export default function DivisionTemplate({ title, subtitle, description, features, image, seoTitle, seoDescription, seoKeywords, brandsImage }: DivisionProps) {
+export default function DivisionTemplate({ title, subtitle, description, features, image, seoTitle, seoDescription, seoKeywords }: DivisionProps) {
   useEffect(() => {
     document.title = seoTitle || `${title} | Grupo Topke Guatemala`;
   }, [seoTitle, title]);
@@ -98,23 +97,6 @@ export default function DivisionTemplate({ title, subtitle, description, feature
             />
           </div>
         </div>
-
-        {/* Brands Section - Only for Lubricantes */}
-        {brandsImage && (
-          <div className="container mt-24">
-            <div className="text-center mb-12">
-              <span className="text-zinc-500 font-bold uppercase tracking-widest text-xs mb-4 block">Marcas Disponibles</span>
-              <h3 className="text-3xl font-display font-bold text-zinc-900 uppercase">Motul, Uberlub y Valvoline</h3>
-            </div>
-            <div className="max-w-5xl mx-auto">
-              <img 
-                src={brandsImage} 
-                alt="Marcas de lubricantes: Motul, Uberlub y Valvoline" 
-                className="w-full h-auto object-contain shadow-2xl rounded-lg"
-              />
-            </div>
-          </div>
-        )}
       </section>
 
       {/* Contact Banner */}

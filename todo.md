@@ -262,9 +262,3 @@
 ## Reordenar Sección de Instagram (Feb 10, 2026)
 - [x] Mover sección de posts de Instagram entre "Comprometidos con el Rendimiento" y "El Éxito de Nuestros Clientes"
 - [x] Verificar y crear checkpoint
-
-## Generar Imágenes de Lubricantes (Feb 10, 2026)
-- [x] Generar nueva imagen principal para sección Lubricantes
-- [x] Generar imagen combinada con productos de Motul, Uberlub y Valvoline juntos
-- [x] Actualizar código con nuevas imágenes
-- [x] Verificar y crear checkpoint
