@@ -377,3 +377,8 @@
 - [x] Subir a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/kuJhiznkPAFMWzpm.png)
 - [x] Actualizar imagen en el sitio (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
 - [x] Verificar y crear checkpoint
+
+## Actualizar Textos de Riego (Feb 13, 2026)
+- [x] Verificar cambios en features de Riego (Pivotes, Carretes Viajeros, Aspersores)
+- [x] Aplicar cambios en App.tsx
+- [x] Crear checkpoint
