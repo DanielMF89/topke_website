@@ -31,7 +31,7 @@ function Router() {
           subtitle="Sistemas eficientes para la gestión del agua en el sector agroindustrial."
           description="Ofrecemos soluciones completas de riego tecnificado, desde el diseño hasta la instalación y mantenimiento. Optimizamos el uso del agua para maximizar la productividad de sus cultivos."
           features={["Pivotes", "Riego por Goteo", "Carretes Viajeros", "Aspersores"]}
-          image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CgigVpouSQNJJntm.jpg"
+          image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/bDWIpmjxMOEOGxxT.png"
           seoTitle="Sistemas de Riego Guatemala | Grupo Topke"
           seoDescription="Riego tecnificado en Guatemala: pivotes centrales, goteo, bombas. Diseño, instalación y mantenimiento para agricultura."
           seoKeywords="riego, sistemas de riego, riego tecnificado, riego por goteo, bombas de agua, Topke Guatemala"

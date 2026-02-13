@@ -382,3 +382,9 @@
 - [x] Verificar cambios en features de Riego (Pivotes, Carretes Viajeros, Aspersores)
 - [x] Aplicar cambios en App.tsx
 - [x] Crear checkpoint
+
+## Mejorar Imagen de Pivote Central de Riego (Feb 13, 2026)
+- [x] Mejorar calidad profesional de la fotografía del pivote
+- [x] Subir a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/bDWIpmjxMOEOGxxT.png)
+- [x] Actualizar imagen en bento grid, carrusel y página de Riego (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
+- [x] Verificar y crear checkpoint

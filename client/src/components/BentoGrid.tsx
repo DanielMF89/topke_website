@@ -9,7 +9,7 @@ const items = [
     title: "Riego",
     subtitle: "Sistemas Eficientes",
     icon: Droplets,
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CgigVpouSQNJJntm.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/bDWIpmjxMOEOGxxT.png",
     link: "/riego",
     color: "bg-zinc-900"
   },
