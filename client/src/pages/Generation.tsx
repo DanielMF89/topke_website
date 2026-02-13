@@ -28,7 +28,7 @@ export default function Generation() {
         "Rango: 16 KVa - 50 KVa",
         "Tipo: Monofásicos"
       ],
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uIGyUecqTsFKkEZl.jpg"
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/FaHCiiuxUDprsuVV.jpg"
     },
     {
       title: "Sistemas de Transferencia Automática",
