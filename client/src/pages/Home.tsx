@@ -91,7 +91,7 @@ export default function Home() {
           </div>
 
           {/* Purpose Content */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="max-w-4xl">
             <div>
               <span className="text-zinc-500 font-bold uppercase tracking-widest text-xs mb-4 block">Nuestra Filosofía</span>
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-display font-bold mb-6 uppercase leading-tight text-zinc-900">

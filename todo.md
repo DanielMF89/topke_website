@@ -310,3 +310,9 @@
 - [x] Ajustar CSS para que se muestre en una sola línea sin espacio a la derecha
 - [x] Hacer el título adaptativo en web y móvil
 - [x] Verificar y crear checkpoint
+
+## Eliminar Espacio en Blanco Título (Feb 13, 2026)
+- [x] Revisar estructura del contenedor del título en Home.tsx
+- [x] Ajustar grid o contenedor para eliminar espacio a la derecha
+- [x] Verificar en web y móvil
+- [x] Crear checkpoint
