@@ -350,3 +350,8 @@
 - [x] Actualizar imagen en bento grid (BentoGrid.tsx)
 - [x] Actualizar imagen en página Maquinaria (Machinery.tsx)
 - [x] Verificar cambios y crear checkpoint
+
+## Cambiar Favicon por Logo de Topke (Feb 13, 2026)
+- [x] Localizar logo de Topke y preparar favicon
+- [x] Actualizar favicon en index.html
+- [x] Verificar cambios y crear checkpoint
