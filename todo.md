@@ -304,3 +304,9 @@
 - [x] Localizar modelo "Planta Móvil XS0.75M" en Machinery.tsx
 - [x] Eliminar modelo de la categoría Maquinaria de Concreto
 - [x] Verificar y crear checkpoint
+
+## Ajustar Título "El éxito de nuestros clientes" (Feb 13, 2026)
+- [x] Localizar el título en Home.tsx
+- [x] Ajustar CSS para que se muestre en una sola línea sin espacio a la derecha
+- [x] Hacer el título adaptativo en web y móvil
+- [x] Verificar y crear checkpoint
