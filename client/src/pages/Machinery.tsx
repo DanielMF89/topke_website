@@ -199,11 +199,6 @@ export default function Machinery() {
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/lILypSDXAtPlSvmj.png"
         },
         {
-          name: "Planta Móvil XS0.75M",
-          desc: "Salida: 40m³/h | Concreto: 0.75m³ | Potencia: 30kW | Agregados: 4x5m³",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/raraosgDwHDJfQHe.jpg"
-        },
-        {
           name: "Planta Móvil XS1.0M",
           desc: "Salida: 60m³/h | Concreto: 1m³ | Potencia: 2x18.5kW | Agregados: 4x5m³",
           image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/hHWyMCIWjpQpwNAC.jpg"

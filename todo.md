@@ -299,3 +299,8 @@
 - [x] Revisar consola del navegador para errores de carga
 - [x] Corregir problema de visualización
 - [x] Verificar y crear checkpoint
+
+## Eliminar Modelo Planta Móvil XS0.75M (Feb 13, 2026)
+- [x] Localizar modelo "Planta Móvil XS0.75M" en Machinery.tsx
+- [x] Eliminar modelo de la categoría Maquinaria de Concreto
+- [x] Verificar y crear checkpoint
