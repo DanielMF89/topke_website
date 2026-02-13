@@ -176,15 +176,6 @@ export default function Generation() {
           </div>
         </div>
       </section>
-
-      {/* Brands Strip */}
-      <section className="py-12 bg-zinc-100">
-        <div className="container flex justify-center items-center gap-12 opacity-50 grayscale">
-           <span className="text-3xl font-bold text-zinc-800">TOSHIBA</span>
-           <span className="text-3xl font-bold text-zinc-800">POWERGEN</span>
-           <span className="text-3xl font-bold text-zinc-800">TE2</span>
-        </div>
-      </section>
     </Layout>
   );
 }

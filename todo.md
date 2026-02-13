@@ -333,3 +333,7 @@
 - [x] Colocar generador en ambiente residencial
 - [x] Actualizar imagen en Generation.tsx
 - [x] Verificar y crear checkpoint
+
+## Eliminar Sección Brands Strip de Generación (Feb 13, 2026)
+- [x] Eliminar sección de marcas (TOSHIBA, POWERGEN, TE2) de Generation.tsx
+- [x] Verificar cambios y crear checkpoint
