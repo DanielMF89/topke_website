@@ -293,3 +293,9 @@
 - [x] Copiar URL de imagen del modelo Retroexcavadora CX8-C2570
 - [x] Actualizar imagen de categoría Retroexcavadoras en Machinery.tsx
 - [x] Verificar y crear checkpoint
+
+## Corregir Imagen Retroexcavadoras No Visible (Feb 13, 2026)
+- [x] Verificar URL de imagen de categoría Retroexcavadoras
+- [x] Revisar consola del navegador para errores de carga
+- [x] Corregir problema de visualización
+- [x] Verificar y crear checkpoint
