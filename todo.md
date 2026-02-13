@@ -371,3 +371,9 @@
 - [x] Subir a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/DJjbWoBwVlYiMsLA.jpg)
 - [x] Actualizar imagen en el sitio (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
 - [x] Verificar y crear checkpoint
+
+## Mejorar Fotografía Original de Perforadora (Feb 13, 2026)
+- [x] Mejorar calidad profesional de la foto original sin cambiar detalles
+- [x] Subir a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/kuJhiznkPAFMWzpm.png)
+- [x] Actualizar imagen en el sitio (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
+- [x] Verificar y crear checkpoint

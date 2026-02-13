@@ -83,7 +83,7 @@ function Router() {
           subtitle="Maquinaria y equipos especializados para la perforación de pozos profundos."
           description="Tecnología avanzada para la exploración y extracción de agua subterránea, garantizando eficiencia y seguridad en cada proyecto de perforación."
           features={["Perforación de Pozos", "Equipamiento de Pozos", "Filmación de Pozos", "Mantenimiento y Rehabilitación"]}
-          image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/DJjbWoBwVlYiMsLA.jpg"
+          image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/kuJhiznkPAFMWzpm.png"
           seoTitle="Perforación de Pozos de Agua Guatemala | Grupo Topke"
           seoDescription="Perforación de pozos profundos en Guatemala: perforadoras rotativas XCMG, compresores de aire y herramientas especializadas. Exploración y extracción de agua subterránea."
           seoKeywords="perforación de pozos, pozos de agua, perforadoras rotativas, equipos de perforación Guatemala, Topke, xcmg, pozos profundos, extracción agua subterránea"
