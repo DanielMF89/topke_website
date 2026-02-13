@@ -355,3 +355,7 @@
 - [x] Localizar logo de Topke y preparar favicon
 - [x] Actualizar favicon en index.html
 - [x] Verificar cambios y crear checkpoint
+
+## Actualizar Textos en DivisionTemplate (Feb 13, 2026)
+- [x] Verificar cambios de texto en servicios de perforación
+- [x] Crear checkpoint con cambios confirmados
