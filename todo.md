@@ -365,3 +365,9 @@
 - [x] Subir imagen a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uGAUjqDDfgYYcKhD.jpg)
 - [x] Actualizar referencias en el sitio (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
 - [x] Verificar cambios y crear checkpoint
+
+## Corregir Imagen Perforadora XCMG - Colores Precisos (Feb 13, 2026)
+- [x] Regenerar imagen con colores exactos: solo cabezal rojo, resto amarillo
+- [x] Subir a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/DJjbWoBwVlYiMsLA.jpg)
+- [x] Actualizar imagen en el sitio (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
+- [x] Verificar y crear checkpoint

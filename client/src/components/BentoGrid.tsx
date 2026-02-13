@@ -63,7 +63,7 @@ const items = [
     title: "Perforación",
     subtitle: "Pozos de Agua",
     icon: Pickaxe,
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uGAUjqDDfgYYcKhD.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/DJjbWoBwVlYiMsLA.jpg",
     link: "/perforacion",
     color: "bg-zinc-800"
   },
