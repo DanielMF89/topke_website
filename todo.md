@@ -340,3 +340,7 @@
 ## Cambiar Imagen Hero de Generación (Feb 13, 2026)
 - [x] Cambiar imagen hero por la misma del Generador Industrial T-POWER
 - [x] Verificar cambios y crear checkpoint
+
+## Actualizar Imagen Generación en Bento Grid (Feb 13, 2026)
+- [x] Cambiar imagen de Generación en bento grid por la del Generador Industrial T-POWER
+- [x] Verificar cambios y crear checkpoint
