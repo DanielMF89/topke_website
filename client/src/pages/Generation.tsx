@@ -18,7 +18,7 @@ export default function Generation() {
         "Stock: 27.5 KVa - 300 KVa",
         "Bajo Pedido: Hasta 2000 KVa"
       ],
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/yJMryoBTsjOLWubK.jpg"
+      image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/b5KcaW9Zkil0R1n5R30CUC-img-1_1770999893000_na1fn_Z2VuZXJhZG9yLWluZHVzdHJpYWwtdHBvd2VyLXRvcGtl.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2I1S2NhVzlaa2lsMFIxbjVSMzBDVUMtaW1nLTFfMTc3MDk5OTg5MzAwMF9uYTFmbl9aMlZ1WlhKaFpHOXlMV2x1WkhWemRISnBZV3d0ZEhCdmQyVnlMWFJ2Y0d0bC5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=uIopnXCLaeQh7m36xgF0aGL35321rOtwjc7fLAaiHmdy~ztNCA1V5YCqtRbvEIOOvwmOB1GaEJqaRasTCPXwqn0PBySHiybIZk-SxZHeted-38lBLXO81XnWFL3Od1wScuJWPG~SXCeZckH4n3KrL-ab6PmFmGmkFAj01kyx6w6TqNmhCYaUDRBdQl-gW0S~JtJSMHP4zwI30tQjHXcKpvOcQ6DeK5wuZ4Su8bdEmTSZ0vXC0D074Rj-MjE5Ha20ckWIcMAOM7qL2aoSctCzbz1QpTJqzEkx1Fcjiq90DPHPIy7n4hlzvkifmM4Whcov6Yu1ja-CBKVyBIsc2ksriw__"
     },
     {
       title: "Generador Residencial",

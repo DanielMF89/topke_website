@@ -316,3 +316,9 @@
 - [x] Ajustar grid o contenedor para eliminar espacio a la derecha
 - [x] Verificar en web y móvil
 - [x] Crear checkpoint
+
+## Generar Imagen Generador Industrial T-POWER (Feb 13, 2026)
+- [x] Generar imagen precisa basada en fotografía proporcionada
+- [x] Subir imagen a CDN
+- [x] Actualizar imagen en sección de Generación
+- [x] Verificar y crear checkpoint
