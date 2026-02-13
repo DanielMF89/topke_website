@@ -337,3 +337,6 @@
 ## Eliminar Sección Brands Strip de Generación (Feb 13, 2026)
 - [x] Eliminar sección de marcas (TOSHIBA, POWERGEN, TE2) de Generation.tsx
 - [x] Verificar cambios y crear checkpoint
+## Cambiar Imagen Hero de Generación (Feb 13, 2026)
+- [x] Cambiar imagen hero por la misma del Generador Industrial T-POWER
+- [x] Verificar cambios y crear checkpoint
