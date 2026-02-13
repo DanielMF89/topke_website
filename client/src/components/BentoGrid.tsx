@@ -18,7 +18,7 @@ const items = [
     title: "Maquinaria",
     subtitle: "Construcción y Agro",
     icon: Tractor,
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/LUFLccgeXDteZelu.jpg",
+    image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/z9VnekxWyzinJO6R7ITYzL-img-1_1770402158000_na1fn_eGUyMTVnLXdvcmtpbmc.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3o5Vm5la3hXeXppbkpPNlI3SVRZekwtaW1nLTFfMTc3MDQwMjE1ODAwMF9uYTFmbl9lR1V5TVRWbkxYZHZjbXRwYm1jLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fPvRLQ1ZtoEGhp~SrnVgXEpbBJ2sDq26ruAWka2pdxfwHoRj-NU49yIxa9TpTDjpBC9O2rZoEKIrl-UY2byAmj5heLiqGjRibgLNSuHJ2V5VVbM5BoDryLkOJZx8rbJF0rnl-8s0h93DigsWLbAnsPLr9OYEuLCsze5roTbAeADkMkk2MvtRI6Hca7T8E920kESS1Nd0B~Zxwe-HKQrgSbtZ0Vl-fvx2fZJ~HKC4PTMixfPqRPpbvQ7hfx~LH60RR7GIeSGsu3EyBYd3NzyyKktuqRxSQ~MqyHhbPXo2Y2r5MiL2morcCtBXUuLg~Od04gVh74xMmnh681-7STifsA__",
     link: "/maquinaria",
     color: "bg-zinc-900"
   },

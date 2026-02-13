@@ -344,3 +344,9 @@
 ## Actualizar Imagen Generación en Bento Grid (Feb 13, 2026)
 - [x] Cambiar imagen de Generación en bento grid por la del Generador Industrial T-POWER
 - [x] Verificar cambios y crear checkpoint
+
+## Actualizar Imagen General de Maquinaria (Feb 13, 2026)
+- [x] Localizar URL de imagen de Excavadora XE215G
+- [x] Actualizar imagen en bento grid (BentoGrid.tsx)
+- [x] Actualizar imagen en página Maquinaria (Machinery.tsx)
+- [x] Verificar cambios y crear checkpoint
