@@ -288,3 +288,8 @@
 - [x] Identificar elementos con problemas de visualización
 - [x] Corregir problemas de responsive design
 - [x] Verificar y crear checkpoint
+
+## Actualizar Imagen Categoría Retroexcavadoras (Feb 10, 2026)
+- [x] Copiar URL de imagen del modelo Retroexcavadora CX8-C2570
+- [x] Actualizar imagen de categoría Retroexcavadoras en Machinery.tsx
+- [x] Verificar y crear checkpoint
