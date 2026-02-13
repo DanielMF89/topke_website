@@ -359,3 +359,9 @@
 ## Actualizar Textos en DivisionTemplate (Feb 13, 2026)
 - [x] Verificar cambios de texto en servicios de perforación
 - [x] Crear checkpoint con cambios confirmados
+
+## Generar Imagen Perforadora XCMG XSL520 (Feb 13, 2026)
+- [x] Generar imagen profesional basada en fotografía proporcionada
+- [x] Subir imagen a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uGAUjqDDfgYYcKhD.jpg)
+- [x] Actualizar referencias en el sitio (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
+- [x] Verificar cambios y crear checkpoint
