@@ -388,3 +388,7 @@
 - [x] Subir a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/bDWIpmjxMOEOGxxT.png)
 - [x] Actualizar imagen en bento grid, carrusel y página de Riego (App.tsx, BentoGrid.tsx, HeroCarousel.tsx)
 - [x] Verificar y crear checkpoint
+
+## Restaurar Imagen Original de Motul (Feb 13, 2026)
+- [x] Restaurar imagen original de Motul en Lubricantes
+- [x] Crear checkpoint
