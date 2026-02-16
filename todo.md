@@ -403,3 +403,8 @@
 - [x] Eliminar texto rojo de Maquinaria.tsx
 - [x] Eliminar texto rojo de Generation.tsx
 - [x] Verificar y crear checkpoint
+
+## Aclarar Imágenes Hero (Feb 16, 2026)
+- [x] Revisar gradiente de Maquinaria.tsx (opacity-50 + bg-gradient-to-t from-zinc-900 via-transparent to-zinc-900/50)
+- [x] Ajustar gradiente en DivisionTemplate.tsx para que sea más claro (opacity-50 + bg-gradient-to-t)
+- [x] Verificar y crear checkpoint

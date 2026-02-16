@@ -35,9 +35,9 @@ export default function DivisionTemplate({ title, subtitle, description, feature
           <img 
             src={image} 
             alt={title} 
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-cover opacity-50"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-900/70 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-transparent to-zinc-900/50"></div>
         </div>
 
         <div className="container relative z-10">
