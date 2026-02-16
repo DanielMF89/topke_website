@@ -35,7 +35,7 @@ export default function DivisionTemplate({ title, subtitle, description, feature
           <img 
             src={image} 
             alt={title} 
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-contain object-center opacity-40"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-900/70 to-transparent"></div>
         </div>
@@ -47,10 +47,7 @@ export default function DivisionTemplate({ title, subtitle, description, feature
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <div className="flex items-center gap-4 mb-4">
-              <span className="h-1 w-12 bg-primary"></span>
-              <span className="text-primary font-bold uppercase tracking-widest text-sm">División Especializada</span>
-            </div>
+
             <h1 className="text-5xl md:text-6xl font-display font-bold text-white leading-none mb-6 uppercase">
               {title}
             </h1>

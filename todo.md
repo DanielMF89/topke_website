@@ -392,3 +392,8 @@
 ## Restaurar Imagen Original de Motul (Feb 13, 2026)
 - [x] Restaurar imagen original de Motul en Lubricantes
 - [x] Crear checkpoint
+
+## Ajustes Visuales en Secciones (Feb 16, 2026)
+- [x] Eliminar texto rojo "División Especializada" de DivisionTemplate
+- [x] Ajustar imagen principal para que sea adaptativa (no cortada)
+- [x] Verificar cambios y crear checkpoint
