@@ -67,10 +67,7 @@ export default function Generation() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <div className="flex items-center gap-4 mb-4">
-              <span className="h-1 w-12 bg-primary"></span>
-              <span className="text-primary font-bold uppercase tracking-widest text-sm">División Energía</span>
-            </div>
+
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white leading-none mb-6 uppercase">
               Energía que <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-red-400">Nunca se Detiene</span>

@@ -303,10 +303,7 @@ export default function Machinery() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl"
           >
-            <div className="flex items-center gap-4 mb-4">
-              <span className="h-1 w-12 bg-primary"></span>
-              <span className="text-primary font-bold uppercase tracking-widest text-sm">División Maquinaria</span>
-            </div>
+
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white leading-none mb-6 uppercase">
               Poder para <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500">Construir el Futuro</span>

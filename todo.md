@@ -397,3 +397,9 @@
 - [x] Eliminar texto rojo "División Especializada" de DivisionTemplate
 - [x] Ajustar imagen principal para que sea adaptativa (no cortada)
 - [x] Verificar cambios y crear checkpoint
+
+## Corregir Ajustes Visuales (Feb 16, 2026)
+- [x] Restaurar object-cover en imágenes hero de DivisionTemplate
+- [x] Eliminar texto rojo de Maquinaria.tsx
+- [x] Eliminar texto rojo de Generation.tsx
+- [x] Verificar y crear checkpoint
