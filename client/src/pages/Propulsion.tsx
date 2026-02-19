@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Cog } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
@@ -164,7 +164,7 @@ export default function Propulsion() {
 
       {/* Hero Section */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900">
-        <div className="absolute inset-0 bg-[url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CPAiuMElwIKxmXvi.png')] bg-cover bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/0Fpmc8ZVKTJtsR5OII3OBW-img-1_1771537860000_na1fn_cHJvcHVsc2lvbi1oZXJvLWJyYW5kcw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94LzBGcG1jOFpWS1RKdHNSNU9JSTNPQlctaW1nLTFfMTc3MTUzNzg2MDAwMF9uYTFmbl9jSEp2Y0hWc2MybHZiaTFvWlhKdkxXSnlZVzVrY3cuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=iWbgVhgemvZR51CG8T71EaimMCs-p~7njboH-j7KB03qPL54ou94JGJKHnmQUMGQwGnd6Hdcopl0mKgcuuPXGyloQmdT6NOiHmkrEvUqZiGBTHCRjTA3jL1QEmLZIp3m~4X5N6cQUaBwilPm2E7BTh7-7vKE-yDUMdCfLdlFU3cvCsMlh4N4Aa3pjSWR~nlWtqyRaf3~FMLFCR4tDCu-3v5OjFpIas~EiZd3K6-AtSP-GqjOX7ObQSR7pdfkPbKUbx-JBKLgjncpPKlTJVXbiMTY0cB2hzIJhWcUMDNlx~Z-vltBp5-Y1a~4ltMO-CJ0rPiOA2I0VN-EAu-cTbrg6Q__')] bg-cover bg-center opacity-20"></div>
         
         <div className="container relative z-10 py-20">
           <motion.div
@@ -173,11 +173,7 @@ export default function Propulsion() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 border border-red-600/20 mb-6">
-              <Cog className="w-4 h-4 text-red-500" />
-              <span className="text-sm font-medium text-red-500">División Propulsión</span>
-            </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-zinc-100 to-zinc-300 bg-clip-text text-transparent">
               Sistemas de Propulsión Industrial
             </h1>
@@ -187,10 +183,6 @@ export default function Propulsion() {
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white gap-2">
-                Ver Catálogo
-                <ArrowRight className="w-5 h-5" />
-              </Button>
               <Button size="lg" variant="outline" className="border-zinc-700 text-white hover:bg-zinc-800">
                 Contactar Asesor
               </Button>
