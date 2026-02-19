@@ -36,12 +36,12 @@ export default function Propulsion() {
         {
           name: "Rodamientos Montados",
           desc: "Rodamientos de bolas y rodillos montados en carcasas de hierro fundido o acero estampado para aplicaciones industriales pesadas.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CPAiuMElwIKxmXvi.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/eHQzMf5BkkizjyF3pZqPM4-img-1_1771538484000_na1fn_ZG9kZ2UtbW91bnRlZC1iZWFyaW5n.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2VIUXpNZjVCa2tpemp5RjNwWnFQTTQtaW1nLTFfMTc3MTUzODQ4NDAwMF9uYTFmbl9aRzlrWjJVdGJXOTFiblJsWkMxaVpXRnlhVzVuLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=hOP-ndHRGvuhiRmwjeitaPcTImPC8QQrXuiWBVVUcCGmJom9gLm1lKUqMddbpm294~MGK87ebldGi2W5QboDR8nSN-uQAUYWbaBX1uZ~UTi9ND8wTToGR9PJaVqNrlbhFARcT3SoghuGRgaadxFDLUt9~6bICIM4wDhXnc2UUSAy6EThQXT~Abg4u45GbX6Yx0wMvwDNdI1fByTI9a4WFev0MkOVsJphXttL~2lL4aNRm-gLewoKBKphUjLtNNhb4-~HPVgJJzdiCtlUfExIY4f5m61JAiaOnu7Xs~ytcQR6YDbpSpgG8piLR5imU4Hm9ideH0xlDnaxhIUFlxeztw__"
         },
         {
           name: "Acoplamientos Flexibles",
           desc: "Acoplamientos de engranaje y elastoméricos diseñados para transmisión de potencia con capacidad de absorción de desalineación.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/CPAiuMElwIKxmXvi.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/eHQzMf5BkkizjyF3pZqPM4-img-2_1771538491000_na1fn_ZG9kZ2UtcGFyYWZsZXgtY291cGxpbmc.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2VIUXpNZjVCa2tpemp5RjNwWnFQTTQtaW1nLTJfMTc3MTUzODQ5MTAwMF9uYTFmbl9aRzlrWjJVdGNHRnlZV1pzWlhndFkyOTFjR3hwYm1jLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ts2GrCEcmImgwC1YXJ4fxyL~IIafrM-~tf8TjW2j-eJwQISc8kNMDpv0B~tx0Jw4AIGHolY-KiuofI3hRKUAoUrBj8dpvZjoYRhRiwbQB4DL5igPMsHTxkCp8iJVRuDi08EsflV0V3cVc6Q~p1N5ia6ZZ3mj-z0XcunWaOyK2Fi2vn1hudUhw0GxscHYjalNhuSNqyuRyw49e4oZCd6X8VILC41K9eL7v~hDON-26KsSsCs9KAhI0cF9zwrncuQAL45LnM24SmzzPb4VWbF73cFkOeCbRg6YGWpbfYrmtNlageuAyJQkPFLeK~LYW4Q-8JBo5Ae66aBOZ8hwiVU4dg__"
         }
       ]
     },
@@ -54,12 +54,12 @@ export default function Propulsion() {
         {
           name: "Motorreductores Helicoidales",
           desc: "Reductores de engranajes helicoidales de alta eficiencia con motores eléctricos integrados para aplicaciones industriales.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/agMvIjJPdZNCPkZG.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/KacB7bgzRUFp7ManaUMITo-img-1_1771538567000_na1fn_c2V3LWhlbGljYWwtZ2Vhcm1vdG9y.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0thY0I3Ymd6UlVGcDdNYW5hVU1JVG8taW1nLTFfMTc3MTUzODU2NzAwMF9uYTFmbl9jMlYzTFdobGJHbGpZV3d0WjJWaGNtMXZkRzl5LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=XmyXTfOuPLtXhtlZO37~VDrKwn6jbgJr6XN3dQTyvsgfrDO6TX33tA2J3-qrSkDZfhZJBa1Pt7O9AhzPic7bVOkHkDyicyMvF9t8flVudiJ2VKfpu2h6EMLmsztAaQH67pm4B5uc3aQn1PxAV4M5ywyeUGJnS64GK1eAcHtE4OS1rKPiESG6D9KnFKEDIHqhCxPgwitwiZW7OCAHE~IVgClRTHXRwLBW4z8Gq8CxJ5o0SgtP2ZeRzd5RWTqDwPa6o7rO1I63puRrikxd4i8l8jBfl0DzPtlEXfn-zgVhiTss5S8Gc-MxOkmSyMqXnh8JaI~84~1T7lDkPElrJQKNMQ__"
         },
         {
           name: "Reductores de Velocidad",
           desc: "Cajas reductoras de engranajes con múltiples configuraciones de montaje y relaciones de reducción para diversas aplicaciones.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/agMvIjJPdZNCPkZG.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/KacB7bgzRUFp7ManaUMITo-img-2_1771538545000_na1fn_c2V3LXNwZWVkLXJlZHVjZXI.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0thY0I3Ymd6UlVGcDdNYW5hVU1JVG8taW1nLTJfMTc3MTUzODU0NTAwMF9uYTFmbl9jMlYzTFhOd1pXVmtMWEpsWkhWalpYSS5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=V~7gCd0lGyRuBU~QAaPzpz9EsKrkV5zRS21YbSAxcMzAez02nlis6PV1lPwMIo6lmujh728cS4iVVNdClHKyo6C9cOrl6M9almC366wc9EBZGBvRcG63zlih3Sw7SBzjRLqsAmqophFr97QyHa63bBR~dBnH9SW--~2N-l8S4P-GxTCglWdZT8-5MEQizQLZrpn86tXFopbRaKqJ5UQ0y0XBFq3GZlyqE1bAEkaWIZKQ6Yh605loPNQAfrf3MlNDFZlU3NQiX~xVkxouwebzFacKL-tGV1awfSlweAJ5e~mmvl1vBZPxnLsdJYctn-jRFgrOJwWZPHp2jarM21gpg__"
         }
       ]
     },
@@ -72,12 +72,12 @@ export default function Propulsion() {
         {
           name: "Motores Industriales",
           desc: "Motores eléctricos trifásicos de alta eficiencia para aplicaciones industriales generales, disponibles en múltiples potencias.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GcWDRZYnnSPFtrci.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/6SRrX4UBRdFhzMHEyyV03V-img-1_1771538632000_na1fn_cmVnYWwtaW5kdXN0cmlhbC1tb3Rvcg.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94LzZTUnJYNFVCUmRGaHpNSEV5eVYwM1YtaW1nLTFfMTc3MTUzODYzMjAwMF9uYTFmbl9jbVZuWVd3dGFXNWtkWE4wY21saGJDMXRiM1J2Y2cuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=VeGTfVJGK1RGZb1Q-58N7B3c~jL7udqq8A2l-XE3obr6a0Gf3y-yaMvwvApSq1BBhBQyEijIaN~KdJYEHtDADSOm2PZjoMnmdGVI-cN3lF0cp9sXBRVot-YdHgVVGA4t6SYLd4-fHi0Mod36zXn0g3IPr~xNaXq2D9Uryz2TYjfIylwQGcIwn01z69e30fECrwoe2EIZSP3WJe-yARJwoXcrQUTP5nwpZaK8Zj~RjDua5ncEX~me5noJBumba2x2jyjyYgMPJh90vEofbXekBVgmrIC~2oPRRPk5NGdrVX7CYhW17SEVWfOJdJQ8DVrxO0KshT6mpZ5AIKQP6la-ew__"
         },
         {
           name: "Motores Premium Efficiency",
           desc: "Motores de eficiencia premium que cumplen con estándares NEMA Premium y IE3, reduciendo costos operativos de energía.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GcWDRZYnnSPFtrci.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/6SRrX4UBRdFhzMHEyyV03V-img-2_1771538621000_na1fn_cmVnYWwtcHJlbWl1bS1tb3Rvcg.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94LzZTUnJYNFVCUmRGaHpNSEV5eVYwM1YtaW1nLTJfMTc3MTUzODYyMTAwMF9uYTFmbl9jbVZuWVd3dGNISmxiV2wxYlMxdGIzUnZjZy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RsZJvuidQTFI49pq~RSsJk9L8ZTpy19oK1k9Bs1L2JXy7Mqd~-BWTuB5hAXZi9TlFI7R7aiPty6AieZQhGjx6kHM85TPS1C08ezIQitWo-4Lm01K~glpEI9u1jVTkktxG7YEAXiJeBrtlLgYNna0BJgA7zAeZ1jmjV1lT94yypDk2solUufsayTd5bUcM1HzHbq9zOam4QyWxoVLPn~QkLrmRAYE-qpN2hxBC-P0FmiRQc-B6BgdI60-nDR3WQgaxVrxZEyCiAd5CJe3OzEEvel2rYafRZ2p3YedSsxqqiykUb3RZ7irHSTsJsQGKx0k94Xiyi73BfvHNksnafeesQ__"
         }
       ]
     },
@@ -90,12 +90,12 @@ export default function Propulsion() {
         {
           name: "Acoplamientos de Rejilla",
           desc: "Acoplamientos flexibles de rejilla metálica para transmisión de alto torque con capacidad de absorción de choques.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDHLhavwgaYvJRPZ.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/WqRhcdMoVNqgOn1hJAFPDk-img-1_1771538696000_na1fn_bWFydGluLWdyaWQtY291cGxpbmc.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L1dxUmhjZE1vVk5xZ09uMWhKQUZQRGstaW1nLTFfMTc3MTUzODY5NjAwMF9uYTFmbl9iV0Z5ZEdsdUxXZHlhV1F0WTI5MWNHeHBibWMuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QrjdRRj~biYeai6Bn9qz9ash4~j~qHmbYMjxwBcNqqtCM4eDRu4cNiycgv0pq7SwzAnh9Pk8ZK0fOR~~mGnIUYcqnuIDARjNhd4NttpeotYcp9RZEptH4eebmUB6b0N4PxwKGnD~ntBn0-S7gElRzOyalQJp76ec7ZbofIqT~6ZCfU~LKRHUhkWg6tW2SfPf4DcSCCFZl-qSZynbjQmSy2Wjt3nDKHJEkhqiEE3~39jZSngNCsYyKDnSO6a1-7qsW3uAvWkuDt4Fueh8njRzpLBIEXhJ1RqfPwiB40ZNwzvkDFLR3Wl-D1q~0Ktd-eddmdZZtTqt5JWGCARXH9bNBA__"
         },
         {
           name: "Componentes de Transmisión",
           desc: "Poleas, sprockets y componentes de transmisión de potencia diseñados para aplicaciones de manejo de materiales.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/GDHLhavwgaYvJRPZ.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/WqRhcdMoVNqgOn1hJAFPDk-img-2_1771538691000_na1fn_bWFydGluLXRyYW5zbWlzc2lvbi1jb21wb25lbnRz.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L1dxUmhjZE1vVk5xZ09uMWhKQUZQRGstaW1nLTJfMTc3MTUzODY5MTAwMF9uYTFmbl9iV0Z5ZEdsdUxYUnlZVzV6YldsemMybHZiaTFqYjIxd2IyNWxiblJ6LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=GqZdDCA52RAlUJFEUDczWXDfxGA9cT~lMhKFXaPndUveMiKpxC6aTJWZs32Q6W0i3WDZxHNlqhg~p~vax6hyu2WxRJDotkDoChouM5CrQEJL5UdHLKR8WGHNfvznROqWuhC7wqUEcBdLgLGCI0xs9BSAO-QRTft786nkEYoTKHUjPNPVg7f6Zi3X-RF6Ggumj6LxikpB-2wNQ55I0b~qJCO8lsovDiP5eLy9IiTF1lR9OqRrOyQQLh75z3uo0F0R5HJrpV8nfceVucTAS4DZTQ8rgIWpcKaTQJ7kcDq-qHTTjw0Dl6Ttu09jEecRtPGezia7ce3CZ1UWqekOiz1xrQ__"
         }
       ]
     },
@@ -108,12 +108,12 @@ export default function Propulsion() {
         {
           name: "Acoplamientos Elastoméricos",
           desc: "Acoplamientos flexibles con elementos elastoméricos intercambiables para protección contra sobrecargas y vibraciones.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/pETpKkMBMweaCFiH.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/mMVYOBwx8shUKDbhpKutSk-img-1_1771538761000_na1fn_Z3VhcmRpYW4tZWxhc3RvbWVyaWMtY291cGxpbmc.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L21NVllPQnd4OHNoVUtEYmhwS3V0U2staW1nLTFfMTc3MTUzODc2MTAwMF9uYTFmbl9aM1ZoY21ScFlXNHRaV3hoYzNSdmJXVnlhV010WTI5MWNHeHBibWMuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=NDZkyp11wpLxS7lbGkabOdPUoLiFqL-8OjWmd~dbYLwkxUTuLZxOUORWpx-RIjgmnuuddYOfc~6HsJVufDEjGqGx9YZ0oasxHMptFEOWWERKCEZzG7tYvYf5GJC4psbOj7u536uPbi6xGDV-spHbmhPWdNHvYdnZa~ECtOEJf7shQwgM3jsD5qt7t4wfM9h4zAUODX1~xwK~mksYe1lTWHZgdu6-z4tmgEMwACAlUwGXM6JN5LpHiA6MXQQuSMIiJTbqDGuAPmANW9-q7uqLiVlu9MGP8qgnXTk02MR-pJV5jZOCvUzhMVbmhAKATfYQ0LbbQFeV1YXIgHl53P63tQ__"
         },
         {
           name: "Acoplamientos de Disco",
           desc: "Acoplamientos de disco metálico para aplicaciones de alta velocidad y precisión con mínimo mantenimiento.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/pETpKkMBMweaCFiH.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/mMVYOBwx8shUKDbhpKutSk-img-2_1771538760000_na1fn_Z3VhcmRpYW4tZGlzYy1jb3VwbGluZw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L21NVllPQnd4OHNoVUtEYmhwS3V0U2staW1nLTJfMTc3MTUzODc2MDAwMF9uYTFmbl9aM1ZoY21ScFlXNHRaR2x6WXkxamIzVndiR2x1WncuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=KBnfjI5bZb3XdXRJPv~pbUC86hsheJfmmvvZN8txPQX1sEc--O4eK~eCshOf5QalYLlh15WjxC7I6DhksUYVIONmbEe3dUFkEXX1UGZCCjjjsdH~NNqB1BBnUVU-dQhytIrsqnUEWOOtLd6bBM2T327A1xpi1A9tltVckf5N~wB-RW8IrnYOHJ7b1lGXs6eKnpQ7YJqxjRNv18sfInbY~K2mAfi6h9XfOvaHgUl~~dwtGaGqLvw4TiQXVULlscbu5W1xPrP3q8NZs-ISc8e4JaqcksTo8lwCQOwSydq9t0ODgsSA2LdoY4MOq-k7TKco2Ah-F80hA7ggoflrXGGV9A__"
         }
       ]
     },
@@ -126,12 +126,12 @@ export default function Propulsion() {
         {
           name: "Bombas Centrífugas",
           desc: "Bombas centrífugas horizontales y verticales para aplicaciones de agua, aguas residuales y procesos industriales.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/pttlvtBPwWasFfcg.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/OgBqrRGjn6iHmzN6cqiW76-img-1_1771538820000_na1fn_Y29ybmVsbC1jZW50cmlmdWdhbC1wdW1w.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L09nQnFyUkdqbjZpSG16TjZjcWlXNzYtaW1nLTFfMTc3MTUzODgyMDAwMF9uYTFmbl9ZMjl5Ym1Wc2JDMWpaVzUwY21sbWRXZGhiQzF3ZFcxdy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=P34ai7ROWd13A5cllD2lygJiR4HMYhH77CD36bJ7xaek~TaLjXt5F408ARC3R3ICQ2lbeuqJJ~kMvGccVrdINsUzG1iQXzCvC-DHt7I-pX3Gp4mIE2hxX0C91KLjt~GC-Yc5te-AXMXxcNIGU2hds7xNgNnlgFG7GTe6S67ygQ6hIGhzyzHEkw-dNmEsmhXIZH45vID3bjDOI9h7SAsaqHhysjBOH~JuYbE~qXNuQrFszH1KENtimsMLF39tCwqM4jO2sIKdk2ujsCE08qzkXp0FPjT-wxZw1uarZZ29mg8wW9QoWr2Z8LIyIGQiIBsOLba-GL8ILMkL9~wWpakqKg__"
         },
         {
           name: "Bombas de Proceso",
           desc: "Bombas diseñadas para manejo de líquidos corrosivos y abrasivos en aplicaciones industriales exigentes.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/pttlvtBPwWasFfcg.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/OgBqrRGjn6iHmzN6cqiW76-img-2_1771538824000_na1fn_Y29ybmVsbC1wcm9jZXNzLXB1bXA.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L09nQnFyUkdqbjZpSG16TjZjcWlXNzYtaW1nLTJfMTc3MTUzODgyNDAwMF9uYTFmbl9ZMjl5Ym1Wc2JDMXdjbTlqWlhOekxYQjFiWEEuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=r4GHbYeMzZKO72H3lVEth~5ORhmbiFtd4Li6Fl~n6y9KiC4BOjfG5e-1nuZABZQhXn9x5ynnC82KcXWyHTTmoY7ziIZYW79PLHDF0GWyQuZvvtA13qqczD9qQKyOsJPeXLQUxozdL50Jgw1inwKBBvkTV0eaLnX9IollBqL2KTQerZq~Km1bLmBUaesOo4uqcdPgHkrweaJztqYDVwvHHP6Z8eIomC7thdSmNxbTNr9so9QZqPD-7wz4g3j8ekpOrgoHJrYepaUPBkZt5fD0tIM5U4OP2kFHpiyYE47hLRQ2yY1e9Vm~Yw1l3l5RYt4pPjgm5ZXWb319x3YJq69I5A__"
         }
       ]
     },
@@ -144,12 +144,12 @@ export default function Propulsion() {
         {
           name: "Bombas de Engranajes",
           desc: "Bombas de engranajes internos para manejo de líquidos viscosos, aceites y productos químicos con flujo constante.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/NsUVdBHsihhxpAnC.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/bs1v6UVp1GuqO7Ru3TLN4t-img-1_1771538881000_na1fn_cm9wZXItZ2Vhci1wdW1w.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2JzMXY2VVZwMUd1cU83UnUzVExONHQtaW1nLTFfMTc3MTUzODg4MTAwMF9uYTFmbl9jbTl3WlhJdFoyVmhjaTF3ZFcxdy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=B8FH0S1zCHpAQgWsCmCPskDUi~FZd2RKZZKw5aW7EkyzJetpq9p1RCz4zgAxJRtWH5c1lwlw5ny382e~41GB~r2iKEvDdO-V9MAAZ7a4nYzKpe2C3k76nGAAFyNQjwM7LJGfoB8Q3o~E15~cES-ljydpWFuVNgOXv-t1UvWN~rkREcvPloflpQKDdW5sc3kdP4~1sxYypyDJWEPTJDFk-38SvqZ1eMX5Kwef4Ro9djHKU8qJ34Iy4UV0Cmr7qvSRhL98dEoe1-Wgs1kTqTgJ8vbizw-EVXsWnCOagQdXnj6t6niBWrqdMaCeTeyXiFzFktK0UY-OARL5hIEjbRMAWA__"
         },
         {
           name: "Bombas Rotativas",
           desc: "Bombas de desplazamiento positivo tipo rotor para transferencia de fluidos con alta precisión volumétrica.",
-          image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/NsUVdBHsihhxpAnC.png"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/bs1v6UVp1GuqO7Ru3TLN4t-img-2_1771538889000_na1fn_cm9wZXItcm90YXJ5LXB1bXA.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2JzMXY2VVZwMUd1cU83UnUzVExONHQtaW1nLTJfMTc3MTUzODg4OTAwMF9uYTFmbl9jbTl3WlhJdGNtOTBZWEo1TFhCMWJYQS5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=vfV5kYXQcH2x6~qnAGSPA3M77WYRWPjITW1CZDo7wuDrDrt6wai25FMiLa5rv1tyAnqTynMWnt5o7EHsahs5wJyrr~lBnq-Ke8DIXiDtI5wCfr7lK-Qp29dUcGwj-5SPMVfqFnBmoFs4g9UGZbr52YR~J4rMC96HFFISutgE~PUpbgihRrO00IR-pYvtvcqrxv0WQ2TtV0ApEDOId0KB2bPdSH8yWX-PO~FZz4az-GbPUKPFek6BT7QVy0vg3k4Yetp7Sfm~JrJExp2fPl4VnHAUeTUHg68oZnIrbiprp5K3Ox880CW-0bMy8IEK61oFnf3jzBMrnp5ANe7PL124pw__"
         }
       ]
     }
