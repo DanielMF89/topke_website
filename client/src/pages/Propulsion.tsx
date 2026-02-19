@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Cog, Zap } from "lucide-react";
+import { ArrowRight, Cog } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
@@ -228,7 +228,7 @@ export default function Propulsion() {
                 onClick={() => setSelectedCategory(category)}
                 className="group relative bg-card rounded-2xl overflow-hidden border border-border hover:border-red-600/50 transition-all duration-300 cursor-pointer hover:shadow-xl hover:shadow-red-600/10"
               >
-                <div className="aspect-[4/3] overflow-hidden bg-zinc-900">
+                <div className="aspect-[4/3] overflow-hidden bg-white">
                   <img
                     src={category.image}
                     alt={category.name}
@@ -324,29 +324,7 @@ export default function Propulsion() {
         )}
       </AnimatePresence>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-red-600 to-red-700">
-        <div className="container">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center text-white"
-          >
-            <Zap className="w-16 h-16 mx-auto mb-6 opacity-90" />
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              ¿Necesita Asesoría Técnica?
-            </h2>
-            <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Nuestros ingenieros especializados están listos para ayudarle a seleccionar el sistema de propulsión ideal para su aplicación
-            </p>
-            <Button size="lg" variant="secondary" className="gap-2">
-              Contactar Especialista
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-          </motion.div>
-        </div>
-      </section>
+
     </Layout>
   );
 }
