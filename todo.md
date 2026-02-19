@@ -40,3 +40,8 @@
 - [x] Recrear imagen histórica de Ferretería Topke 1896 con IA
 - [x] Agregar imagen recreada a la sección Nosotros
 - [x] Verificar cambios y crear checkpoint
+
+## Mejorar Calidad de Imagen Original Histórica en Nosotros (Feb 19, 2026)
+- [x] Mejorar calidad de imagen original histórica sin cambiar composición
+- [x] Actualizar sección Nosotros con imagen mejorada
+- [x] Verificar cambios y crear checkpoint
