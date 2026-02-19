@@ -430,3 +430,8 @@
 - [x] Ajustar CSS para que todas las imágenes de productos tengan fondo blanco
 - [x] Verificar que no aparezcan fondos negros en ningún modal de productos
 - [x] Crear checkpoint final
+
+## Ajustar Botones en Propulsión (Feb 19, 2026)
+- [x] Eliminar botón "Contactar Asesor" del hero de Propulsión
+- [x] Configurar botones "Solicitar Cotización" para redirigir a WhatsApp (+502 2224 8080)
+- [x] Verificar cambios y crear checkpoint

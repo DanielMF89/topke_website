@@ -182,11 +182,7 @@ export default function Propulsion() {
               Soluciones completas de transmisión de potencia con las marcas líderes de la industria
             </p>
 
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Button size="lg" variant="outline" className="border-zinc-700 text-white hover:bg-zinc-800">
-                Contactar Asesor
-              </Button>
-            </div>
+
           </motion.div>
         </div>
 
@@ -303,7 +299,10 @@ export default function Propulsion() {
                       <div className="md:w-2/3">
                         <h4 className="text-2xl font-bold mb-3">{product.name}</h4>
                         <p className="text-muted-foreground leading-relaxed">{product.desc}</p>
-                        <Button className="mt-4 bg-red-600 hover:bg-red-700">
+                        <Button 
+                          className="mt-4 bg-red-600 hover:bg-red-700"
+                          onClick={() => window.open('https://wa.me/50222248080?text=Hola,%20me%20interesa%20solicitar%20cotización%20para%20' + encodeURIComponent(product.name), '_blank')}
+                        >
                           Solicitar Cotización
                         </Button>
                       </div>
