@@ -35,3 +35,8 @@
 ## Agregar Imagen Anterior a Galería de Perforación (Feb 19, 2026)
 - [x] Actualizar galería de Perforación para incluir imagen del hero anterior
 - [x] Verificar cambios y crear checkpoint
+
+## Recrear y Agregar Imagen Histórica de Ferretería Topke 1896 en Nosotros (Feb 19, 2026)
+- [x] Recrear imagen histórica de Ferretería Topke 1896 con IA
+- [x] Agregar imagen recreada a la sección Nosotros
+- [x] Verificar cambios y crear checkpoint

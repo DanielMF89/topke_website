@@ -59,6 +59,40 @@ export default function About() {
         </div>
       </section>
 
+      {/* Historic Photo Section */}
+      <section className="py-16 bg-zinc-50">
+        <div className="container">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-8"
+          >
+            <h2 className="text-3xl font-display font-bold text-zinc-900 uppercase mb-4">Donde Todo Comenzó</h2>
+            <p className="text-lg text-zinc-600 max-w-2xl mx-auto">
+              Ferretería Topke Sucursal, fundada en 1896 en la Ciudad de Guatemala
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="max-w-5xl mx-auto"
+          >
+            <div className="relative">
+              <div className="absolute inset-0 bg-zinc-900 transform translate-x-3 translate-y-3 -z-10"></div>
+              <img 
+                src="https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/Fl6laOzBjfpJAjXAFs7qHm-img-1_1771544783000_na1fn_ZmVycmV0ZXJpYS10b3BrZS0xODk2LWhpc3Rvcmlj.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0ZsNmxhT3pCamZwSkFqWEFGczdxSG0taW1nLTFfMTc3MTU0NDc4MzAwMF9uYTFmbl9abVZ5Y21WMFpYSnBZUzEwYjNCclpTMHhPRGsyTFdocGMzUnZjbWxqLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=VI6Iuki3tCbrrDYnJorZeXT2jqgjLE7KSQL2i-ukl5QASgPvl~UgntS2yiTvSw7TvUBGLufacHGUYG4sUZSmqg6Eo2KwkmYTYByfkqYnOhWIOggK0MsggXAdiaXh4xHwFD2VFKMesLOh-fesKfFDkhiEbSDfanUiT-ii9g6posCF8WkxshVfSmXd1v4yLDwWjVVRr8DdEuIppqDIAvtRVmD~WPaNwHbSXM0yZTDZyQMHBYyw2g2zquZC-xulwOqIdviGi0CG7l2UPiXqm3vz-Yc8HmZPDBh1ONE6fCuo9YUHT2tEaJWxjuNVc6l89NiHRvlGzQDf99YZfnXNkiYP1w__" 
+                alt="Ferretería Topke Sucursal - Fundada 1896" 
+                className="w-full h-auto shadow-2xl border-8 border-white"
+              />
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Main Story */}
       <section className="py-24 bg-white">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
