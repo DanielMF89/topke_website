@@ -9,6 +9,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Machinery from "./pages/Machinery";
 import Generation from "./pages/Generation";
+import Propulsion from "./pages/Propulsion";
 import DivisionTemplate from "./pages/DivisionTemplate";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
@@ -38,18 +39,7 @@ function Router() {
         />
       </Route>
       
-      <Route path="/propulsion">
-        <DivisionTemplate 
-          title="Motores y Bombas" 
-          subtitle="Sistemas de bombeo y propulsión para agricultura y edificaciones."
-          description="Soluciones integrales de bombeo para pozos profundos, sistemas de riego agrícola y abastecimiento de agua en edificios. Motores estacionarios de alta eficiencia y confiabilidad."
-          features={["Bombas Turbina Vertical", "Motores Estacionarios", "Sistemas de Presión Constante", "Equipos para Pozos Profundos"]}
-          image="https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/SVswVd9wqfqhyxEOC8iChw-img-1_1770738789000_na1fn_dmVydGljYWwtdHVyYmluZS1wdW1w.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L1NWc3dWZDl3cWZxaHl4RU9DOGlDaHctaW1nLTFfMTc3MDczODc4OTAwMF9uYTFmbl9kbVZ5ZEdsallXd3RkSFZ5WW1sdVpTMXdkVzF3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=VwKeP6l5edpplEIieC0Tp6ZxaBhlktLHyog4JDhLtJzYxdLEfEDLhUqU4TmrQMa2bDxTWbuOST15673py7UhGho0tfQRdDciKLFGGB1VBqOP0yvlRoiGIdevISbv09bjZ~b-ZjmnD5MHCqxfRnVtJegBeTKIjOkDXFhuV7DHc0VgxunErVEJxPFEIPiB~NMTMuhdoWYof5WtlXcl-kv5TnCb2bWB4nRtoSje9p2pHx~jb88a3fqD-nGuUkaqNUkvPPZZdI8A5dnvgfEUHj52WXuuVS1ZR6~wZtF03BmyS4ySDfMUzkphVkkA0Y1p8L9oeZi~d5~iv5trCySKJZJ6qQ__"
-          seoTitle="Motores y Bombas de Agua Guatemala | Grupo Topke"
-          seoDescription="Bombas turbina vertical, motores estacionarios y sistemas de bombeo para pozos profundos en Guatemala. Equipos de alta eficiencia para agricultura e industria."
-          seoKeywords="bombas de agua, motores estacionarios, bombas turbina vertical, bombeo pozos profundos, sistemas de bombeo Guatemala, Topke, equipos de bombeo, motores industriales"
-        />
-      </Route>
+      <Route path="/propulsion" component={Propulsion} />
 
       <Route path="/logistica">
         <DivisionTemplate 

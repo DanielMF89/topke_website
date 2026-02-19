@@ -418,3 +418,9 @@
 ## Actualizar Imagen Lubricantes en Bento Grid (Feb 19, 2026)
 - [x] Actualizar imagen de Lubricantes en BentoGrid.tsx
 - [x] Verificar y crear checkpoint
+
+## Crear Categorías de Marcas en Propulsión (Feb 19, 2026)
+- [x] Revisar estructura de Maquinaria.tsx (estructura: categories array con id, name, image, products)
+- [ ] Mejorar imágenes de las 7 marcas (DODGE, SEW, Regal Rexnord, Martin, Guardian, Cornell, Roper)
+- [ ] Actualizar página de Propulsión con estructura de categorías
+- [ ] Verificar y crear checkpoint
