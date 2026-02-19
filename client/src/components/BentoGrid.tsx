@@ -33,8 +33,8 @@ const items = [
   },
   {
     id: "propulsion",
-    title: "Motores y Bombas",
-    subtitle: "Riego y Edificios",
+    title: "Propulsión",
+    subtitle: "",
     icon: Droplets,
     image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/0Fpmc8ZVKTJtsR5OII3OBW-img-1_1771537860000_na1fn_cHJvcHVsc2lvbi1oZXJvLWJyYW5kcw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94LzBGcG1jOFpWS1RKdHNSNU9JSTNPQlctaW1nLTFfMTc3MTUzNzg2MDAwMF9uYTFmbl9jSEp2Y0hWc2MybHZiaTFvWlhKdkxXSnlZVzVrY3cuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=iWbgVhgemvZR51CG8T71EaimMCs-p~7njboH-j7KB03qPL54ou94JGJKHnmQUMGQwGnd6Hdcopl0mKgcuuPXGyloQmdT6NOiHmkrEvUqZiGBTHCRjTA3jL1QEmLZIp3m~4X5N6cQUaBwilPm2E7BTh7-7vKE-yDUMdCfLdlFU3cvCsMlh4N4Aa3pjSWR~nlWtqyRaf3~FMLFCR4tDCu-3v5OjFpIas~EiZd3K6-AtSP-GqjOX7ObQSR7pdfkPbKUbx-JBKLgjncpPKlTJVXbiMTY0cB2hzIJhWcUMDNlx~Z-vltBp5-Y1a~4ltMO-CJ0rPiOA2I0VN-EAu-cTbrg6Q__",
     link: "/propulsion",
