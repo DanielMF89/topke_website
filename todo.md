@@ -408,3 +408,9 @@
 - [x] Revisar gradiente de Maquinaria.tsx (opacity-50 + bg-gradient-to-t from-zinc-900 via-transparent to-zinc-900/50)
 - [x] Ajustar gradiente en DivisionTemplate.tsx para que sea más claro (opacity-50 + bg-gradient-to-t)
 - [x] Verificar y crear checkpoint
+
+## Mejorar Imagen de Lubricantes (Feb 19, 2026)
+- [x] Mejorar calidad profesional de fotografía de lubricantes
+- [x] Subir a CDN (https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/WzzeLpanqmzDlkJV.png)
+- [x] Actualizar imagen en sección de Lubricantes (App.tsx)
+- [x] Verificar y crear checkpoint
