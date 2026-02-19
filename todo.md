@@ -31,3 +31,7 @@
 - [x] Subir 1 imagen y 2 videos de perforación a CDN
 - [x] Actualizar página de Perforación agregando nuevos medios sin eliminar contenido existente
 - [x] Verificar cambios y crear checkpoint
+
+## Agregar Imagen Anterior a Galería de Perforación (Feb 19, 2026)
+- [x] Actualizar galería de Perforación para incluir imagen del hero anterior
+- [x] Verificar cambios y crear checkpoint

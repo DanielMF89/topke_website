@@ -36,9 +36,10 @@ export default function Drilling() {
   ];
 
   const media = [
+    { type: 'image' as const, url: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/kuJhiznkPAFMWzpm.png' },
     { type: 'image' as const, url: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/zEITVJBnKDsOESDR.jpeg' },
     { type: 'video' as const, url: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/uXxWjeARZrBfUJcf.mp4' },
-    { type: 'video' as const, url: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/xDvftblNCwVEAjQd.mp4' },
+    { type: 'video' as const, url: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/xDvftblNCwVEAjQd.mp4' }
   ];
 
   return (
@@ -131,7 +132,7 @@ export default function Drilling() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {media.map((item, index) => (
               <motion.div
                 key={index}
