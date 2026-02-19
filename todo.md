@@ -26,3 +26,8 @@
 - [x] Subir 2 videos de productos de riego a CDN
 - [x] Actualizar página de Riego con galería de imágenes y videos
 - [x] Verificar cambios y crear checkpoint
+
+## Agregar Imagen y Videos a Sección de Perforación (Feb 19, 2026)
+- [x] Subir 1 imagen y 2 videos de perforación a CDN
+- [x] Actualizar página de Perforación agregando nuevos medios sin eliminar contenido existente
+- [x] Verificar cambios y crear checkpoint

@@ -11,6 +11,7 @@ import Machinery from "./pages/Machinery";
 import Generation from "./pages/Generation";
 import Propulsion from "./pages/Propulsion";
 import Irrigation from "./pages/Irrigation";
+import Drilling from "./pages/Drilling";
 import DivisionTemplate from "./pages/DivisionTemplate";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
@@ -58,18 +59,7 @@ function Router() {
         />
       </Route>
 
-      <Route path="/perforacion">
-        <DivisionTemplate 
-          title="Perforación de Pozos" 
-          subtitle="Maquinaria y equipos especializados para la perforación de pozos profundos."
-          description="Tecnología avanzada para la exploración y extracción de agua subterránea, garantizando eficiencia y seguridad en cada proyecto de perforación."
-          features={["Perforación de Pozos", "Equipamiento de Pozos", "Filmación de Pozos", "Mantenimiento y Rehabilitación"]}
-          image="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/kuJhiznkPAFMWzpm.png"
-          seoTitle="Perforación de Pozos de Agua Guatemala | Grupo Topke"
-          seoDescription="Perforación de pozos profundos en Guatemala: perforadoras rotativas XCMG, compresores de aire y herramientas especializadas. Exploración y extracción de agua subterránea."
-          seoKeywords="perforación de pozos, pozos de agua, perforadoras rotativas, equipos de perforación Guatemala, Topke, xcmg, pozos profundos, extracción agua subterránea"
-        />
-      </Route>
+      <Route path="/perforacion" component={Drilling} />
 
       {/* Páginas Generales */}
       <Route path="/contacto" component={Contact} />
