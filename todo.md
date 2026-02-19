@@ -435,3 +435,8 @@
 - [x] Eliminar botón "Contactar Asesor" del hero de Propulsión
 - [x] Configurar botones "Solicitar Cotización" para redirigir a WhatsApp (+502 2224 8080)
 - [x] Verificar cambios y crear checkpoint
+
+## Actualizar Imagen de Sistema de Transferencia Automática en Generación (Feb 19, 2026)
+- [x] Generar imagen profesional de Sistema de Transferencia Automática basada en foto proporcionada
+- [x] Actualizar página de Generación con nueva imagen
+- [x] Verificar cambios y crear checkpoint

@@ -38,7 +38,7 @@ export default function Generation() {
         "Operación 100% Automática",
         "Gabinete NEMA Certificado"
       ],
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/jQVzYENJxjRNzqGs.jpg"
+      image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/5Hk0XDOV7wuxp95erG8tKM-img-1_1771540925000_na1fn_YXRzLXBhbmVsLXRwb3dlci1wcm9mZXNzaW9uYWw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94LzVIazBYRE9WN3d1eHA5NWVyRzh0S00taW1nLTFfMTc3MTU0MDkyNTAwMF9uYTFmbl9ZWFJ6TFhCaGJtVnNMWFJ3YjNkbGNpMXdjbTltWlhOemFXOXVZV3cuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=pPkJnBI3ytAzjpgS23mPkirvmZTeU6eXf-VU-ikocduRgoKdLiz6vmUWEULznRo8Usidt8cumOQ~FM7ouFj7kKACvY~ylFLdhJN1cRwo9feSE6uJfBnWFZvy-W5q-bzWDra9JndfCgDV02YTlJOy33tQPKpu1fW20rnZGXQCVjttZ7IT9F9rDoBy4rJcawHaR4fRM~tdYTuV~yZ301MEieci-BGrY1hdXiaMpefPA6TDPeDYK8HUGazNi8gnFbo0~hyMqCLUZNCcp0trVsLxf1b8NJlquVjEuj-hzKX7S8jrLCLXrJZUNP03khMIQqScPwWTqxUKE45UJEDW7KwiKQ__"
     }
   ];
 
