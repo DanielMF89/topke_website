@@ -424,3 +424,9 @@
 - [ ] Mejorar imágenes de las 7 marcas (DODGE, SEW, Regal Rexnord, Martin, Guardian, Cornell, Roper)
 - [ ] Actualizar página de Propulsión con estructura de categorías
 - [ ] Verificar y crear checkpoint
+
+## Corregir Imagen Fallida y Fondos Negros en Propulsión (Feb 19, 2026)
+- [x] Regenerar imagen de "Reductores de Velocidad" de SEW EURODRIVE (imagen completamente negra)
+- [x] Ajustar CSS para que todas las imágenes de productos tengan fondo blanco
+- [x] Verificar que no aparezcan fondos negros en ningún modal de productos
+- [x] Crear checkpoint final

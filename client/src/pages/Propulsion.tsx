@@ -59,7 +59,7 @@ export default function Propulsion() {
         {
           name: "Reductores de Velocidad",
           desc: "Cajas reductoras de engranajes con múltiples configuraciones de montaje y relaciones de reducción para diversas aplicaciones.",
-          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/KacB7bgzRUFp7ManaUMITo-img-2_1771538545000_na1fn_c2V3LXNwZWVkLXJlZHVjZXI.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L0thY0I3Ymd6UlVGcDdNYW5hVU1JVG8taW1nLTJfMTc3MTUzODU0NTAwMF9uYTFmbl9jMlYzTFhOd1pXVmtMWEpsWkhWalpYSS5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=V~7gCd0lGyRuBU~QAaPzpz9EsKrkV5zRS21YbSAxcMzAez02nlis6PV1lPwMIo6lmujh728cS4iVVNdClHKyo6C9cOrl6M9almC366wc9EBZGBvRcG63zlih3Sw7SBzjRLqsAmqophFr97QyHa63bBR~dBnH9SW--~2N-l8S4P-GxTCglWdZT8-5MEQizQLZrpn86tXFopbRaKqJ5UQ0y0XBFq3GZlyqE1bAEkaWIZKQ6Yh605loPNQAfrf3MlNDFZlU3NQiX~xVkxouwebzFacKL-tGV1awfSlweAJ5e~mmvl1vBZPxnLsdJYctn-jRFgrOJwWZPHp2jarM21gpg__"
+          image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/c8kvN6vxO2CpAhewPPQTyy-img-1_1771539507000_na1fn_c2V3LXNwZWVkLXJlZHVjZXItdjI.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L2M4a3ZONnZ4TzJDcEFoZXdQUFFUeXktaW1nLTFfMTc3MTUzOTUwNzAwMF9uYTFmbl9jMlYzTFhOd1pXVmtMWEpsWkhWalpYSXRkakkuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QgH5GFU7W0EOelaFtCFEoA3vOLDJpEl4jJOlNiPPar1iL41KZ0rKOcAnpfimk4nGZ~VjWSjotSXnhHU64TO5sc1MMIGZrL1jOx2KZWQaeuVT0rld5dfdHp8dplAV3H6Cw30nphpRagdm0CFYFbTS1ek5e-gWdgvmn2vYrLvuqI7e1AXZNxpBKLbyz8pf2Nv0uxA39jRZOvcsV51W~iied4hv09T~0Gie2YPxQt~eO4gmhIaCkL7dotgcyDxmPT9CR9dEYOTZKHMwlT6tvey1oyUZK29y-oCq6Sadm3eavof0wghlG95SMT9IN58Kln0YkozWF3ipmETOFYvsD~K29Q__"
         }
       ]
     },
@@ -297,7 +297,7 @@ export default function Propulsion() {
                         <img
                           src={product.image}
                           alt={product.name}
-                          className="w-full h-48 object-contain rounded-lg bg-zinc-900"
+                          className="w-full h-48 object-contain rounded-lg bg-white"
                         />
                       </div>
                       <div className="md:w-2/3">
