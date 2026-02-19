@@ -79,7 +79,7 @@ export default function About() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="max-w-5xl mx-auto"
+            className="max-w-2xl mx-auto"
           >
             <div className="relative">
               <div className="absolute inset-0 bg-zinc-900 transform translate-x-3 translate-y-3 -z-10"></div>

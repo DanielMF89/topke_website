@@ -45,3 +45,7 @@
 - [x] Mejorar calidad de imagen original histórica sin cambiar composición
 - [x] Actualizar sección Nosotros con imagen mejorada
 - [x] Verificar cambios y crear checkpoint
+
+## Reducir Tamaño de Imagen Histórica en Nosotros (Feb 19, 2026)
+- [x] Ajustar tamaño de visualización de imagen histórica reduciendo 60%
+- [x] Verificar cambios y crear checkpoint
