@@ -53,3 +53,7 @@
 ## Reorganizar Nosotros con Secciones en Paralelo (Feb 19, 2026)
 - [x] Reorganizar layout para mostrar "Donde Todo Comenzó" y "125 Años de Confianza" lado a lado
 - [x] Verificar cambios y crear checkpoint
+
+## Actualizar Año Dinámicamente en Liderazgo Actual (Feb 20, 2026)
+- [x] Modificar About.tsx para calcular año actual automáticamente
+- [x] Verificar cambios y crear checkpoint

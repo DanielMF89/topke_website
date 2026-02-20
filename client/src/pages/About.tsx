@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import { Calendar, MapPin, Award, Users } from "lucide-react";
 
 export default function About() {
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - 1896;
+  
   const milestones = [
     {
       year: "1896",
@@ -21,9 +24,9 @@ export default function About() {
       desc: "La compañía evoluciona y se establece en su ubicación actual en la Zona 4 de la ciudad capital."
     },
     {
-      year: "2023",
+      year: currentYear.toString(),
       title: "Liderazgo Actual",
-      desc: "Más de 125 años de experiencia, posicionándose como referente en el sector agroindustrial con un portafolio integral."
+      desc: `Más de ${yearsOfExperience} años de experiencia, posicionándose como referente en el sector agroindustrial con un portafolio integral.`
     }
   ];
 
