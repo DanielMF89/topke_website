@@ -61,3 +61,8 @@
 ## Actualizar Título "Más de 125 Años" Dinámicamente (Feb 20, 2026)
 - [x] Modificar título para calcular años automáticamente
 - [x] Verificar cambios y crear checkpoint
+
+## Cambiar "Más de" a Número Exacto de Años (Feb 20, 2026)
+- [x] Actualizar título a "130 años de Confianza"
+- [x] Actualizar descripción Liderazgo Actual a "130 años de experiencia"
+- [x] Verificar cambios y crear checkpoint
