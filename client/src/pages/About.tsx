@@ -59,28 +59,23 @@ export default function About() {
         </div>
       </section>
 
-      {/* Historic Photo Section */}
-      <section className="py-16 bg-zinc-50">
-        <div className="container">
+      {/* Parallel Sections: Historic Photo + Main Story */}
+      <section className="py-24 bg-white">
+        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          {/* Donde Todo Comenzó */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="text-center mb-8"
+            className="space-y-6"
           >
-            <h2 className="text-3xl font-display font-bold text-zinc-900 uppercase mb-4">Donde Todo Comenzó</h2>
-            <p className="text-lg text-zinc-600 max-w-2xl mx-auto">
-              Ferretería Topke Sucursal, fundada en 1896 en la Ciudad de Guatemala
-            </p>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="max-w-2xl mx-auto"
-          >
+            <div>
+              <h2 className="text-3xl font-display font-bold text-zinc-900 uppercase mb-4">Donde Todo Comenzó</h2>
+              <p className="text-lg text-zinc-600">
+                Ferretería Topke Sucursal, fundada en 1896 en la Ciudad de Guatemala
+              </p>
+            </div>
             <div className="relative">
               <div className="absolute inset-0 bg-zinc-900 transform translate-x-3 translate-y-3 -z-10"></div>
               <img 
@@ -90,16 +85,20 @@ export default function About() {
               />
             </div>
           </motion.div>
-        </div>
-      </section>
 
-      {/* Main Story */}
-      <section className="py-24 bg-white">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <h2 className="text-4xl font-display font-bold text-zinc-900 mb-8 uppercase">
-              Más de 125 años de <span className="text-primary">Confianza</span>
-            </h2>
+          {/* Más de 125 Años de Confianza */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="space-y-6"
+          >
+            <div>
+              <h2 className="text-3xl font-display font-bold text-zinc-900 uppercase mb-4">
+                Más de 125 años de <span className="text-primary">Confianza</span>
+              </h2>
+            </div>
             <div className="prose prose-lg text-zinc-600">
               <p className="mb-6">
                 Fundada en 1896 por el visionario <strong>Hermann TÖPKE</strong> en Quetzaltenango, esta empresa familiar ha trascendido el tiempo y los retos para dejar una huella perdurable en el mercado.
@@ -111,15 +110,15 @@ export default function About() {
                 "Una empresa familiar estable y en crecimiento de generación en generación."
               </blockquote>
             </div>
-          </div>
-          <div className="relative">
-            <div className="absolute inset-0 bg-primary transform translate-x-4 translate-y-4 -z-10"></div>
-            <img 
-              src="/images/familia-topke.png" 
-              alt="Familia TopKe - Legado Histórico" 
-              className="w-full h-auto object-contain shadow-xl"
-            />
-          </div>
+            <div className="relative mt-8">
+              <div className="absolute inset-0 bg-primary transform translate-x-4 translate-y-4 -z-10"></div>
+              <img 
+                src="/images/familia-topke.png" 
+                alt="Familia TopKe - Legado Histórico" 
+                className="w-full h-auto object-contain shadow-xl"
+              />
+            </div>
+          </motion.div>
         </div>
       </section>
 

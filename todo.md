@@ -49,3 +49,7 @@
 ## Reducir Tamaño de Imagen Histórica en Nosotros (Feb 19, 2026)
 - [x] Ajustar tamaño de visualización de imagen histórica reduciendo 60%
 - [x] Verificar cambios y crear checkpoint
+
+## Reorganizar Nosotros con Secciones en Paralelo (Feb 19, 2026)
+- [x] Reorganizar layout para mostrar "Donde Todo Comenzó" y "125 Años de Confianza" lado a lado
+- [x] Verificar cambios y crear checkpoint
