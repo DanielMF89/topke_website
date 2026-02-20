@@ -99,7 +99,7 @@ export default function About() {
           >
             <div>
               <h2 className="text-3xl font-display font-bold text-zinc-900 uppercase mb-4">
-                Más de 125 años de <span className="text-primary">Confianza</span>
+                Más de {yearsOfExperience} años de <span className="text-primary">Confianza</span>
               </h2>
             </div>
             <div className="prose prose-lg text-zinc-600">

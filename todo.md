@@ -57,3 +57,7 @@
 ## Actualizar Año Dinámicamente en Liderazgo Actual (Feb 20, 2026)
 - [x] Modificar About.tsx para calcular año actual automáticamente
 - [x] Verificar cambios y crear checkpoint
+
+## Actualizar Título "Más de 125 Años" Dinámicamente (Feb 20, 2026)
+- [x] Modificar título para calcular años automáticamente
+- [x] Verificar cambios y crear checkpoint
