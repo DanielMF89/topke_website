@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import { OptimizedImage } from "@/components/OptimizedImage";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Battery, Activity, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";

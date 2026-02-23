@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Award, Users } from "lucide-react";
+import { OptimizedImage } from "@/components/OptimizedImage";
 
 export default function About() {
   const currentYear = new Date().getFullYear();
@@ -35,10 +36,12 @@ export default function About() {
       {/* Hero Section */}
       <section className="relative h-[50vh] flex items-center overflow-hidden bg-zinc-900">
         <div className="absolute inset-0 z-0">
-          <img 
+          <OptimizedImage 
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/rbjVrnKUQVDlzqrU.jpg" 
             alt="Historia TopKe" 
-            className="w-full h-full object-cover opacity-50 grayscale"
+            className="w-full h-full opacity-50 grayscale"
+            priority={true}
+            objectFit="cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/30 via-zinc-900/30 to-zinc-900/80"></div>
         </div>
@@ -81,10 +84,11 @@ export default function About() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-zinc-900 transform translate-x-3 translate-y-3 -z-10"></div>
-              <img 
+              <OptimizedImage 
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663043532643/SGwXKmmhxnFTqofX.png" 
                 alt="Ferretería Topke Sucursal - Fundada 1896" 
                 className="w-full h-auto shadow-2xl border-8 border-white"
+                objectFit="contain"
               />
             </div>
           </motion.div>
@@ -115,10 +119,11 @@ export default function About() {
             </div>
             <div className="relative mt-8">
               <div className="absolute inset-0 bg-primary transform translate-x-4 translate-y-4 -z-10"></div>
-              <img 
+              <OptimizedImage 
                 src="/images/familia-topke.png" 
                 alt="Familia TopKe - Legado Histórico" 
-                className="w-full h-auto object-contain shadow-xl"
+                className="w-full h-auto shadow-xl"
+                objectFit="contain"
               />
             </div>
           </motion.div>

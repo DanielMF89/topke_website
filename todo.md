@@ -66,3 +66,9 @@
 - [x] Actualizar título a "130 años de Confianza"
 - [x] Actualizar descripción Liderazgo Actual a "130 años de experiencia"
 - [x] Verificar cambios y crear checkpoint
+
+## Optimizar Carga de Imágenes sin Perder Calidad (Feb 20, 2026)
+- [x] Crear componente OptimizedImage con lazy loading y blur placeholder
+- [x] Aplicar componente a todas las páginas (Home, About, Machinery, Propulsion, etc.)
+- [x] Agregar preload para imágenes críticas del hero
+- [x] Verificar mejora de velocidad y crear checkpoint
