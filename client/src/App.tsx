@@ -1,11 +1,15 @@
 import { Toaster } from "@/components/ui/sonner";
 import VersionTag from "@/components/VersionTag";
-
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { httpBatchLink } from "@trpc/client";
+import superjson from "superjson";
+import { trpc } from "@/lib/trpc";
+import { useState } from "react";
 import Home from "./pages/Home";
 import Machinery from "./pages/Machinery";
 import Generation from "./pages/Generation";
@@ -74,16 +78,30 @@ function Router() {
 
 function App() {
   // App Version: 1.3.0 - Force Update
+  const [queryClient] = useState(() => new QueryClient());
+  const [trpcClient] = useState(() =>
+    trpc.createClient({
+      links: [
+        httpBatchLink({
+          url: "/api/trpc",
+          transformer: superjson,
+        }),
+      ],
+    })
+  );
   return (
     <ErrorBoundary>
-      <ThemeProvider defaultTheme="light">
-        <TooltipProvider>
-
-          <Toaster />
-          <VersionTag />
-          <Router />
-        </TooltipProvider>
-      </ThemeProvider>
+      <trpc.Provider client={trpcClient} queryClient={queryClient}>
+        <QueryClientProvider client={queryClient}>
+          <ThemeProvider defaultTheme="light">
+            <TooltipProvider>
+              <Toaster />
+              <VersionTag />
+              <Router />
+            </TooltipProvider>
+          </ThemeProvider>
+        </QueryClientProvider>
+      </trpc.Provider>
     </ErrorBoundary>
   );
 }
