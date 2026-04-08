@@ -78,3 +78,8 @@
 - [x] Crear endpoint servidor para renovar token automáticamente
 - [x] Actualizar InstagramFeed para usar token del servidor
 - [x] Verificar que el feed carga correctamente
+
+## Bento Grid Imágenes Adaptativas (Apr 8, 2026)
+- [ ] Revisar estructura actual del bento grid
+- [ ] Implementar imágenes adaptativas sin perder el layout
+- [ ] Verificar en diferentes tamaños de pantalla

@@ -29,7 +29,8 @@ const items = [
     icon: Zap,
     image: "https://private-us-east-1.manuscdn.com/sessionFile/1aEaUseV5JVMvV6LqjW64x/sandbox/tCqlCOUNDXL6zv3gaS4ShA-img-1_1771000219000_na1fn_Z2VuZXJhZG9yLWluZHVzdHJpYWwtdHBvd2VyLXRvcGtlLXYy.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWFFYVVzZVY1SlZNdlY2THFqVzY0eC9zYW5kYm94L3RDcWxDT1VORFhMNnp2M2dhUzRTaEEtaW1nLTFfMTc3MTAwMDIxOTAwMF9uYTFmbl9aMlZ1WlhKaFpHOXlMV2x1WkhWemRISnBZV3d0ZEhCdmQyVnlMWFJ2Y0d0bExYWXkuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=NsP9GbIM~IlvWVByMlmwd81m91YKfnqM0kZWmu0Ko32C~9c~IPa56F78Eyurr~Gr7k23e-MYNZlwEalEHYC8q7QsfDuxabb2fyucJEq47rNIrHvl-Qqz6yue19xA2Pnml8siT4IcfHwrusXcf~a-vRwWdC7F247COoYuPmNvzjIjpIstngZr0lJRkpJ6CrMIVCSuqxDq-TEELF5t1sWqG8kGmlcJ-eW58xHEFtPmkda77f2C3iRPg-hugl-5IUE8ojQ1D1VaE64DYKuvrj2K-k~~QBYoIt2IfPWRk02ZKl73RvyKx5ixcN96ITQyzGFCuMGC686lTunbhCWxvAk9Lw__",
     link: "/generacion",
-    color: "bg-zinc-900"
+    color: "bg-zinc-900",
+    objectPosition: "center 30%"
   },
   {
     id: "propulsion",
@@ -132,7 +133,8 @@ export default function BentoGrid() {
                     <img 
                       src={items[currentIndex].image} 
                       alt={items[currentIndex].title} 
-                      className="w-full h-full object-cover opacity-100" // Increased opacity to 100%
+                      className="w-full h-full object-cover opacity-100"
+                      style={{ objectPosition: (items[currentIndex] as any).objectPosition || 'center center' }}
                     />
                     {/* Reduced gradient opacity for brighter images */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -216,7 +218,8 @@ export default function BentoGrid() {
                         <img 
                           src={item.image} 
                           alt={item.title} 
-                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-100" // Increased opacity to 100%
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-100"
+                          style={{ objectPosition: (item as any).objectPosition || 'center center' }}
                         />
                         {/* Lighter gradient for more realism */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent transition-opacity duration-300 group-hover:opacity-80"></div>
