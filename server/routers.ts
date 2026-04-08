@@ -52,7 +52,7 @@ async function fetchInstagramPosts(): Promise<any[]> {
     throw new Error("Instagram access token not configured");
   }
 
-  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,children{media_type,media_url,thumbnail_url}&access_token=${cachedToken}&limit=10`;
+  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,children{media_type,media_url,thumbnail_url}&access_token=${cachedToken}&limit=12`;
   const response = await fetch(url);
 
   if (!response.ok) {
