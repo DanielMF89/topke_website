@@ -72,3 +72,9 @@
 - [x] Aplicar componente a todas las páginas (Home, About, Machinery, Propulsion, etc.)
 - [x] Agregar preload para imágenes críticas del hero
 - [x] Verificar mejora de velocidad y crear checkpoint
+
+## Renovar Token Instagram y Sistema Automático (Apr 6, 2026)
+- [x] Guardar nuevo token en secrets
+- [x] Crear endpoint servidor para renovar token automáticamente
+- [x] Actualizar InstagramFeed para usar token del servidor
+- [x] Verificar que el feed carga correctamente
