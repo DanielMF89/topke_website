@@ -265,7 +265,7 @@ export default function Propulsion() {
             >
               <div className="sticky top-0 bg-card/95 backdrop-blur-sm border-b border-border p-6 flex items-center justify-between z-10">
                 <div>
-                  <h3 className="text-3xl font-bold">{selectedCategory.name}</h3>
+                  <h3 className="text-xl sm:text-3xl font-bold break-words">{selectedCategory.name}</h3>
                   {selectedCategory.subtitle && (
                     <p className="text-muted-foreground mt-1">{selectedCategory.subtitle}</p>
                   )}

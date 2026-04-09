@@ -400,7 +400,7 @@ export default function Machinery() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.5 }}
               >
-                <div className="mb-8 flex items-center">
+                <div className="mb-8 flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-0">
                   <Button 
                     variant="ghost" 
                     onClick={() => setSelectedCategory(null)}
@@ -409,8 +409,8 @@ export default function Machinery() {
                     <ChevronRight className="mr-2 w-4 h-4 rotate-180 group-hover:-translate-x-1 transition-transform" />
                     Volver a Categorías
                   </Button>
-                  <div className="h-6 w-px bg-zinc-300 mx-4"></div>
-                  <h3 className="text-2xl font-bold text-zinc-900">{selectedCategory.name}</h3>
+                  <div className="hidden sm:block h-6 w-px bg-zinc-300 mx-4"></div>
+                  <h3 className="text-xl sm:text-2xl font-bold text-zinc-900">{selectedCategory.name}</h3>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
