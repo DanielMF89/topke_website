@@ -134,7 +134,7 @@ export default function BentoGrid() {
                       src={items[currentIndex].image} 
                       alt={items[currentIndex].title} 
                       className="w-full h-full object-cover opacity-100"
-                      style={{ objectPosition: (items[currentIndex] as any).objectPosition || 'center center' }}
+                      style={{ objectPosition: 'center center' }}
                     />
                     {/* Reduced gradient opacity for brighter images */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -219,7 +219,7 @@ export default function BentoGrid() {
                           src={item.image} 
                           alt={item.title} 
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-100"
-                          style={{ objectPosition: (item as any).objectPosition || 'center center' }}
+                          style={{ objectPosition: 'center center' }}
                         />
                         {/* Lighter gradient for more realism */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent transition-opacity duration-300 group-hover:opacity-80"></div>
