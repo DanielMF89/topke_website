@@ -31,21 +31,20 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const mainNavItems = [
     { name: "Inicio", path: "/" },
     { name: "Nosotros", path: "/nosotros" },
+  ];
+
+  // Todas las divisiones en el menú desplegable "Divisiones"
+  const dropdownItems = [
     { name: "Riego", path: "/riego" },
     { name: "Maquinaria", path: "/maquinaria" },
     { name: "Generación", path: "/generacion" },
     { name: "Propulsión", path: "/propulsion" },
     { name: "Perforación", path: "/perforacion" },
-  ];
-
-  // Enlaces para el menú desplegable "Más Divisiones"
-  const dropdownItems = [
     { name: "Logística", path: "/logistica" },
     { name: "Lubricantes", path: "/lubricantes" },
   ];
 
   const otherLinks = [
-    // { name: "Tienda", path: "/tienda" }, // Desactivado temporalmente
     { name: "Contacto", path: "/contacto" },
   ];
 
@@ -111,7 +110,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {/* Dropdown for other divisions */}
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-bold uppercase tracking-wide text-zinc-700 hover:text-primary transition-colors outline-none">
-                Más Divisiones <ChevronDown size={14} />
+                Divisiones <ChevronDown size={14} />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-white border border-zinc-200 shadow-xl rounded-none p-2 min-w-[200px]">
                 {dropdownItems.map((item) => (
