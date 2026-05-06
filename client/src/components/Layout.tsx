@@ -77,7 +77,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         )}
       >
         <div className="w-full px-6 flex justify-between items-center">
-          <div className="flex items-center gap-8">
+          <div className="flex items-center">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 group shrink-0">
               <img 
@@ -90,10 +90,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <span className="block text-sm font-bold text-zinc-900 leading-none">1896</span>
               </div>
             </Link>
-
-            {/* Desktop Nav - Moved next to logo */}
-            <nav className="hidden lg:flex items-center gap-6">
-            {/* Main Links */}
+          </div>
+          {/* Desktop Nav - Right side */}
+          <nav className="hidden lg:flex items-center gap-6">
             {mainNavItems.map((item) => (
               <Link 
                 key={item.path} 
@@ -107,9 +106,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             ))}
 
-            {/* Dropdown for other divisions */}
+            {/* Dropdown Divisiones */}
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-bold uppercase tracking-wide text-zinc-700 hover:text-primary transition-colors outline-none">
+              <DropdownMenuTrigger className={cn(
+                "flex items-center gap-1 text-sm font-bold uppercase tracking-wide hover:text-primary transition-colors outline-none relative py-2",
+                dropdownItems.some(i => location === i.path) ? "text-primary after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary" : "text-zinc-700"
+              )}>
                 Divisiones <ChevronDown size={14} />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-white border border-zinc-200 shadow-xl rounded-none p-2 min-w-[200px]">
@@ -126,7 +128,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            {/* Other Links */}
             {otherLinks.map((item) => (
               <Link 
                 key={item.path} 
@@ -139,11 +140,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 {item.name}
               </Link>
             ))}
-          </nav>
-          </div>
 
-          {/* CTA Button - Kept on the right */}
-          <div className="hidden lg:block">
+            <Button 
+              className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wider rounded-none skew-x-[-10deg]"
+              onClick={() => window.open('https://wa.me/50222248080?text=Hola,%20quisiera%20solicitar%20una%20cotización', '_blank')}
+            >
+              <span className="skew-x-[10deg]">Cotizar</span>
+            </Button>
+          </nav>
+
+          {/* CTA Button - hidden, now inside nav */}
+          <div className="hidden">
             <Button 
               className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wider rounded-none skew-x-[-10deg]"
               onClick={() => window.open('https://wa.me/50222248080?text=Hola,%20quisiera%20solicitar%20una%20cotización', '_blank')}
