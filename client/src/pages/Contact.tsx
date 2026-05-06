@@ -210,7 +210,7 @@ export default function Contact() {
       {/* Map Section */}
       <section className="h-[400px] bg-zinc-200 w-full">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9722346789!2d-90.5166!3d14.6166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDM2JzU5LjgiTiA5MMKwMzEnMDAuMCJX!5e0!3m2!1sen!2sgt!4v1635789000000!5m2!1sen!2sgt" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.972!2d-90.5197689!3d14.6199449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a22e3156eb29%3A0x1924043052e97b4a!2sVia%204%205-52%2C%20Cdad.%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1746000000000!5m2!1ses!2sgt" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 
