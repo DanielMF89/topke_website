@@ -19,6 +19,7 @@ import Drilling from "./pages/Drilling";
 import DivisionTemplate from "./pages/DivisionTemplate";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
+import CatalogViewer from "./pages/CatalogViewer";
 import About from "./pages/About";
 
 function Router() {
@@ -67,6 +68,7 @@ function Router() {
 
       {/* Páginas Generales */}
       <Route path="/contacto" component={Contact} />
+      <Route path="/catalogo-maquinaria" component={CatalogViewer} />
       {/* <Route path="/tienda" component={Shop} /> */}
 
       <Route path="/404" component={NotFound} />
