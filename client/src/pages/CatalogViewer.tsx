@@ -4,6 +4,7 @@ import { Download, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
 
 const CATALOG_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663043532643/92Rt6gRG83YU52q7K3xNuA/catalogo-maquinaria-topke-2026_36de8618.pdf";
+const GOOGLE_VIEWER_URL = `https://docs.google.com/viewer?url=${encodeURIComponent(CATALOG_URL)}&embedded=true`;
 
 export default function CatalogViewer() {
   return (
@@ -40,9 +41,10 @@ export default function CatalogViewer() {
       <section className="bg-zinc-800 min-h-screen">
         <div className="w-full" style={{ height: "calc(100vh - 130px)" }}>
           <iframe
-            src={`${CATALOG_URL}#toolbar=1&navpanes=1&scrollbar=1&view=FitH`}
+            src={GOOGLE_VIEWER_URL}
             className="w-full h-full border-0"
             title="Catálogo de Maquinaria Topke 2026"
+            allow="autoplay"
           />
         </div>
       </section>
